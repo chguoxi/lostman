@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<theme>
+    <name>Blue Line</name>
+	<key>blueline_plus</key>
+    <description>Professional, clean, modern. Version Compatibility - 1.2.6 - 1.4</description>
+    <author>OW Visuals</author>
+    <authorEmail>slash_198x@yahoo.com</authorEmail>
+	<authorUrl>www.123.gajus.lt/index</authorUrl>
+    <copyright>(C) 2012 Blue Line. All rights reserved.</copyright>
+	<license>OSCL</license>
+    <licenseUrl>http://www.oxwall.org/store/oscl</licenseUrl>
+    <sidebarPosition>right</sidebarPosition>
+</theme>
