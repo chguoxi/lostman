@@ -1,0 +1,183 @@
+{script}
+{literal}
+$('.admin_menu_cont .menu_item')
+    .mouseover(function(){$('span.menu_items', $(this)).css({display:'block'});$(this).addClass('ow_hover');})
+    .mouseout(function(){$('span.menu_items', $(this)).hide();$(this).removeClass('ow_hover');});
+{/literal}
+{/script}
+{style}
+{literal}
+.admin_notification, .admin_warning{
+    text-align: center;
+	margin-bottom:10px;
+	padding: 10px 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    background-color: #dfd;
+	color: #444;
+	text-shadow: #fff 1px 1px 0;
+}
+
+.admin_warning{
+    background-color: #fdd;
+}
+{/literal}
+{/style}
+<div class="ow_header ow_admin_header clearfix">
+	<div class="ow_canvas">
+		<div class="ow_page" style="position:relative;height:105px;">
+	    	<div class="ow_logo" style="margin-top:39px">
+	            <h2 style="font-size:22px;"><a href="{url_for_route for="admin_default"}">Admin Area</a></h2>
+	            <div class="ow_tagline"><a href="{$siteUrl}">&laquo; back to site</a></div>
+	        </div>
+            <div style="float: right;margin-top:30px">
+                {component class='BASE_CMP_Console'}
+                <div class="admin_menu_cont clearfix">
+                    <div onclick="window.location = '{$globalMenuData.menu_admin.url}'" class="menu_item{if $activeMenuName == 'menu_admin'} active{/if}">
+                        <span class="icon menu_admin">
+                            <span class="label">{text key='admin+sidebar_menu_admin'}</span>
+                            <span class="menu_items">{if !empty($menu_admin)}{$menu_admin}{/if}</span>
+                        </span>
+                    </div>
+                    <div onclick="window.location = '{$globalMenuData.menu_users.url}'" class="menu_item{if $activeMenuName == 'menu_users'} active{/if}">
+                        <span class="icon menu_users">
+                            <span class="label">{text key='admin+sidebar_menu_users'}</span>
+                            <span class="menu_items">{if !empty($menu_users)}{$menu_users}{/if}</span>
+                        </span>
+                    </div>
+                    <div onclick="window.location = '{$globalMenuData.menu_settings.url}'" class="menu_item{if $activeMenuName == 'menu_settings'} active{/if}">
+                        <span class="icon menu_settings">
+                            <span class="label">{text key='admin+sidebar_menu_settings'}</span>
+                            <span class="menu_items">{if !empty($menu_settings)}{$menu_settings}{/if}</span>
+                        </span>
+                    </div>
+                    <div onclick="window.location = '{$globalMenuData.menu_privacy.url}'" class="menu_item{if $activeMenuName == 'menu_privacy'} active{/if}">
+                        <span class="icon menu_privacy">
+                            <span class="label">{text key='admin+sidebar_menu_privacy'}</span>
+                            <span class="menu_items">{if !empty($menu_privacy)}{$menu_privacy}{/if}</span>
+                        </span>
+                    </div>
+                    <div onclick="window.location = '{$globalMenuData.menu_appearance.url}'" class="menu_item{if $activeMenuName == 'menu_appearance'} active{/if}">
+                        <span class="icon menu_appearance">
+                            <span class="label">{text key='admin+sidebar_menu_appearance'}</span>
+                            <span class="menu_items">{if !empty($menu_appearance)}{$menu_appearance}{/if}</span>
+                        </span>
+                    </div>
+                    <div onclick="window.location = '{$globalMenuData.menu_pages.url}'" class="menu_item{if $activeMenuName == 'menu_pages'} active{/if}">
+                        <span class="icon menu_pages">
+                            <span class="label">{text key='admin+sidebar_menu_pages'}</span>
+                            <span class="menu_items">{if !empty($menu_pages)}{$menu_pages}{/if}</span>
+                        </span>
+                    </div>
+                    <div onclick="window.location = '{$globalMenuData.menu_plugins.url}'" class="menu_item{if $activeMenuName == 'menu_plugins'} active{/if}">
+                        <span class="icon menu_plugins">
+                            <span class="label">{text key='admin+sidebar_menu_plugins'}</span>
+                            <span class="menu_items">{if !empty($menu_plugins)}{$menu_plugins}{/if}</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+		</div>
+    </div>
+</div>
+{if !empty($submenu)}<div class="ow_admin_sub_menu">{$submenu}</div>{/if}
+<div class="ow_page_container ow_admin">
+	<div class="ow_canvas">
+		<div class="ow_page">
+            {if !empty($warnings)}
+            {foreach from=$warnings item='warning'}
+                <div class="admin_warning">{$warning}</div>
+            {/foreach}
+            {/if}
+            {if !empty($notifications)}
+            {foreach from=$notifications item='notification'}
+                <div class="admin_notification">{$notification}</div>
+            {/foreach}
+            <br />
+            {/if}
+		    {if !empty($heading)}<h1 class="ow_stdmargin {$heading_icon_class}">{$heading}</h1>{/if}
+	        <div class="ow_content">
+    	        {$content}
+    	    </div>
+		</div>
+	</div>
+</div>
+<div class="ow_footer ow_admin">
+	<div class="ow_canvas">
+		<div class="ow_page clearfix">
+			<table width="100%" cellpadding="0" cellspacing="0" class="ow_admin_footer">
+			<tr>
+				<td valign="top">
+					<div class="group">
+						{*<h3>Admin Dashboard</h3>*}
+						<a href="{url_for_route for="admin_default"}">Admin dashboard</a>
+					</div>
+					<div class="group">
+						<h3>Plugins</h3>
+						<a href="{url_for_route for="admin_plugins_installed"}">Installed plugins</a>
+						<a href="{url_for_route for="admin_plugins_available"}">Available plugins</a>
+						{if empty($ow_plugin_xp)}<a href="{url_for_route for="admin_plugins_add"}">Add new</a>{/if}
+					</div>
+				</td>
+				<td valign="top">
+					<div class="group">
+						<h3>Users</h3>
+						<a href="{url_for_route for="admin_users_browse"}">Browse users</a>
+						<a href="{url_for_route for="admin_user_roles"}">User roles</a>
+						<a href="{url_for_route for="admin_massmailing"}">Mass mailing</a>
+					</div>
+					<div class="group">
+						<h3>Profile Questions</h3>
+						<a href="{url_for_route for="questions_index"}">View all questions</a>
+						<a href="{url_for_route for="questions_add"}">Add new question</a>
+						<a href="{url_for_route for="questions_edit_account_type"}">Account types</a>
+						<a href="{url_for_route for="questions_settings"}">Profile question settings</a>
+					</div>
+				</td>
+				<td valign="top">
+					<div class="group">
+						<h3>Settings</h3>
+						<a href="{url_for_route for="admin_settings_main"}">Basic</a>
+						<a href="{url_for_route for="admin_settings_user"}">User settings</a>
+						<a href="{url_for_route for="admin_settings_mail"}">SMTP</a>
+					</div>
+					<div class="group">
+						<h3>Privacy &amp; Permissions</h3>
+						<a href="{url_for_route for="admin_permissions"}">Global privacy</a>
+						<a href="{url_for_route for="admin_permissions_roles"}">User roles</a>
+						<a href="{url_for_route for="admin_permissions_moderators"}">Moderators</a>
+					</div>
+				</td>
+				<td valign="top">
+					<div class="group">
+						<h3>Appearance</h3>
+						<a href="{url_for_route for="admin_themes_edit"}">Theme settings</a>
+						<a href="{url_for_route for="admin_theme_css"}">Theme CSS</a>
+						<a href="{url_for_route for="admin_theme_graphics"}">Graphics</a>
+						<a href="{url_for_route for="admin_themes_choose"}">Available themes</a>
+					</div>
+					<div class="group">
+						<h3>Language</h3>
+						<a href="{url_for_route for="admin_languages_index"}">Edit language</a>
+						<a href="{url_for_route for="admin_settings_language_mod"}">Available languages</a>
+					</div>
+				</td>
+				<td valign="top">
+					<div class="group">
+						<h3>Pages &amp; Menus</h3>
+						<a href="{url_for_route for="admin_pages_main"}">View all pages/menus</a>
+					</div>
+					<div class="group">
+						<h3>Customize Pages</h3>
+						<a href="{url_for_route for="admin_pages_user_dashboard"}">User dashboard</a>
+						<a href="{url_for_route for="admin_pages_user_profile"}">User profile</a>
+						<a href="{url_for_route for="admin_pages_splash_screen"}">Splash screen</a>
+						<a href="{url_for_route for="admin_pages_maintenance"}">Maintenance page</a>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+	</div>
+</div>    
+{decorator name='floatbox'}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<theme>
+    <name>Robotic Red</name>
+	<key>roboticred</key>
+    <description>Theme based on the original 'Graphite' theme</description>>
+    <author>Original69Sin</author>
+    <authorEmail>original69sin@btinternet.com</authorEmail>
+	<authorUrl>http://original69sin.org</authorUrl>
+    <copyright>(C) 2011 Original69Sin.org. All rights reserved.</copyright>
+	<license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+</theme>

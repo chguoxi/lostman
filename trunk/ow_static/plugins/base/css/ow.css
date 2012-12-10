@@ -1,0 +1,126 @@
+.ow_hover_catch{
+
+}
+
+.ow_hover{
+
+}
+
+/* FloatBox */
+.floatbox_nooverflow {
+    overflow: hidden;
+}
+
+.ow_floatbox_preloader
+{
+    background: url(images/floatbox_preloader.gif) no-repeat center;
+    height: 3px;
+    width: 320px;
+}
+
+/* Main floatbox preloader */
+.floatbox_preloader
+{
+    margin:83px auto 0px;
+}
+
+/* Inner floatbox preloader */
+.floatbox_canvas_sub .floatbox_preloader
+{
+}
+
+/* Main floatbox container */
+.floatbox_canvas .floatbox_container {
+    margin: 50px auto 20px;
+    position: static;
+}
+
+/* Inner floatbox container */
+.floatbox_canvas_sub .floatbox_container {
+    border-width: 6px;
+    margin-top:115px;
+}
+
+
+.ow_floatbox_loading .floatbox_container
+{
+    visibility: hidden;
+}
+
+.floatbox_preloader_container
+{
+    display: none;
+}
+
+.ow_floatbox_loading .floatbox_preloader_container
+{
+    display: block;
+}
+
+.floatbox_string_preloader
+{
+    text-align: center;
+}
+
+.floatbox_string_preloader span
+{
+    font-size: 20px;
+    border: 10px solid #555555;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    color: #333333;
+    display: inline-block;
+    padding: 20px;
+    min-width: 300px;
+    text-align: left;
+}
+
+.floatbox_canvas {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 102;
+    overflow-y: auto;
+}
+
+.floatbox_canvas_sub {
+    height: 0px;
+    overflow: visible;
+}
+
+.floatbox_body {
+    overflow-y: auto;
+}
+
+.floatbox_canvas .floatbox_container .clearfix:after
+{
+    content: " ";
+}
+
+/* FloatBox Layout empty */
+
+.floatbox_empty .floatbox_container
+{
+    border-width: 0px;
+}
+
+.floatbox_empty .floatbox_header,
+.floatbox_empty .floatbox_body,
+.floatbox_empty .floatbox_bottom
+{
+    padding: 0px;
+}
+
+.floatbox_empty .floatbox_header
+{
+    position: relative;
+}
+
+.floatbox_empty .ow_box_cap_icons {
+    position: absolute;
+    margin: 0px;
+    top: -22px;
+    right: -22px;
+}

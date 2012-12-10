@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<theme>
+    <name>Aerialplusplus</name>
+	<key>aerialplusplus</key>
+    <description>The original 'Aerial' theme without the cloud and the plane and lil other tweaks</description>
+    <author>Oxwall Foundation, shimray</author>
+    <authorEmail>themes@oxwall.org, r_shimray@hotmail.com</authorEmail>
+	<authorUrl>http://www.oxwall.org/foundation, http://www.design.koktui.com</authorUrl>
+    <copyright>(C) 2009 Oxwall Foundation. All rights reserved.</copyright>
+	<license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+    <sidebarPosition>right</sidebarPosition>
+</theme>

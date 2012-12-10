@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="nav" label="Navigation" language_tag="cn" language_label="简体中文"><key name="menu_item_main_forum"><value>论坛</value></key><key name="menu_item_main_photo_list"><value>图片</value></key><key name="page_custom_title"><value>{$title}</value></key><key name="page_default_description"><value>{$site_name} 社区</value></key><key name="page_default_heading"><value>{$site_name}</value></key><key name="page_default_keywords"><value></value></key><key name="page_default_title"><value>{$site_name} - lost</value></key></prefix>

@@ -1,0 +1,143 @@
+Oxwall 1.4, 2012-06-21:
+============================
+
+Platform:
+- new dashboard widget "Quick links", instead of separate plugin widgets;
+- comments: ability to choose preview images for posted URLs;
+- new design element, Context Action: currently on photo view only.
+- moderators now can see private content for moderation;
+- form buttons location redesign;
+- various language strings fixed;
+- flagging now works without page reload;
+- fixed online user display in case of "me only" mode;
+- widget panel was optimized for better performance;
+- floatbox refactored;
+
+Photos:
+- redesigned photo browsing;
+- private photos: fixed display in top rated list;
+- fixed bug when photos are uploaded under HTTPS;
+
+Import Contacts:
+- Google contact import is back and improved;
+
+Forum:
+- forum: added search results order by date and relevance;
+- fixed an error with too long topic text;
+
+Birthdate:
+- birthdate fields (date/month/day) can be translated via Language section;
+
+Video:
+- video: long titles and descriptions are now truncated;
+
+Newsfeed:
+- profile newsfeed: new ability for others to post;
+- main site newsfeed enhanced;
+
+Groups:
+- group list: fixed double paging;
+
+
+Oxwall 1.3.2, 2012-03-21:
+==============================
+
+Platform:
+- Cron setup changed (now uses HTTP);
+- Default user role is now impossible to remove;
+- Fixed the bug with the number of pics for WYSIWYG gallery;
+- Notifications "Someone posts a wall comment in a group I participate in",     "Someone invites me to a group", etc., enabled by default;
+- Additional admin now can't delete the super admin profile;
+- XSS vulnerability in the update script fixed;
+- Added file_get_contents check on server;
+- While editing a custom page it's no longer possible to enter existing pages' URLs.
+- Added rel="nofollow" for auto-linking and WYSIWYG;
+- Changed buttons for group actions on profile lists in admin area;
+- Removed Exception message that happened while approving an already approved member;
+- Changed the order of displaying CSS graphics in the admin area;
+- Multiple language entries corrected.
+
+Blogs:
+- Post tags are now added to meta keywords;
+- Added messages about successful post creation and editing;
+
+Friends:
+- Fixed friend request template;
+- With friend request a user automatically follows another user;
+
+Instant Chat:
+- Fixed 'OW Debug' error message when admins deactivated 'Friends' plugin;
+- Fixed 'last activity 42 years ago' bug;
+- Removed switching ‘for all’ and ‘friends only’ modes, making it dependent on the 'Friends' plugin;
+
+Links:
+- 'More' button does not stick to the last letter any more;
+- Links now open in the new window;
+
+Forum:
+- 'Ghost' topics now removed in five days after the original topic move;
+- User no longer redirected to a new forum section after moving a topic;
+- Fixed 'Latest Reply' field when author profile deleted;
+
+Video:
+- Fixed Flash object overlap;
+
+Advertisement:
+- Now more than 14 banners can be added to one ad place;
+- Added the 'Hide Ads' authorization action for user roles;
+
+Events:
+- New events are now at the top of the list;
+- Long event locations now stay within widget;
+- If 'Friends' plugin deactivated you can invite all site users (who were not invited yet and are not registered for event);
+- Invite interface now shows all site users (up to 100) if 'Friends' plugin is inactive;
+- Added 'Accept/Decline' buttons to event invitations;
+- Event notification now disappears after visiting event page;
+
+Mailbox:
+- Fixed avatar while sending private messages from profile;
+
+Privacy:
+- If 'Friends' plugin deactivated all ‘Friends Only’ settings change to ‘Only Me’;
+
+Groups:
+- If 'Friends' plugin deactivated you can now invite all site users (up to 100);
+- Group listings changed;
+- Invite notifications now disappear after visiting invitation list or group pages;
+
+Newsfeed:
+- Redesigned group activity display;
+- Individual pages for every newsfeed item;
+- New option to choose preview picture for attached URLs;
+
+Birthdays:
+- E-mail notifications about new comments or likes for birthday items;
+
+
+Oxwall 1.3.0, 2012-02-07:
+=========================
+
+Platform
+- Added Smarty 3 support;
+- Redesigned Developer Tools widget;
+- Disabled WYSIWYG for mobile devices;
+- Fixed XSS in file comment's attachments;
+- Added group action to "Unverify Email" for user lists in admin panel;
+- Added support of synchronization between different products of the same payment system;
+- Added selection of user roles for mass mailing;
+- Fixed: welcome letter is sent only after email address verification;
+- Fixed scrolling in floatbox;
+- Truncated Javascript in widget titles;
+- Added "Block User" feature;
+
+Plugins
+- Forum: added warning message if not all attachments were uploaded;
+- Forum: added "Private Forum" option;
+- Forum: fixed access to group's forum;
+- Events: changed presentation of "Start Date" and "End Date" fields;
+- Events: fixed private events displayed on public listings;
+- Newsfeed: fixed interaction with private items such as groups, private events;
+- Private groups: new plugin;
+- Import Contacts: new plugin;
+- Blogs: truncated blog's description in widgets;
+- Links: truncated links's description in widgets;
