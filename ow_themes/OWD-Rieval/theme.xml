@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<theme>
+    <name>OWD Rieval</name>
+	<key>OWD-Rieval</key>
+    <description>OWDesigns 'Rieval' theme</description>
+    <author>OWDesigns</author>
+    <authorEmail>chguoxi@gmail.com</authorEmail>
+	<authorUrl>http://www.lunluoren.com</authorUrl>
+    <copyright>(C) lunluoren.com</copyright>
+	<license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+</theme>

@@ -1,0 +1,14 @@
+<table class="ow_table_1 ow_smallmargin ow_small ow_alt1">
+    <tbody>
+        <tr>
+            <td><p class="ow_nowrap">{text key="base+sort_control_sortby"}:</p></td>
+            <td class="sort_link">
+                <ul>
+                    {foreach from=$itemList item='item'}
+                        <li {if $item.isActive}class="active"{/if} ><a href="{$item.url}">{$item.label}</a></li>
+                    {/foreach}
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>

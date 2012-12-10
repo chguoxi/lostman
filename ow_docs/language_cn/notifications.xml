@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="notifications" label="Email Notifications"
+	language_tag="cn" language_label="简体中文">
+	<key name="config_day_desc" />
+	<key name="config_day_label" />
+	<key name="config_hour_desc" />
+	<key name="config_hour_label" />
+	<key name="config_page_heading" />
+	<key name="config_page_title" />
+	<key name="config_saved_message" />
+	<key name="config_title" />
+	<key name="dashboard_menu_item_label" />
+	<key name="email_html_bottom" />
+	<key name="email_html_description" />
+	<key name="email_html_head" />
+	<key name="email_subject" />
+	<key name="email_txt_bottom" />
+	<key name="email_txt_head" />
+	<key name="save_config_btn" />
+	<key name="save_setting_btn_label" />
+	<key name="schedule_daily" />
+	<key name="schedule_immediately" />
+	<key name="schedule_title" />
+	<key name="schedule_weekly" />
+	<key name="settings_changed" />
+	<key name="settings_edit_label" />
+	<key name="settings_not_changed" />
+	<key name="settings_page_heading" />
+	<key name="settings_page_title" />
+	<key name="unsubscribe_all_label" />
+	<key name="unsubscribe_code_expired" />
+	<key name="unsubscribe_completed" />
+	<key name="unsubscribe_confirm_msg" />
+	<key name="unsubscribe_one_label" />
+</prefix>

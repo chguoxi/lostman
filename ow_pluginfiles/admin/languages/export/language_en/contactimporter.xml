@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="contactimporter" label="Contact Importer" language_tag="en" language_label="English"><key name="admin_settings_updated"><value>Settings updated</value></key><key name="facebook_after_invite_feedback"><value>You have invited &lt;b&gt;{$count}&lt;/b&gt; members</value></key><key name="facebook_app_id"><value>App ID</value></key><key name="facebook_app_secret"><value>App Secret</value></key><key name="facebook_app_settings"><value>Facebook App Settings</value></key><key name="facebook_canvas_page_1"><value>{$user} invites you to join &lt;b&gt;{$site_name}&lt;/b&gt;. Feel free to &lt;a href="{$siteUrl}" target="_blank"&gt;visit and register&lt;/a&gt;</value></key><key name="facebook_canvas_page_2"><value>{$user1} and {$user2} invite you to join &lt;b&gt;{$site_name}&lt;/b&gt;. Feel free to &lt;a href="{$siteUrl}" target="_blank"&gt;visit and register&lt;/a&gt;</value></key><key name="facebook_canvas_page_x"><value>{$user} and {$count} more people invite you to join &lt;b&gt;{$site_name}&lt;/b&gt;. Feel free to &lt;a href="{$siteUrl}" target="_blank"&gt;visit and register&lt;/a&gt;</value></key><key name="facebook_how_to_config"><value>Configuration instructions</value></key><key name="facebook_inv_action"><value>Invite your friends to {$site_name}</value></key><key name="facebook_inv_message_text"><value>Come join {$site_name} site, I'm already there.</value></key><key name="feedback_invitation_sent"><value>Invitations sent</value></key><key name="google_client_id"><value>Client ID</value></key><key name="google_client_secret"><value>Client secret</value></key><key name="google_message_custom_inv"><value>Your custom message...</value></key><key name="google_send_success"><value>You have invited &lt;b&gt;{$count}&lt;/b&gt; members</value></key><key name="google_settings_heading"><value>Google App Settings</value></key><key name="mail_google_invite_html"><value>Greetings!&#13;
+&lt;br /&gt;&#13;
+&lt;br /&gt;&#13;
+{$user} invites you to join &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt;. Check out what it's all about: &lt;br/&gt;{$url}&#13;
+&lt;br /&gt;&lt;br /&gt;&#13;
+Thank you,&lt;br /&gt;&#13;
+&lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt;</value></key><key name="mail_google_invite_msg_html"><value>Greetings!&#13;
+&lt;br /&gt;&#13;
+&lt;br /&gt;&#13;
+{$user} invites you to join &lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt;. Check out what it's all about: &lt;br /&gt;{$url}&lt;br /&gt;&#13;
+Here are a few words for you by {$user}:&#13;
+&lt;br /&gt;&#13;
+{$message}&#13;
+&lt;br /&gt;&#13;
+&lt;br /&gt;&#13;
+Thank you,&lt;br /&gt;&#13;
+&lt;a href="{$site_url}"&gt;{$site_name}&lt;/a&gt;</value></key><key name="mail_google_invite_msg_txt"><value>Greetings!&#13;
+&#13;
+{$user} invites you to join {$site_name}. Check out what it's all about: &#13;
+{$url}&#13;
+&#13;
+Here are a few words for you by {$user}:&#13;
+{$message}&#13;
+&#13;
+&#13;
+Thank you,&#13;
+{$site_name}&#13;
+{$site_url}</value></key><key name="mail_google_invite_subject"><value>{$user} invites you to {$site_name}</value></key><key name="mail_google_invite_txt"><value>Greetings!&#13;
+&#13;
+{$user} invites you to join {$site_name}. Check out what it's all about: &#13;
+{$url}&#13;
+&#13;
+Thank you,&#13;
+{$site_name}&#13;
+{$site_url}</value></key><key name="requires_configuration_message"><value>&lt;a href="{$settingsUrl}"&gt;Contact Importer&lt;/a&gt; requires configuration</value></key><key name="save_btn_label"><value>Save</value></key><key name="usercredits_action_import_friend"><value>Import friend</value></key><key name="widget_title"><value>Invite Friends</value></key></prefix>
