@@ -148,7 +148,7 @@ class VideoUrlParser
      * http://v.youku.com/v_show/id_XMjI4MDM4NDc2.html
      * http://player.youku.com/player.php/sid/XMjU0NjI2Njg4/v.swf
      */ 
-    private function _parseYouku($url){
+    private static  function _parseYouku($url){
         preg_match("#id\_(\w+)#", $url, $matches);
 
         if (empty($matches)){
@@ -425,7 +425,7 @@ HEADER;
     /*
      * 通过 curl 获取内容
      */
-    private function _cget($url='', $user_agent=''){
+    private static function _cget($url='', $user_agent=''){
         if(!$url) return;
 
         $user_agent = $user_agent ? $user_agent : self::USER_AGENT;
