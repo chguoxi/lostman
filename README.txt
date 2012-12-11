@@ -1,4 +1,4 @@
-CONTENTS OF THIS FILE
+﻿CONTENTS OF THIS FILE
 ====================
 
  * About Oxwall
@@ -71,3 +71,4 @@ More info about Oxwall Store:
         http://www.oxwall.org/store/terms
  * Oxwall Store Commercial License:
         http://www.oxwall.org/store/oscl
+
