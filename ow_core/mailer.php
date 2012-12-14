@@ -91,11 +91,12 @@ class OW_Mailer
         if ( $this->maliService->getTransfer() == BOL_MailService::TRANSFER_SMTP )
         {
         	$this->maliService->send($mail);
-            //$this->maliService->addToQueue($mail);
+            
         }
         else
         {
-            $this->maliService->send($mail);    
+        	$this->maliService->addToQueue($mail);
+            //$this->maliService->send($mail);    
         }
     }
     
