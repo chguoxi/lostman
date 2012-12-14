@@ -30,7 +30,8 @@ define('OW_DIR_ROOT', dirname(__FILE__) . DS);
 
 require_once(OW_DIR_ROOT . 'ow_includes' . DS . 'init.php');
 
-@include OW_DIR_ROOT . 'ow_install' . DS . 'install.php';
+//取消导入安装文件
+//@include OW_DIR_ROOT . 'ow_install' . DS . 'install.php';
 
 OW::getSession()->start();
 
