@@ -114,14 +114,14 @@ $language[1] = array (
   'base+date_time_today' => 'Today',
   'admin+save_btn_label' => 'Save',
   'admin+updated_msg' => 'Update successful',
-  'admin+page_default_title' => 'lost Admin Page',
-  'admin+page_default_heading' => 'lost Admin',
+  'admin+page_default_title' => '沦落人- Admin Page',
+  'admin+page_default_heading' => '沦落人- Admin',
   'nav+page_custom_title' => '{$title}',
   'base+main_menu_my_profile' => 'My Profile',
   'base+main_menu_index' => 'Main',
-  'nav+page_default_title' => 'lost - social networking',
-  'nav+page_default_heading' => 'lost',
-  'nav+page_default_description' => 'lost community',
+  'nav+page_default_title' => '沦落人- - social networking',
+  'nav+page_default_heading' => '沦落人-',
+  'nav+page_default_description' => '沦落人- community',
   'nav+page_default_keywords' => 'openwack, free software, open source software, community software, open source community software, free community software, open source social networking software, free social networking software, php, mysql',
   'admin+themes_settings_page_title' => 'Edit Theme',
   'admin+sidebar_menu_settings' => 'Settings',
@@ -165,12 +165,12 @@ $language[1] = array (
   'admin+permissions_default_role' => 'default',
   'base+email_verify_template_html' => 'Dear {$username},<br />
 <br />
-Thank you for registering at lost! Now you need to verify your email by <a href="{$url}">clicking here</a><br />
+Thank you for registering at 沦落人-! Now you need to verify your email by <a href="{$url}">clicking here</a><br />
 <br />
 Alternatively you can insert this code at the <a href="{$verification_page_url}">verification page</a>: {$code}<br />
 <br />
 Thank you,<br />
-lost administration',
+沦落人- administration',
   'admin+questions_question_description_label' => 'Description',
   'admin+sidebar_menu_privacy' => 'Privacy & Permissions',
   'base+comment_add_submit_label' => 'Add',
@@ -353,7 +353,7 @@ Enjoy!',
   'base+questions_admin_question_label' => 'Question',
   'base+questions_menu_add' => 'Add Question',
   'base+questions_menu_editAccountType' => 'Edit Account Types',
-  'base+copyright' => '© Copyright lost',
+  'base+copyright' => '© Copyright 沦落人-',
   'base+questions_account_type_was_added' => 'Account type has been added',
   'admin+questions_account_type_was_deleted' => 'Account type has been deleted',
   'base+questions_admin_edit_label' => 'Edit',
@@ -474,13 +474,13 @@ To unsubscribe from this mailing list please <a href="{$link}" >click here</a>',
   'admin+questions_delete_section_confirmation' => 'Are you sure you want to delete this section?',
   'base+email_verify_template_text' => 'Dear {$username},
 
-Thank you for registering at lost! Now you need to verify your email by clicking this link: {$url}
+Thank you for registering at 沦落人-! Now you need to verify your email by clicking this link: {$url}
 
 Alternatively you can insert this code at the verification page {$verification_page_url} : 
 {$code}
 
 Thank you,
-lost administration',
+沦落人- administration',
   'base+email_verify_email_verify_success' => 'Email address confirmed',
   'admin+questions_add_new_section_button' => 'Add',
   'base+questions_question_password_description' => '',
@@ -491,7 +491,7 @@ lost administration',
 Please confirm your email address.<br />Click "Send" button to receive a letter with the confirmation code to your email address.
 </p>
 <p>
-<b>If you don\'t receive email</b> please add <i>changioux@yahoo.cn</i> to your whitelist/address book/contact list.
+<b>If you don\'t receive email</b> please add <i>admin@lunluoren.com</i> to your whitelist/address book/contact list.
 </p>',
   'base+email_verify_email_verify_fail' => 'Sorry, email address not confirmed.<br/> Most likely:<br/> 
 <br/> 
@@ -567,7 +567,7 @@ Please make sure you entered unsubscribe link correctly.',
   'base+comments_add_login_message' => 'You need to sign in to comment',
   'admin+pages_edit_external_url_open_in_new_window' => 'Open in a new window',
   'base+questions_question_relationship_value_1' => 'Fun',
-  'base+questions_question_relationship_value_2' => 'Whatever',
+  'base+questions_question_relationship_value_2' => 'Other',
   'base+questions_question_relationship_value_4' => 'Dating',
   'base+questions_question_relationship_value_8' => 'Friendship',
   'admin+pages_edit_visible_for_guests' => 'Guests',
@@ -689,7 +689,7 @@ Please make sure you entered unsubscribe link correctly.',
   'base+profile_toolbar_user_delete_label' => 'Delete',
   'base+delete_user_confirmation_label' => 'Delete confirmation',
   'base+delete_user_success_message' => 'Account was removed<br />
-Go back to <a href="http://chguoxi.gotoip55.com/">site</a>',
+Go back to <a href="http://www.lostman.com/">site</a>',
   'base+admin_delete_user_text' => 'Are you sure you want to delete this user?',
   'admin+mail_settings_updated' => 'SMTP settings updated',
   'admin+menu_item_mail_settings' => 'SMTP',
@@ -757,23 +757,23 @@ Go back to <a href="http://chguoxi.gotoip55.com/">site</a>',
   'admin+invite_members_max_limit_message' => 'Please enter max 50 emails',
   'admin+invite_members_min_limit_message' => 'You should enter at least one email address',
   'admin+invite_members_success_message' => 'Invitations successfully sent',
-  'base+mail_template_admin_invite_user_subject' => 'Invitation to lost',
+  'base+mail_template_admin_invite_user_subject' => 'Invitation to 沦落人-',
   'base+mail_template_admin_invite_user_content_html' => '<p>
 Hi,
 </p>
 <p>
-We invite you to join our website - lost.<br />
+We invite you to join our website - 沦落人-.<br />
 Please register <a href="{$url}">here</a>
 </p>
 Administration<br />
-http://chguoxi.gotoip55.com/',
+http://www.lostman.com/',
   'base+mail_template_admin_invite_user_content_text' => 'Hi,
 
-We invite you to join our website - lost.
+We invite you to join our website - 沦落人-.
 Please join here: {$url}
 
 Administration
-http://chguoxi.gotoip55.com/',
+http://www.lostman.com/',
   'base+authorization_give_user_role' => 'Change Role',
   'base+moderator_panel' => 'Moderator Panel',
   'base+approve_users' => 'Approve users',
@@ -784,19 +784,19 @@ http://chguoxi.gotoip55.com/',
   'base+user_approved_mail_subject' => 'Your account has been approved',
   'base+user_approved_mail_txt' => 'Dear {$user_name},
 
-We are glad to let you know that your account on lost has been approved. Now you can sign in here: http://chguoxi.gotoip55.com/
+We are glad to let you know that your account on 沦落人- has been approved. Now you can sign in here: http://www.lostman.com/
 
 We hope you enjoy our site to the fullest.
 
 Thank you,
 Administration
-lost
-http://chguoxi.gotoip55.com/',
+沦落人-
+http://www.lostman.com/',
   'base+user_approved_mail_html' => '<p>
 Dear {$user_name},
 </p>
 <p>
-We are glad to let you know that your account on <a href="http://chguoxi.gotoip55.com/">lost</a> has been approved. Now you can sign in here: <a href="http://chguoxi.gotoip55.com/">http://chguoxi.gotoip55.com/</a>
+We are glad to let you know that your account on <a href="http://www.lostman.com/">沦落人-</a> has been approved. Now you can sign in here: <a href="http://www.lostman.com/">http://www.lostman.com/</a>
 </p>
 <p>
 We hope you enjoy our site to the fullest.
@@ -804,7 +804,7 @@ We hope you enjoy our site to the fullest.
 <p>
 Thank you,<br />
 Administration<br />
-<a href="http://chguoxi.gotoip55.com/">lost</a>
+<a href="http://www.lostman.com/">沦落人-</a>
 </p>',
   'admin+sidebar_menu_item_maintenance' => 'Maintenance Page',
   'admin+maintenance_page_heading' => 'Maintenance Page',
@@ -813,7 +813,7 @@ Administration<br />
 Sorry, the site is undergoing planned maintenance. We\'ll be back soon.',
   'admin+maintenance_enable_label' => 'Disable your site and put up the maintenance page.',
   'admin+maintenance_enable_desc' => '<p>This will render your site inaccessible and show everyone maintenance message.</p>
-<b>You will still be able to sign in as admin here: <a href="http://chguoxi.gotoip55.com/sign-in">http://chguoxi.gotoip55.com/sign-in</a></b>',
+<b>You will still be able to sign in as admin here: <a href="http://www.lostman.com/sign-in">http://www.lostman.com/sign-in</a></b>',
   'admin+maintenance_text_label' => 'Maintenance message',
   'admin+maintenance_text_desc' => 'HTML allowed',
   'admin+maintenance_submit_success_message' => 'Maintenance mode changed',
@@ -1206,7 +1206,7 @@ Sorry, the site is undergoing planned maintenance. We\'ll be back soon.',
   'base+site_email_verify_subject' => 'Verify email',
   'base+site_email_verify_template_text' => 'Hello,
 
-Someone (probably you) set this email address as the official email address of lost (http://chguoxi.gotoip55.com/) website.
+Someone (probably you) set this email address as the official email address of 沦落人- (http://www.lostman.com/) website.
 
 To complete this process you need to verify this email address by opening the following URL: {$url}
 
@@ -1216,13 +1216,13 @@ If you didn\'t try to do that safely ignore this message and your email will not
 
 Thank you,
 Administration
-lost
-http://chguoxi.gotoip55.com/',
+沦落人-
+http://www.lostman.com/',
   'base+site_email_verify_template_html' => '<p>
 Hello,
 </p>
 <p>
-Someone (probably you) set this email address as the official email address of <a href="http://chguoxi.gotoip55.com/">lost</a> website.
+Someone (probably you) set this email address as the official email address of <a href="http://www.lostman.com/">沦落人-</a> website.
 </p>
 <p>
 To complete this process you need to verify this email address by opening the following URL: <a href="{$url}">{$url}</a>
@@ -1236,8 +1236,8 @@ If you didn\'t try to do that safely ignore this message and your email will not
 <p>
 Thank you,<br />
 Administration<br />
-lost<br />
-http://chguoxi.gotoip55.com/
+沦落人-<br />
+http://www.lostman.com/
 </p>',
   'base+date_time_tomorrow' => 'Tomorrow',
   'admin+manage_plugins_uninstall_request_box_cap_label' => 'Plugin uninstall request',
@@ -1317,7 +1317,7 @@ If the link doesn\'t work, please enter the code manually here ({$requestUrl}). 
 If you didn\'t request password reset, please ignore this email.
 
 Thank you,
-lost',
+沦落人-',
   'base+reset_password_mail_template_content_html' => 'Dear {$username},
 <br />
 You requested to reset your password. Follow this link ({$resetUrl}) to change your password.
@@ -1327,7 +1327,7 @@ If the link doesn\'t work, please enter the code manually here ({$requestUrl}). 
 If you didn\'t request password reset, please ignore this email.
 <br /><br />
 Thank you,
-lost<br />',
+沦落人-<br />',
   'base+authorization_action_market_delete_comment_by_content_owner' => 'The content owner can delete comments',
   'base+authorization_group_market' => 'Market',
   'admin+questions_edit_username_warning' => '<b>We recommend against making username field editable, because changing username will result in changing the profile URL.</b>',
@@ -1512,10 +1512,10 @@ lost<br />',
   'admin+join_display_terms_of_use_desc' => 'Require users to agree to terms of use on registration',
   'admin+join_display_photo_upload_desc' => 'Let users upload avatar on registration',
   'base+local_page_title_page-119658' => 'Terms of use',
-  'base+local_page_meta_tags_page-119658' => 'Terms of use',
+  'base+local_page_meta_tags_page-119658' => '###ow_postappend_placeholder###',
   'base+page-119658' => 'Terms of use',
   'base+questions_section_terms_of_use_label' => 'Terms of use',
-  'base+questions_question_user_terms_of_use_label' => 'I agree with <a target=\'blank\' href=\'http://chguoxi.gotoip55.com/terms-of-use\' >terms of use</a>',
+  'base+questions_question_user_terms_of_use_label' => 'I agree with <a target=\'blank\' href=\'http://www.lostman.com/terms-of-use\' >terms of use</a>',
   'base+local_page_content_page-119658' => '<p class="ow_stdmargin">
 Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern our relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.
 </p>
@@ -1597,24 +1597,24 @@ You agree not to submit illegal content to this website, and agree to warn websi
   'base+ws_video_head_label' => 'Insert video',
   'base+ws_video_empty_field' => 'Enter video code please',
   'base+ws_html_head_label' => 'Insert HTML',
-  'base+welcome_letter_subject' => 'lost registration',
-  'base+welcome_letter_template_text' => 'Welcome to lost! Thanks for joining us. Here are some quick links that you need to find your way around:
-- Main page: http://chguoxi.gotoip55.com/
-- Change avatar: http://chguoxi.gotoip55.com/profile/avatar
-- Change profile details: http://chguoxi.gotoip55.com/profile/edit
-- Preview/rearrange profile: http://chguoxi.gotoip55.com/my-profile
-- Look who\'s in: http://chguoxi.gotoip55.com/users
+  'base+welcome_letter_subject' => '沦落人- registration',
+  'base+welcome_letter_template_text' => 'Welcome to 沦落人-! Thanks for joining us. Here are some quick links that you need to find your way around:
+- Main page: http://www.lostman.com/
+- Change avatar: http://www.lostman.com/profile/avatar
+- Change profile details: http://www.lostman.com/profile/edit
+- Preview/rearrange profile: http://www.lostman.com/my-profile
+- Look who\'s in: http://www.lostman.com/users
 Feel free to participate in our community!
-lost administration
-http://chguoxi.gotoip55.com/',
-  'base+welcome_letter_template_html' => 'Welcome to <a href="http://chguoxi.gotoip55.com/">lost</a>! Thanks for joining us. Here are some quick links that you need to find your way around:<br/>
-- <a href="http://chguoxi.gotoip55.com/">Main page</a><br/>
-- <a href="http://chguoxi.gotoip55.com/profile/avatar">Change avatar</a><br/>
-- <a href="http://chguoxi.gotoip55.com/profile/edit">Change profile details</a><br/>
-- <a href="http://chguoxi.gotoip55.com/my-profile">Preview/rearrange profile</a><br/>
-- <a href="http://chguoxi.gotoip55.com/users">Look who\'s in</a><br/>
+沦落人- administration
+http://www.lostman.com/',
+  'base+welcome_letter_template_html' => 'Welcome to <a href="http://www.lostman.com/">沦落人-</a>! Thanks for joining us. Here are some quick links that you need to find your way around:<br/>
+- <a href="http://www.lostman.com/">Main page</a><br/>
+- <a href="http://www.lostman.com/profile/avatar">Change avatar</a><br/>
+- <a href="http://www.lostman.com/profile/edit">Change profile details</a><br/>
+- <a href="http://www.lostman.com/my-profile">Preview/rearrange profile</a><br/>
+- <a href="http://www.lostman.com/users">Look who\'s in</a><br/>
 Feel free to participate in our community!<br/>
-<a href="http://chguoxi.gotoip55.com/">lost</a> administration<br/>',
+<a href="http://www.lostman.com/">沦落人-</a> administration<br/>',
   'base+local_page_content_page_13904610' => 'custom page',
   'base+ws_button_label_more' => 'More',
   'admin+feed_content_registration' => 'New user registration',
@@ -1625,10 +1625,10 @@ Feel free to participate in our community!<br/>
 
 You requested to reset your password. Here\'s your new password: {$password}
 
-Feel free to log in to your account at http://chguoxi.gotoip55.com/ and change your password again if necessary.
+Feel free to log in to your account at http://www.lostman.com/ and change your password again if necessary.
 
 Thank you,
-lost',
+沦落人-',
   'admin+menu_item_user_input_settings' => 'User input settings',
   'admin+user_input_settings_user_content' => 'Text content',
   'admin+user_input_settings_comments' => 'Content comments',
@@ -1656,10 +1656,10 @@ lost',
 <br />
 You requested to reset your password. Here\'s your new password: <b>{$password}</b><br />
 <br />
-Feel free to log in to your account at <a href="http://chguoxi.gotoip55.com/">http://chguoxi.gotoip55.com/</a> and change your password again if necessary.<br />
+Feel free to log in to your account at <a href="http://www.lostman.com/">http://www.lostman.com/</a> and change your password again if necessary.<br />
 <br />
 Thank you,<br />
-lost',
+沦落人-',
   'admin+page_settings_favicon_submit_error_message' => 'Please provide valid image in ico format',
   'base+authorization_action_groups_create' => 'Create groups',
   'base+local_page_title_page_7680520' => 'jjj',
@@ -1711,7 +1711,6 @@ sdfsdfsdf',
   'base+page_24622628' => 'custom page',
   'base+page_45248787' => 'test',
   'base+page_88027910' => 'mmm',
-  'base+questions_section_e46697c921740b10b1ac7223a14155b2_label' => 'test',
   'admin+manage_plugins_add_ftp_move_error' => 'Can\'t upload archive by FTP',
   'admin+found_users' => 'Found: <b>{$count}</b> users',
   'admin+search_by' => 'Search by',
@@ -1860,7 +1859,7 @@ sdfsdfsdf',
   'base+sort_control_sortby' => 'Sort by',
   'base+tags_cloud_cap_label' => 'Tags',
   'base+user_deleted_message' => 'Account was removed<br />
-Go back to <a href="http://chguoxi.gotoip55.com/">site</a>',
+Go back to <a href="http://www.lostman.com/">site</a>',
   'base+local_page_title_page_81959573' => 'Privacy Policy',
   'base+local_page_meta_tags_page_81959573' => '',
   'base+local_page_content_page_81959573' => '<p class="ow_smallmargin">
@@ -1957,7 +1956,7 @@ We reserve the right to make changes to this policy. Any changes to this policy 
   'mailbox+compose_message' => 'Compose Message',
   'mailbox+conversation_box_info' => 'Showing {$showing} messages of {$total} total, {$new} new',
   'mailbox+conversation_label' => 'Conversation',
-  'mailbox+conversation_meta_tilte' => '{$conversation_title} - lost',
+  'mailbox+conversation_meta_tilte' => '{$conversation_title} - 沦落人-',
   'mailbox+create_conversation_button' => 'Send Private Message',
   'mailbox+create_conversation_fail_message' => 'Message NOT sent',
   'mailbox+create_conversation_message' => 'Message sent',
@@ -1974,7 +1973,7 @@ We reserve the right to make changes to this policy. Any changes to this policy 
   'mailbox+file_attachment_disabled' => 'File attachments disabled',
   'mailbox+general_settings' => 'General Settings',
   'mailbox+inbox_label' => 'Inbox',
-  'mailbox+inbox_meta_tilte' => 'My mailbox - lost',
+  'mailbox+inbox_meta_tilte' => 'My mailbox - 沦落人-',
   'mailbox+keep_unread_button' => 'Keep Unread',
   'mailbox+mailbox' => 'Mailbox',
   'mailbox+mark_as_read_button' => 'Mark as Read',
@@ -1991,18 +1990,18 @@ We reserve the right to make changes to this policy. Any changes to this policy 
   'mailbox+notification_mail_subject' => 'New message from {$sendername}',
   'mailbox+notification_mail_template_html' => 'Hello {$username},<br/>
 <br/>
-You have received a new message from {$sendername} on lost.<br/>
+You have received a new message from {$sendername} on 沦落人-.<br/>
 <br/>
 Go to <a href="{$replyUrl}">{$replyUrl}</a> to reply to this message. <br/>
 <br/>
-Sincerely, lost administration',
+Sincerely, 沦落人- administration',
   'mailbox+notification_mail_template_text' => 'Hello {$username},
 
-You have received a new message from {$sendername} on lost.
+You have received a new message from {$sendername} on 沦落人-.
 
 Go to {$replyUrl} to reply to this message. 
 
-Sincerely, lost administration',
+Sincerely, 沦落人- administration',
   'mailbox+no_conversations' => 'No messages',
   'mailbox+permission_denied' => 'Permission denied',
   'mailbox+please_enter_captcha' => 'Before you continue sending messages let\'s make sure you are a human. Please confirm the security code below:',
@@ -2014,7 +2013,7 @@ Sincerely, lost administration',
   'mailbox+sent_button' => 'Sent',
   'mailbox+sent_label' => 'Sent',
   'mailbox+sent_message_form_label' => 'Compose reply',
-  'mailbox+sent_meta_tilte' => 'Sent messages - lost',
+  'mailbox+sent_meta_tilte' => 'Sent messages - 沦落人-',
   'mailbox+settings_updated' => 'Settings updated',
   'mailbox+subject' => 'Subject',
   'mailbox+text' => 'Text',
@@ -2049,25 +2048,25 @@ Sincerely, lost administration',
 Dear {$sender},
 </p>
 <p>
-We are glad to let you know that <a href="{$receiver_url}">{$receiver}</a> confirmed you as a friend on <a href="http://chguoxi.gotoip55.com/">lost</a>.
+We are glad to let you know that <a href="{$receiver_url}">{$receiver}</a> confirmed you as a friend on <a href="http://www.lostman.com/">沦落人-</a>.
 </p>
 <p>
 Thank you,<br />
 Administration<br />
-<a href="http://chguoxi.gotoip55.com/">lost</a>
+<a href="http://www.lostman.com/">沦落人-</a>
 </p>',
   'friends+confirmed_mail_subject' => '{$receiver} confirmed you as a friend',
   'friends+confirmed_mail_txt' => 'Dear {$sender},
 
-We are glad to let you know that {$receiver} confirmed you as a friend on lost.
+We are glad to let you know that {$receiver} confirmed you as a friend on 沦落人-.
 
 {$receiver}\'s profile: {$receiver_url}
-lost: http://chguoxi.gotoip55.com/
+沦落人-: http://www.lostman.com/
 
 Thank you,
 Administration
-lost
-http://chguoxi.gotoip55.com/',
+沦落人-
+http://www.lostman.com/',
   'friends+email_notifications_setting_accept' => 'Someone accepts my friend request',
   'friends+email_notifications_setting_request' => 'Someone sends me friend request',
   'friends+feedback_cancelled' => 'Cancelled',
@@ -2083,7 +2082,7 @@ http://chguoxi.gotoip55.com/',
   'friends+ignore_request' => 'Ignore',
   'friends+like_activity_string' => 'liked that {$user1} and {$user2} are now friends',
   'friends+my_friends_page_heading' => 'My friends',
-  'friends+my_friends_page_title' => 'My friends - lost',
+  'friends+my_friends_page_title' => 'My friends - 沦落人-',
   'friends+new_friend_added' => 'New friend added',
   'friends+notification_section_label' => 'Friends',
   'friends+notify_accept' => '{$receiver} confirmed you as a friend',
@@ -2104,7 +2103,7 @@ http://chguoxi.gotoip55.com/',
   'friends+sent_requests_tab' => 'Sent requests {$count}',
   'friends+usercredits_action_add_friend' => 'Add friend',
   'friends+user_friends_page_heading' => '{$user}\'s friends',
-  'friends+user_friends_page_title' => '{$user}\'s friends - lost',
+  'friends+user_friends_page_title' => '{$user}\'s friends - 沦落人-',
   'friends+user_widget_empty' => 'No friends yet',
   'friends+user_widget_settings_count' => 'Count',
   'friends+user_widget_title' => 'Friends',
@@ -2122,16 +2121,16 @@ http://chguoxi.gotoip55.com/',
   'notifications+config_title' => 'Schedule Settings',
   'notifications+dashboard_menu_item_label' => 'Email Notifications',
   'notifications+email_html_bottom' => 'Talk soon,<br />
-lost, administration<br />
-http://chguoxi.gotoip55.com/',
-  'notifications+email_html_description' => 'Here\'s the latest activity on <a href="http://chguoxi.gotoip55.com/"> lost</a> related to you:',
+沦落人-, administration<br />
+http://www.lostman.com/',
+  'notifications+email_html_description' => 'Here\'s the latest activity on <a href="http://www.lostman.com/"> 沦落人-</a> related to you:',
   'notifications+email_html_head' => 'Dear {$userName},',
-  'notifications+email_subject' => 'Latest activity on lost',
+  'notifications+email_subject' => 'Latest activity on 沦落人-',
   'notifications+email_txt_bottom' => 'Talk soon,
-lost, administration
-http://chguoxi.gotoip55.com/',
+沦落人-, administration
+http://www.lostman.com/',
   'notifications+email_txt_head' => 'Dear {$userName},
-Here\'s the latest activity on lost related to you:',
+Here\'s the latest activity on 沦落人- related to you:',
   'notifications+save_config_btn' => 'Save',
   'notifications+save_setting_btn_label' => 'Save',
   'notifications+schedule_daily' => 'Daily',
@@ -2165,12 +2164,12 @@ Here\'s the latest activity on lost related to you:',
   'blogs+blog_index' => 'Blog home',
   'blogs+blog_manage_delete' => 'delete',
   'blogs+blog_post_description' => '{$post_body} Tags: {$tags}.',
-  'blogs+blog_post_title' => '{$post_title} - posted by {$display_name} at lost',
+  'blogs+blog_post_title' => '{$post_title} - posted by {$display_name} at 沦落人-',
   'blogs+blog_widget_preview_length_lbl' => 'Preview Length',
   'blogs+browse_by_tag_description' => 'Browse blog posts by tags: {$tags}and others.',
   'blogs+browse_by_tag_item_description' => 'Browse blog posts tagged as `{$tag}`.',
-  'blogs+browse_by_tag_item_title' => '`{$tag}` related blog posts - lost',
-  'blogs+browse_by_tag_title' => 'Browse blog posts by tags - lost',
+  'blogs+browse_by_tag_item_title' => '`{$tag}` related blog posts - 沦落人-',
+  'blogs+browse_by_tag_title' => 'Browse blog posts by tags - 沦落人-',
   'blogs+by' => 'By',
   'blogs+change_status_draft' => 'Change Status to Draft',
   'blogs+cmp_widget_post_count' => 'Number of posts to show',
@@ -2194,9 +2193,9 @@ Here\'s the latest activity on lost related to you:',
   'blogs+go_to_blog' => 'Go to Blogs',
   'blogs+index_widget_empty' => 'No blogs.',
   'blogs+last_saved' => 'Last saved',
-  'blogs+latest_description' => 'Recently updated user blogs at lost.',
+  'blogs+latest_description' => 'Recently updated user blogs at 沦落人-.',
   'blogs+latest_post' => 'Lastest Post',
-  'blogs+latest_title' => 'User blogs - lost',
+  'blogs+latest_title' => 'User blogs - 沦落人-',
   'blogs+list_page_heading' => 'User blogs',
   'blogs+main_menu_item' => 'Blogs',
   'blogs+management_page_heading' => 'Manage my blog',
@@ -2212,8 +2211,8 @@ Here\'s the latest activity on lost related to you:',
   'blogs+menuItemMostDiscussed' => 'Most Discussed',
   'blogs+menuItemTopRated' => 'Top Rated',
   'blogs+more' => 'more',
-  'blogs+most_discussed_description' => 'Most discussed user blog posts at lost.',
-  'blogs+most_discussed_title' => 'Most discussed blogs - lost',
+  'blogs+most_discussed_description' => 'Most discussed user blog posts at 沦落人-.',
+  'blogs+most_discussed_title' => 'Most discussed blogs - 沦落人-',
   'blogs+my_blog' => 'My Blog',
   'blogs+new_post' => 'New blog post',
   'blogs+next_post' => 'Next post',
@@ -2246,8 +2245,8 @@ Here\'s the latest activity on lost related to you:',
   'blogs+toolbar_comments' => 'comments',
   'blogs+toolbar_delete' => 'Delete',
   'blogs+toolbar_edit' => 'Edit',
-  'blogs+top_rated_description' => 'Top rated user blog posts at lost.',
-  'blogs+top_rated_title' => 'Top rated blogs - lost',
+  'blogs+top_rated_description' => 'Top rated user blog posts at 沦落人-.',
+  'blogs+top_rated_title' => 'Top rated blogs - 沦落人-',
   'blogs+uninstall_inprogress' => 'In progress',
   'blogs+uninstall_inprogress_desc' => 'Please wait while all photo content is being removed. This make take awhile depending on the number of photos on your blogs.',
   'blogs+update' => 'Update',
@@ -2257,7 +2256,7 @@ Here\'s the latest activity on lost related to you:',
   'blogs+user_blog_archive_title' => '{$month_name} archive of {$display_name}’s blog',
   'blogs+user_blog_description' => 'Latest blog posts by {$display_name}.',
   'blogs+user_blog_page_heading' => '{$name}\'s blog',
-  'blogs+user_blog_title' => '{$display_name}’s blog - lost',
+  'blogs+user_blog_title' => '{$display_name}’s blog - 沦落人-',
   'blogs+user_blog_widget_drafts' => 'Drafts',
   'blogs+user_blog_widget_published_incoming_comments' => 'Incoming comments',
   'blogs+user_blog_widget_published_posts' => 'Published posts',
@@ -2284,7 +2283,7 @@ Here\'s the latest activity on lost related to you:',
   'groups+create_heading' => 'Create Group',
   'groups+create_new_topic' => 'Create New Forum Topic - {$group}',
   'groups+create_no_permission' => 'You are not allowed to create a group',
-  'groups+create_page_title' => 'Create new group - lost',
+  'groups+create_page_title' => 'Create new group - 沦落人-',
   'groups+create_submit_btn_label' => 'Create',
   'groups+create_success_msg' => 'Group created',
   'groups+creator' => 'creator',
@@ -2336,21 +2335,21 @@ Here\'s the latest activity on lost related to you:',
   'groups+invite_decline_label' => 'Ignore',
   'groups+invite_fb_title' => 'Invite my friends',
   'groups+invite_list_heading' => 'Group invitations',
-  'groups+invite_list_page_title' => 'Group invitations - lost',
+  'groups+invite_list_page_title' => 'Group invitations - 沦落人-',
   'groups+join_complete_message' => 'You\'ve successfully joined this group',
-  'groups+latest_list_page_description' => 'Most recently created user groups at lost.',
-  'groups+latest_list_page_title' => 'Latest groups at lost',
+  'groups+latest_list_page_description' => 'Most recently created user groups at 沦落人-.',
+  'groups+latest_list_page_title' => 'Latest groups at 沦落人-',
   'groups+leave_complete_message' => 'You\'ve left this group',
   'groups+listing_no_items_msg' => 'No groups available',
   'groups+listing_users_label' => '<span class="ow_txt_value">{$count}</span> members',
   'groups+main_menu_list' => 'Groups',
   'groups+my_groups' => 'My Groups',
-  'groups+my_list_page_title' => 'My groups at lost',
+  'groups+my_list_page_title' => 'My groups at 沦落人-',
   'groups+notifications_new_message' => 'Someone invites me to a group',
   'groups+page_title_uninstall' => 'Uninstall groups plugin',
   'groups+plugin_set_for_uninstall' => 'Forum plugin uninstall initiated.',
-  'groups+popular_list_page_description' => 'Most popular created user groups at lost.',
-  'groups+popular_list_page_title' => 'Most popular groups at lost',
+  'groups+popular_list_page_description' => 'Most popular created user groups at 沦落人-.',
+  'groups+popular_list_page_title' => 'Most popular groups at 沦落人-',
   'groups+privacy_action_view_my_groups' => 'View my groups',
   'groups+private_group_text' => 'We are sorry. This group is private.',
   'groups+private_page_heading' => 'Private group',
@@ -2362,8 +2361,8 @@ Here\'s the latest activity on lost related to you:',
   'groups+usercredits_action_add_group' => 'Create group',
   'groups+usercredits_action_add_post' => 'Post in group forum',
   'groups+users_invite_success_message' => '{$count} users invited',
-  'groups+user_groups_page_description' => 'User groups at lost.',
-  'groups+user_groups_page_title' => 'Groups at lost',
+  'groups+user_groups_page_description' => 'User groups at 沦落人-.',
+  'groups+user_groups_page_title' => 'Groups at 沦落人-',
   'groups+user_groups_widget_empty' => 'No groups',
   'groups+user_group_list_heading' => '{$userName}\'s groups',
   'groups+user_join_activity_string' => 'joined group',
@@ -2371,7 +2370,7 @@ Here\'s the latest activity on lost related to you:',
   'groups+view_all_topics' => '« Back to group forum topic list',
   'groups+view_no_permission' => 'You are not allowed to view groups',
   'groups+view_page_description' => '{$description}',
-  'groups+view_page_title' => '{$group_name} - group at lost',
+  'groups+view_page_title' => '{$group_name} - group at 沦落人-',
   'groups+wall_widget_label' => 'The Wall',
   'groups+widgets_panel_heading' => 'Groups Configuration',
   'groups+widget_brief_info_admin' => 'Admin: <a href="{$url}">{$name}</a>',
@@ -2404,8 +2403,8 @@ Here\'s the latest activity on lost related to you:',
   'links+auth_group_label' => 'Links',
   'links+browse_by_tag_description' => 'Browse links by tags: {$tags}and others.',
   'links+browse_by_tag_item_description' => 'Browse links tagged as `{$tag}`.',
-  'links+browse_by_tag_item_title' => '`{$tag}` links - lost',
-  'links+browse_by_tag_title' => 'Browse links by tags - lost',
+  'links+browse_by_tag_item_title' => '`{$tag}` links - 沦落人-',
+  'links+browse_by_tag_title' => 'Browse links by tags - 沦落人-',
   'links+by' => 'By',
   'links+by_lower' => 'by',
   'links+cancel_vote' => 'Cancel',
@@ -2423,14 +2422,14 @@ Here\'s the latest activity on lost related to you:',
   'links+flags' => 'Links',
   'links+go_to_links' => 'Go to Links',
   'links+index_widget_empty' => 'No links.',
-  'links+latest_description' => 'Recently submitted web addresses at lost.',
-  'links+latest_title' => 'Recent links - lost',
+  'links+latest_description' => 'Recently submitted web addresses at 沦落人-.',
+  'links+latest_title' => 'Recent links - 沦落人-',
   'links+link' => 'Link',
   'links+links' => 'Links',
   'links+links_on_notify_actions' => 'Someone comments on my link',
   'links+link_cap' => 'Link',
   'links+link_description' => '{$link_title}: {$link_description}.',
-  'links+link_title' => '{$link_title}: {$link_url} - link at lost',
+  'links+link_title' => '{$link_title}: {$link_url} - link at 沦落人-',
   'links+list_page_heading' => 'Shared Links',
   'links+main_menu_item' => 'Links',
   'links+menuItemBrowseByTag' => 'Browse by Tag',
@@ -2438,8 +2437,8 @@ Here\'s the latest activity on lost related to you:',
   'links+menuItemMostDiscussed' => 'Most Discussed',
   'links+menuItemTopRated' => 'Top Rated',
   'links+more' => 'more',
-  'links+most_discussed_description' => 'Most discussed links submitted by users at lost.',
-  'links+most_discussed_title' => 'Most discussed links - lost',
+  'links+most_discussed_description' => 'Most discussed links submitted by users at 沦落人-.',
+  'links+most_discussed_title' => 'Most discussed links - 沦落人-',
   'links+my_links' => 'My Links',
   'links+notification_section_label' => 'Links',
   'links+privacy_action_comment_links' => 'Comment my links',
@@ -2461,8 +2460,8 @@ Here\'s the latest activity on lost related to you:',
   'links+toolbar_comments' => 'comments',
   'links+toolbar_delete' => 'Delete',
   'links+toolbar_edit' => 'Edit',
-  'links+top_rated_description' => 'Top rated links submitted by users at lost.',
-  'links+top_rated_title' => 'Top rated links - lost',
+  'links+top_rated_description' => 'Top rated links submitted by users at 沦落人-.',
+  'links+top_rated_title' => 'Top rated links - 沦落人-',
   'links+updated' => 'Updated',
   'links+usercredits_action_add_comment' => 'Comment link',
   'links+usercredits_action_add_link' => 'Add link',
@@ -2548,23 +2547,23 @@ Here\'s the latest activity on lost related to you:',
   'photo+menu_latest' => 'Latest',
   'photo+menu_tagged' => 'Browse by tags',
   'photo+menu_toprated' => 'Top Rated',
-  'photo+meta_description_photo_featured' => 'Featured photos uploaded by members of lost.',
-  'photo+meta_description_photo_latest' => 'Recently uploaded photos by members of lost.',
+  'photo+meta_description_photo_featured' => 'Featured photos uploaded by members of 沦落人-.',
+  'photo+meta_description_photo_latest' => 'Recently uploaded photos by members of 沦落人-.',
   'photo+meta_description_photo_tagged' => 'Browse photos by tags: {$topTags}, and others.',
   'photo+meta_description_photo_tagged_as' => 'View photos tagged as \'{$tag}\'.',
-  'photo+meta_description_photo_toprated' => 'Most highly rated photos uploaded by members of lost.',
+  'photo+meta_description_photo_toprated' => 'Most highly rated photos uploaded by members of 沦落人-.',
   'photo+meta_description_photo_useralbum' => '{$number} photos by {$displayName}.',
   'photo+meta_description_photo_useralbums' => 'Photo albums by {$displayName} - {$albums}, and others.',
   'photo+meta_description_photo_view' => '{$title} - photo tagged as {$tags}.',
-  'photo+meta_title_photo_featured' => 'Featured photos - lost',
-  'photo+meta_title_photo_latest' => 'Latest photos - lost',
-  'photo+meta_title_photo_tagged' => 'Browse photos by tags - lost',
-  'photo+meta_title_photo_tagged_as' => '\'{$tag}\' photos - lost',
-  'photo+meta_title_photo_toprated' => 'Top rated photos - lost',
-  'photo+meta_title_photo_upload' => 'Upload photos - lost',
-  'photo+meta_title_photo_useralbum' => '{$albumName} (photo album by {$displayName}) - lost',
-  'photo+meta_title_photo_useralbums' => '{$displayName}\'s photo albums - lost',
-  'photo+meta_title_photo_view' => '{$title} - photo at lost',
+  'photo+meta_title_photo_featured' => 'Featured photos - 沦落人-',
+  'photo+meta_title_photo_latest' => 'Latest photos - 沦落人-',
+  'photo+meta_title_photo_tagged' => 'Browse photos by tags - 沦落人-',
+  'photo+meta_title_photo_tagged_as' => '\'{$tag}\' photos - 沦落人-',
+  'photo+meta_title_photo_toprated' => 'Top rated photos - 沦落人-',
+  'photo+meta_title_photo_upload' => 'Upload photos - 沦落人-',
+  'photo+meta_title_photo_useralbum' => '{$albumName} (photo album by {$displayName}) - 沦落人-',
+  'photo+meta_title_photo_useralbums' => '{$displayName}\'s photo albums - 沦落人-',
+  'photo+meta_title_photo_view' => '{$title} - photo at 沦落人-',
   'photo+my_albums' => 'My Photo Albums',
   'photo+next' => 'Next photo',
   'photo+not_all_photos_uploaded' => 'Some photos were not uploaded because of excessive size or wrong format',
@@ -2667,20 +2666,20 @@ Here\'s the latest activity on lost related to you:',
   'video+menu_tagged' => 'Browse by Tag',
   'video+menu_toprated' => 'Top Rated',
   'video+meta_description_user_video' => 'Videos submitted by user {$displayName}',
-  'video+meta_description_video_featured' => 'Best videos at lost! Staff picks!',
-  'video+meta_description_video_latest' => 'Recently uploaded videos at lost.',
+  'video+meta_description_video_featured' => 'Best videos at 沦落人-! Staff picks!',
+  'video+meta_description_video_latest' => 'Recently uploaded videos at 沦落人-.',
   'video+meta_description_video_tagged' => 'Videos by tags: {$topTags}, and others.',
   'video+meta_description_video_tagged_as' => 'Browse videos tagged as \'{$tag}\'.',
-  'video+meta_description_video_toprated' => 'Top rated videos submitted by users at lost.',
+  'video+meta_description_video_toprated' => 'Top rated videos submitted by users at 沦落人-.',
   'video+meta_description_video_view' => 'Video called \'{$title}\', tagged as {$tags}.',
-  'video+meta_title_user_video' => '{$displayName}\'s videos - lost',
+  'video+meta_title_user_video' => '{$displayName}\'s videos - 沦落人-',
   'video+meta_title_video_add' => 'Add new video',
-  'video+meta_title_video_featured' => 'Featured videos - lost',
-  'video+meta_title_video_latest' => 'Recent videos - lost',
-  'video+meta_title_video_tagged' => 'Browse videos by tags - lost',
-  'video+meta_title_video_tagged_as' => '\'{$tag}\' videos - lost',
-  'video+meta_title_video_toprated' => 'Top rated videos - lost',
-  'video+meta_title_video_view' => '{$title} - Video at lost',
+  'video+meta_title_video_featured' => 'Featured videos - 沦落人-',
+  'video+meta_title_video_latest' => 'Recent videos - 沦落人-',
+  'video+meta_title_video_tagged' => 'Browse videos by tags - 沦落人-',
+  'video+meta_title_video_tagged_as' => '\'{$tag}\' videos - 沦落人-',
+  'video+meta_title_video_toprated' => 'Top rated videos - 沦落人-',
+  'video+meta_title_video_view' => '{$title} - Video at 沦落人-',
   'video+my_video' => 'My Video',
   'video+no_video' => 'No video',
   'video+no_video_found' => 'No video found',
@@ -2798,7 +2797,7 @@ Here\'s the latest activity on lost related to you:',
   'forum+forum_topics_widget' => 'Forum Topics',
   'forum+general_settings' => 'General settings',
   'forum+goto_forum' => 'Go to Forum',
-  'forum+group_meta_description' => '{$group} on lost forum',
+  'forum+group_meta_description' => '{$group} on 沦落人- forum',
   'forum+in' => 'In',
   'forum+is_private' => 'Private',
   'forum+last_reply' => 'Last Reply',
@@ -2888,7 +2887,7 @@ Here\'s the latest activity on lost related to you:',
   'event+add_new_button_label' => 'Add new event',
   'event+add_new_link_label' => 'Event',
   'event+add_page_heading' => 'Create new event',
-  'event+add_page_title' => 'Create new event - lost',
+  'event+add_page_title' => 'Create new event - 沦落人-',
   'event+all_day' => 'all day',
   'event+attend_maybe_btn_label' => 'Maybe',
   'event+attend_no_btn_label' => 'No',
@@ -2919,15 +2918,15 @@ Here\'s the latest activity on lost related to you:',
   'event+edit_form_submit_label' => 'Edit',
   'event+edit_form_success_message' => 'Event edited',
   'event+edit_page_heading' => 'Edit event',
-  'event+edit_page_title' => 'Edit event - lost',
+  'event+edit_page_title' => 'Edit event - 沦落人-',
   'event+email_notification_comment' => '<a href="{$userUrl}">{$userName}</a> added a wall comment in <a href="{$url}">{$title}</a> event',
   'event+email_notification_comment_setting' => 'Someone posts on event walls',
   'event+email_notification_invite' => '<a href="{$inviterUrl}">{$inviterName}</a> invited you to the event "<a href="{$eventUrl}">{$eventName}</a>"',
   'event+event_created_by_me_page_heading' => 'Events I created',
-  'event+event_created_by_me_page_title' => 'Events I created - lost',
+  'event+event_created_by_me_page_title' => 'Events I created - 沦落人-',
   'event+event_joined_by_me_page_heading' => 'Events I\'m attending',
-  'event+event_joined_by_me_page_title' => 'Events I\'m attending - lost',
-  'event+event_view_page_heading' => '{$event_title} - event at lost',
+  'event+event_joined_by_me_page_title' => 'Events I\'m attending - 沦落人-',
+  'event+event_view_page_heading' => '{$event_title} - event at 沦落人-',
   'event+event_view_permission_error_message' => 'Sorry, you don\'t have permissions to view this page.',
   'event+feed_actiovity_attend_string' => 'is attending {$user}\'s event',
   'event+feed_activity_comment_string' => 'commented about this event',
@@ -2940,20 +2939,20 @@ Here\'s the latest activity on lost related to you:',
   'event+friends_invite_button_label' => 'Invite my friends',
   'event+ignore_request' => 'Ignore',
   'event+invited_events_page_heading' => 'Event invitations',
-  'event+invited_events_page_title' => 'Event invitations - lost',
+  'event+invited_events_page_title' => 'Event invitations - 沦落人-',
   'event+invite_btn_label' => 'Invite',
-  'event+latest_events_page_desc' => 'The list of upcoming events for the members of lost.',
+  'event+latest_events_page_desc' => 'The list of upcoming events for the members of 沦落人-.',
   'event+latest_events_page_heading' => 'Events',
-  'event+latest_events_page_title' => 'Events - lost',
+  'event+latest_events_page_title' => 'Events - 沦落人-',
   'event+main_menu_item' => 'Events',
   'event+my_events_widget_block_cap_label' => 'My Events',
   'event+notifications_new_message' => 'Someone invites me to an event',
   'event+notifications_section_label' => 'Events',
   'event+no_events_label' => 'No events',
   'event+no_index_events_label' => 'No events, <a href="{$url}">Add new</a>',
-  'event+past_events_page_desc' => 'The list of the past events for the members of lost.',
+  'event+past_events_page_desc' => 'The list of the past events for the members of 沦落人-.',
   'event+past_events_page_heading' => 'Past events',
-  'event+past_events_page_title' => 'Past events - lost',
+  'event+past_events_page_title' => 'Past events - 沦落人-',
   'event+privacy_action_view_attend_events' => 'View my events',
   'event+private_event_text' => 'We are sorry. This event is private.',
   'event+private_page_heading' => 'Private event',
@@ -2967,12 +2966,12 @@ Here\'s the latest activity on lost related to you:',
   'event+user_list_page_desc_1' => 'The list of users participating in "{$eventTitle}" event.',
   'event+user_list_page_desc_2' => 'The list of users maybe participating in "{$eventTitle}" event.',
   'event+user_list_page_desc_3' => 'The list of users not participating in "{$eventTitle}" event.',
-  'event+user_list_page_heading_1' => '"{$eventTitle}" event participants - lost',
-  'event+user_list_page_heading_2' => '"{$eventTitle}" event - who\'s maybe attending - lost',
-  'event+user_list_page_heading_3' => '"{$eventTitle}" event - who\'s not attending - lost',
+  'event+user_list_page_heading_1' => '"{$eventTitle}" event participants - 沦落人-',
+  'event+user_list_page_heading_2' => '"{$eventTitle}" event - who\'s maybe attending - 沦落人-',
+  'event+user_list_page_heading_3' => '"{$eventTitle}" event - who\'s not attending - 沦落人-',
   'event+user_participated_events_page_desc' => 'The list of events {$display_name} participates in.',
   'event+user_participated_events_page_heading' => '{$display_name}\'s events',
-  'event+user_participated_events_page_title' => '{$display_name}\'s events - lost',
+  'event+user_participated_events_page_title' => '{$display_name}\'s events - 沦落人-',
   'event+user_status_author_cant_leave_error' => 'Sorry, you can\'t leave your event',
   'event+user_status_label_1' => 'I\'m attending',
   'event+user_status_label_2' => 'Maybe I\'m attending',
@@ -3019,12 +3018,12 @@ Here\'s the latest activity on lost related to you:',
   'contactimporter+facebook_app_id' => 'App ID',
   'contactimporter+facebook_app_secret' => 'App Secret',
   'contactimporter+facebook_app_settings' => 'Facebook App Settings',
-  'contactimporter+facebook_canvas_page_1' => '{$user} invites you to join <b>lost</b>. Feel free to <a href="{$siteUrl}" target="_blank">visit and register</a>',
-  'contactimporter+facebook_canvas_page_2' => '{$user1} and {$user2} invite you to join <b>lost</b>. Feel free to <a href="{$siteUrl}" target="_blank">visit and register</a>',
-  'contactimporter+facebook_canvas_page_x' => '{$user} and {$count} more people invite you to join <b>lost</b>. Feel free to <a href="{$siteUrl}" target="_blank">visit and register</a>',
+  'contactimporter+facebook_canvas_page_1' => '{$user} invites you to join <b>沦落人-</b>. Feel free to <a href="{$siteUrl}" target="_blank">visit and register</a>',
+  'contactimporter+facebook_canvas_page_2' => '{$user1} and {$user2} invite you to join <b>沦落人-</b>. Feel free to <a href="{$siteUrl}" target="_blank">visit and register</a>',
+  'contactimporter+facebook_canvas_page_x' => '{$user} and {$count} more people invite you to join <b>沦落人-</b>. Feel free to <a href="{$siteUrl}" target="_blank">visit and register</a>',
   'contactimporter+facebook_how_to_config' => 'Configuration instructions',
-  'contactimporter+facebook_inv_action' => 'Invite your friends to lost',
-  'contactimporter+facebook_inv_message_text' => 'Come join lost site, I\'m already there.',
+  'contactimporter+facebook_inv_action' => 'Invite your friends to 沦落人-',
+  'contactimporter+facebook_inv_message_text' => 'Come join 沦落人- site, I\'m already there.',
   'contactimporter+feedback_invitation_sent' => 'Invitations sent',
   'contactimporter+google_client_id' => 'Client ID',
   'contactimporter+google_client_secret' => 'Client secret',
@@ -3034,24 +3033,24 @@ Here\'s the latest activity on lost related to you:',
   'contactimporter+mail_google_invite_html' => 'Greetings!
 <br />
 <br />
-{$user} invites you to join <a href="http://chguoxi.gotoip55.com/">lost</a>. Check out what it\'s all about: <br/>{$url}
+{$user} invites you to join <a href="http://www.lostman.com/">沦落人-</a>. Check out what it\'s all about: <br/>{$url}
 <br /><br />
 Thank you,<br />
-<a href="http://chguoxi.gotoip55.com/">lost</a>',
+<a href="http://www.lostman.com/">沦落人-</a>',
   'contactimporter+mail_google_invite_msg_html' => 'Greetings!
 <br />
 <br />
-{$user} invites you to join <a href="http://chguoxi.gotoip55.com/">lost</a>. Check out what it\'s all about: <br />{$url}<br />
+{$user} invites you to join <a href="http://www.lostman.com/">沦落人-</a>. Check out what it\'s all about: <br />{$url}<br />
 Here are a few words for you by {$user}:
 <br />
 {$message}
 <br />
 <br />
 Thank you,<br />
-<a href="http://chguoxi.gotoip55.com/">lost</a>',
+<a href="http://www.lostman.com/">沦落人-</a>',
   'contactimporter+mail_google_invite_msg_txt' => 'Greetings!
 
-{$user} invites you to join lost. Check out what it\'s all about: 
+{$user} invites you to join 沦落人-. Check out what it\'s all about: 
 {$url}
 
 Here are a few words for you by {$user}:
@@ -3059,20 +3058,99 @@ Here are a few words for you by {$user}:
 
 
 Thank you,
-lost
-http://chguoxi.gotoip55.com/',
-  'contactimporter+mail_google_invite_subject' => '{$user} invites you to lost',
+沦落人-
+http://www.lostman.com/',
+  'contactimporter+mail_google_invite_subject' => '{$user} invites you to 沦落人-',
   'contactimporter+mail_google_invite_txt' => 'Greetings!
 
-{$user} invites you to join lost. Check out what it\'s all about: 
+{$user} invites you to join 沦落人-. Check out what it\'s all about: 
 {$url}
 
 Thank you,
-lost
-http://chguoxi.gotoip55.com/',
+沦落人-
+http://www.lostman.com/',
   'contactimporter+requires_configuration_message' => '<a href="{$settingsUrl}">Contact Importer</a> requires configuration',
   'contactimporter+save_btn_label' => 'Save',
   'contactimporter+usercredits_action_import_friend' => 'Import friend',
   'contactimporter+widget_title' => 'Invite Friends',
+  'virtualgifts+add_category' => 'Add category',
+  'virtualgifts+add_template' => 'Add new template',
+  'virtualgifts+admin_page_heading' => 'Virtual Gifts plugin configuration',
+  'virtualgifts+auth_action_label_send_gift' => 'Send gift',
+  'virtualgifts+auth_group_label' => 'Virtual Gifts',
+  'virtualgifts+btn_add' => 'Add',
+  'virtualgifts+btn_save' => 'Save',
+  'virtualgifts+btn_send' => 'Send',
+  'virtualgifts+by' => 'by <a href="{$senderUrl}">{$sender}</a>',
+  'virtualgifts+categories' => 'Gift categories',
+  'virtualgifts+category' => 'Category',
+  'virtualgifts+category_added' => 'Gift category has been added',
+  'virtualgifts+category_deleted' => 'Category has been deleted',
+  'virtualgifts+category_list' => 'Category list',
+  'virtualgifts+category_not_deleted' => 'Please delete this category gifts first',
+  'virtualgifts+category_title' => 'Category title:',
+  'virtualgifts+choose_friends' => 'Choose friends',
+  'virtualgifts+cmp_widget_gifts_count' => 'Gifts count',
+  'virtualgifts+confirm_delete_gifts' => 'Are you sure you want to remove ALL user gifts?',
+  'virtualgifts+confirm_template_delete' => 'Are you sure you want to delete this gift template?',
+  'virtualgifts+delete_content' => 'Delete content and uninstall plugin',
+  'virtualgifts+delete_content_desc' => 'Before uninstalling gifts plugin we have to remove all existing user gifts content. This may take awhile. That is why we will put the site to "maintenance mode" and activate it back upon completing the uninstall.',
+  'virtualgifts+delete_content_warning' => 'Warning',
+  'virtualgifts+email_notifications_section_label' => 'Gifts',
+  'virtualgifts+email_notifications_send_gift' => '<a href="{$senderUrl}">{$senderName}</a> sent you a <a href="{$giftUrl}">gift</a>',
+  'virtualgifts+email_notifications_setting_send_gift' => 'Someone sends me a gift',
+  'virtualgifts+existing_gifts' => 'Existing gifts',
+  'virtualgifts+feed_activity_gift_string_comment' => 'commented on {$sender}\'s gift to {$recipient}',
+  'virtualgifts+feed_activity_gift_string_like' => 'liked {$sender}\'s gift to {$recipient}',
+  'virtualgifts+feed_activity_owner_gift_string_comment' => 'commented on their gift to {$recipient}',
+  'virtualgifts+feed_content_gift' => 'Virtual gifts',
+  'virtualgifts+feed_string' => 'granted <a href="{$recipientUrl}">{$recipientName}</a> a gift!',
+  'virtualgifts+file_type_not_allowed' => 'Selected image file type is not allowed',
+  'virtualgifts+gifts' => 'Gifts',
+  'virtualgifts+gift_by' => 'Gift by {$userName}',
+  'virtualgifts+gift_deleted' => 'Gift deleted',
+  'virtualgifts+gift_image' => 'Gift image',
+  'virtualgifts+gift_not_selected' => 'Please select a gift',
+  'virtualgifts+gift_not_sent' => 'Gift has not been sent',
+  'virtualgifts+gift_price' => 'Gift price',
+  'virtualgifts+gift_sent' => 'Gift has been sent',
+  'virtualgifts+gift_sent_to' => 'Gift was sent to {$count} user(s)',
+  'virtualgifts+message' => 'Message',
+  'virtualgifts+meta_description_user_gifts' => 'These virtual gifts were received by {$recipient} on 沦落人-.',
+  'virtualgifts+meta_description_view_gift' => 'This is a virtual gift for {$recipient} from {$sender}.',
+  'virtualgifts+meta_description_view_gift_msg' => '{$message} - This is a virtual gift for {$recipient} from {$sender}.',
+  'virtualgifts+meta_title_my_gifts' => 'My gifts - 沦落人-',
+  'virtualgifts+meta_title_user_gifts' => '{$recipient}\'s virtual gifts - 沦落人-',
+  'virtualgifts+meta_title_view_gift' => 'Virtual gift for {$recipient} - 沦落人-',
+  'virtualgifts+meta_title_view_gift_msg' => '{$message} - Virtual gift for {$recipient} - 沦落人-',
+  'virtualgifts+my_gifts' => 'My gifts',
+  'virtualgifts+my_gifts_quick_link' => 'My Gifts',
+  'virtualgifts+not_authenticated' => 'You need to sign in to send gifts',
+  'virtualgifts+not_authorized' => 'You do not have enough permissions to send gifts',
+  'virtualgifts+no_gifts' => 'You have not received any gift yet',
+  'virtualgifts+no_image_selected' => 'No image file selected',
+  'virtualgifts+no_users_selected' => 'No users selected',
+  'virtualgifts+page_title_uninstall' => 'Uninstall virtual gifts plugin',
+  'virtualgifts+plugin_set_for_uninstall' => 'Virtual gifts plugin uninstall initiated.',
+  'virtualgifts+private_gift' => 'Private gift',
+  'virtualgifts+private_gift_note' => 'This gift is visible to you and {$username} only',
+  'virtualgifts+profile_toolbar_item_send_gift' => 'Send gift',
+  'virtualgifts+send_gift' => 'Send gift',
+  'virtualgifts+send_gift_to' => 'Send gift to {$user}',
+  'virtualgifts+send_multiple_gifts_error' => 'Gift price is {$price} credits. Your current balance is {$balance} credits. You do not have enough credits to send gifts to selected friends',
+  'virtualgifts+send_private' => 'Send private gift',
+  'virtualgifts+send_private_gift' => 'Send private gift <span class="ow_small">(visible to <b>{$user}</b> only)</span>',
+  'virtualgifts+send_return_gift' => 'Send a gift in return',
+  'virtualgifts+send_this_gift' => 'Send this gift to friends',
+  'virtualgifts+template_added' => 'Template has been added',
+  'virtualgifts+template_list' => 'Gift list',
+  'virtualgifts+template_not_added' => 'Template has not been added',
+  'virtualgifts+template_updated' => 'Template has been updated',
+  'virtualgifts+uncategorized' => 'Not in category',
+  'virtualgifts+uninstall_inprogress' => 'In progress',
+  'virtualgifts+uninstall_inprogress_desc' => 'Please wait while all gifts content is being removed. This make take awhile depending on the number of gifts on your site.',
+  'virtualgifts+usercredits_action_send_virtual_gift' => 'Send virtual gifts',
+  'virtualgifts+user_gifts' => 'Gifts received by {$user}',
+  'base+questions_question_relationship_value_16' => '',
 );
 ?>
