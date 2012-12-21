@@ -121,14 +121,14 @@ $language[4] = array (
   'base+date_time_today' => '今天',
   'admin+save_btn_label' => '保存',
   'admin+updated_msg' => '更新成功',
-  'admin+page_default_title' => 'lost 管理页面',
-  'admin+page_default_heading' => 'lost 管理员',
+  'admin+page_default_title' => '沦落人- 管理页面',
+  'admin+page_default_heading' => '沦落人- 管理员',
   'nav+page_custom_title' => '{$title}',
   'base+main_menu_my_profile' => '我的资料',
   'base+main_menu_index' => '主页',
-  'nav+page_default_title' => 'lost - lost',
-  'nav+page_default_heading' => 'lost',
-  'nav+page_default_description' => 'lost 社区',
+  'nav+page_default_title' => '沦落人- - lost',
+  'nav+page_default_heading' => '沦落人-',
+  'nav+page_default_description' => '沦落人- 社区',
   'nav+page_default_keywords' => '',
   'admin+themes_settings_page_title' => '编辑主题',
   'admin+sidebar_menu_settings' => '设置',
@@ -160,7 +160,7 @@ $language[4] = array (
   'admin+theme_settings_cap_label' => '主题定制',
   'admin+theme_info_author_url_label' => '作者网址',
   'admin+theme_info_author_label' => '作者',
-  'base+pages_label' => '页:',
+  'base+pages_label' => '分页:',
   'admin+main_menu_admin' => '管理',
   'base+date_time_within_one_minute' => '1分钟内',
   'base+date_time_one_minute_ago' => '1 分钟前',
@@ -172,7 +172,7 @@ $language[4] = array (
   'admin+permissions_default_role' => '默认',
   'base+email_verify_template_html' => '亲爱的 {$username},<br />
 			<br />
-			感谢您注册为lost用户! 现在，您需要验证您的电子邮件，通过点击这里 <a
+			感谢您注册为沦落人-用户! 现在，您需要验证您的电子邮件，通过点击这里 <a
 			href="{$url}">clicking here</a><br
 			/>
 			<br
@@ -182,7 +182,7 @@ $language[4] = array (
 			{$code}<br />
 			<br />
 			致谢!,<br />
-			lost 管理员',
+			沦落人- 管理员',
   'admin+questions_question_description_label' => '简介',
   'admin+sidebar_menu_privacy' => '隐私和权限',
   'base+comment_add_submit_label' => '添加',
@@ -198,7 +198,7 @@ $language[4] = array (
   'base+questions_add_new_account_type' => '添加新的帐户类型',
   'base+join_submit_button_continue' => '继续',
   'base+join_submit_button_join' => '注册',
-  'base+questions_question_9221d78a4201eac23c972e1d4aa2cee6_label' => 'Music',
+  'base+questions_question_9221d78a4201eac23c972e1d4aa2cee6_label' => '音乐',
   'base+questions_question_c441a8a9b955647cdf4c81562d39068a_label' => '喜欢的书',
   'base+questions_section_47f3a94e6cfe733857b31116ce21c337_label' => '兴趣',
   'admin+sidebar_menu_item_plugin_photo' => '图片',
@@ -239,7 +239,7 @@ $language[4] = array (
   'base+avatar_console_edit_profile' => '编辑我的个人资料',
   'base+base_document_404_heading' => '未找到',
   'base+base_document_404' => '很抱歉，文件不存在.',
-  'base+view_all' => '查看所有',
+  'base+view_all' => '查看更多',
   'base+month_12' => '12月',
   'base+user_list_menu_item_latest' => '最新',
   'base+user_list_menu_item_featured' => '特色',
@@ -315,7 +315,7 @@ $language[4] = array (
   'admin+heading_user_settings' => '用户设置',
   'base+questions_question_accountType_description' => '选择帐户类型',
   'base+questions_question_username_description' => '应该只包含字母和数字',
-  'base+questions_question_email_description' => '应该是有效的',
+  'base+questions_question_email_description' => '填写有效的邮箱',
   'base+join_index' => '加入社区',
   'admin+site_installation' => '网站安装',
   'admin+site_title' => '网站名称',
@@ -345,10 +345,10 @@ $language[4] = array (
   'base+authorization_action_blogs_add_comment' => '添加评论',
   'base+about_me_widget_inv_text' => '这里添加你的个人信息',
   'base+about_me_widget_default_title' => '关于我',
-  'base+about_me_widget_content_saved' => '说明更新',
+  'base+about_me_widget_content_saved' => '个人描述已更新',
   'admin+heading_browse_users' => '浏览用户',
   'admin+no_users' => '无用户',
-  'base+check_all' => '检查所有',
+  'base+check_all' => '全选',
   'base+with_selected' => '选择:',
   'admin+joined' => '加入',
   'admin+user' => '用户',
@@ -369,7 +369,7 @@ $language[4] = array (
   'base+questions_admin_question_label' => '问题',
   'base+questions_menu_add' => '添加问题',
   'base+questions_menu_editAccountType' => '编辑帐户类型',
-  'base+copyright' => '© Copyright lost',
+  'base+copyright' => '© Copyright 沦落人-',
   'base+questions_account_type_was_added' => '帐户类型已添加',
   'admin+questions_account_type_was_deleted' => '账户类型已删除',
   'base+questions_admin_edit_label' => '编辑',
@@ -387,7 +387,7 @@ $language[4] = array (
   'base+questions_question_55c95a36e50b0d7a795fb1caa8a8e520_label' => 'qwe',
   'base+questions_question_presentation_textarea_label' => '扩展文本',
   'base+questions_question_presentation_checkbox_label' => '是/否',
-  'base+questions_question_presentation_multicheckbox_label' => '选择题',
+  'base+questions_question_presentation_multicheckbox_label' => '下拉菜单',
   'base+questions_question_presentation_date_label' => '日期',
   'base+questions_question_presentation_url_label' => 'URL',
   'base+questions_question_presentation_password_label' => '密码',
@@ -407,7 +407,7 @@ $language[4] = array (
   'base+widgets_panel_dashboard_label' => '个人中心',
   'admin+page_title_manage_plugins' => '管理',
   'admin+manage_plugins_active_box_cap_label' => '激活插件',
-  'admin+manage_plugins_inactive_box_cap_label' => '暂无插件',
+  'admin+manage_plugins_inactive_box_cap_label' => '停用插件',
   'admin+manage_plugins_settings_button_label' => '设置',
   'admin+manage_plugins_deactivate_button_label' => '停用',
   'admin+manage_plugins_activate_button_label' => '激活',
@@ -501,7 +501,7 @@ $language[4] = array (
   'admin+questions_delete_section_confirmation' => '你确定要删除本节吗?',
   'base+email_verify_template_text' => '亲爱的 {$username},
 			
-			感谢您注册为 lost用户!
+			感谢您注册为 沦落人-用户!
 			您需要确认您的注册邮箱:点击这个链接 {$url}
 			
 			另外，您可以插入这个代码在验证页面
@@ -509,7 +509,7 @@ $language[4] = array (
 			{$code}
 			
 			谢谢,
-			lost 管理',
+			沦落人- 管理',
   'base+email_verify_email_verify_success' => '电子邮件验证成功',
   'admin+questions_add_new_section_button' => '添加',
   'base+questions_question_password_description' => '',
@@ -522,7 +522,7 @@ $language[4] = array (
 			</p>
 			<p>
 			<b>如果您没有收到电子邮件</b> 请添加
-			<i>changioux@yahoo.cn</i>
+			<i>admin@lunluoren.com</i>
 			到你的白名单/地址簿/联系人列表
 			</p>',
   'base+email_verify_email_verify_fail' => '对不起，电子邮件地址验证失败.<br/>最有可能的原因是:<br/> 
@@ -555,7 +555,7 @@ $language[4] = array (
   'admin+massmailing' => '群发邮件',
   'base+questions_section_user_photo_label' => '用户照片',
   'base+questions_section_captcha_label' => '验证码',
-  'base+questions_question_relationship_label' => '这里',
+  'base+questions_question_relationship_label' => '交友目的',
   'admin+massmailing_following_variables_text' => '您可以使用下列变量:',
   'base+widgets_admin_customization_box_title' => '用户定制',
   'admin+user_display_settings' => '显示设置',
@@ -601,10 +601,10 @@ $language[4] = array (
   'admin+pages_edit_external_url_label' => 'URL',
   'base+comments_add_login_message' => '您需要登录才能评论',
   'admin+pages_edit_external_url_open_in_new_window' => '新窗口中打开',
-  'base+questions_question_relationship_value_1' => '趣味',
-  'base+questions_question_relationship_value_2' => '所有',
+  'base+questions_question_relationship_value_1' => '兴趣',
+  'base+questions_question_relationship_value_2' => '其他',
   'base+questions_question_relationship_value_4' => '约会',
-  'base+questions_question_relationship_value_8' => '友谊',
+  'base+questions_question_relationship_value_8' => '交友',
   'admin+pages_edit_visible_for_guests' => '游客',
   'admin+pages_edit_visible_for_members' => '注册用户',
   'admin+pages_add_menu_name' => '菜单名称',
@@ -727,7 +727,7 @@ $language[4] = array (
   'base+delete_user_confirmation_label' => '确认删除',
   'base+delete_user_success_message' => '帐户被删除,回到<br />
 			Go back to <a
-			href="http://chguoxi.gotoip55.com/">网站</a>',
+			href="http://www.lostman.com/">网站</a>',
   'base+admin_delete_user_text' => '你确定要删除这个用户吗?',
   'admin+mail_settings_updated' => 'SMTP 设置已更新',
   'admin+menu_item_mail_settings' => 'SMTP',
@@ -781,7 +781,7 @@ $language[4] = array (
   'admin+splash_leave_url_desc' => '游客如果选择离开',
   'admin+splash_intro_value' => '您确定要进入这个网站吗?',
   'admin+splash_button_value' => '进入',
-  'admin+sidebar_menu_item_splash_screen' => '飞溅屏幕',
+  'admin+sidebar_menu_item_splash_screen' => '启动页面',
   'admin+splash_screen_section_label' => '启动画面设置',
   'admin+splash_screen_submit_success_message' => '设置已更新',
   'admin+splash_leave_button_label' => '离开',
@@ -796,54 +796,54 @@ $language[4] = array (
   'admin+invite_members_max_limit_message' => '请输入小于50个邮箱',
   'admin+invite_members_min_limit_message' => '你至少需要输入一个邮箱',
   'admin+invite_members_success_message' => '邀请信息发送成功',
-  'base+mail_template_admin_invite_user_subject' => '邀请加入 lost',
+  'base+mail_template_admin_invite_user_subject' => '邀请加入 沦落人-',
   'base+mail_template_admin_invite_user_content_html' => '<p>
 			Hi,
 			</p>
 			<p>
 			我们邀请您加入 -
-			lost.<br />
+			沦落人-.<br />
 			请在 <a
 			href="{$url}">这里</a>注册
 			</p>
 			管理<br
 			/>
-			http://chguoxi.gotoip55.com/',
+			http://www.lostman.com/',
   'base+mail_template_admin_invite_user_content_text' => 'Hi,
 			
-			我们邀请您加入 - lost.
+			我们邀请您加入 - 沦落人-.
 			请在这里加入: {$url}
 			
 			管理
-			http://chguoxi.gotoip55.com/',
+			http://www.lostman.com/',
   'base+authorization_give_user_role' => '更改角色',
   'base+moderator_panel' => '主面板',
   'base+approve_users' => '审核用户',
-  'base+wait_for_approval' => '<center>您的帐户待批 准</center>',
+  'base+wait_for_approval' => '<center>您的帐户已通过验证!</center>',
   'admin+permissions_index_user_approve' => '强制用户批准',
   'base+profile_toolbar_user_approve_label' => '核准',
   'base+user_approved' => '用户批准',
   'base+user_approved_mail_subject' => '您的账户已经被批准',
   'base+user_approved_mail_txt' => '尊敬的 {$user_name},
 			
-			我们很高兴的通知您,您在 lost 的账户已被批准
-			现在您可以点击从这里: http://chguoxi.gotoip55.com/登陆您 的账户
+			我们很高兴的通知您,您在 沦落人- 的账户已被批准
+			现在您可以点击从这里: http://www.lostman.com/登陆您 的账户
 			
 			我们希望您尽情享受本站带给您的乐趣.
 			
 			谢谢您选择本站
 			管理员敬上
-			lost
-			http://chguoxi.gotoip55.com/',
+			沦落人-
+			http://www.lostman.com/',
   'base+user_approved_mail_html' => '<p>
 			尊敬的 {$user_name},
 			</p>
 			<p>
 			恭喜您,您的账号 <a
-			href="http://chguoxi.gotoip55.com/">lost</a> 已被批准. Now
+			href="http://www.lostman.com/">沦落人-</a> 已被批准. Now
 			现在您可以在这里查看:
 			<a
-			href="http://chguoxi.gotoip55.com/">http://chguoxi.gotoip55.com/</a>
+			href="http://www.lostman.com/">http://www.lostman.com/</a>
 			</p>
 			<p>
 			我们希望您尽情享受本站带给您的乐趣.
@@ -852,18 +852,18 @@ $language[4] = array (
 			谢谢您选择本站,<br />
 			管理员敬上<br />
 			<a
-			href="http://chguoxi.gotoip55.com/">lost</a>
+			href="http://www.lostman.com/">沦落人-</a>
 			</p>',
   'admin+sidebar_menu_item_maintenance' => '维护页面',
   'admin+maintenance_page_heading' => '维护页',
   'admin+maintenance_section_label' => '设置',
-  'admin+maintenance_text_value' => '<h1 class="ow_stdmargin ow_ic_gear_wheel">网站在维护中.
-		</h1>很抱歉,网站正在维护中,请稍后再访问.',
+  'admin+maintenance_text_value' => '感谢您的关注,网站建设中，将在近期开放，欢迎再次访问！
+您仍然可以以管理员身份从: <a href="http://www.lunluoren.com/sign-in">这里登入</a>',
   'admin+maintenance_enable_label' => '关闭您的网站,并输出维护页面.',
   'admin+maintenance_enable_desc' => '<p>
 		这将会使您的网站无法访问并输出维护信息.</p>
 			<b>您仍然可以以管理员身份从这里登入: <a
-			href="http://chguoxi.gotoip55.com/sign-in">http://chguoxi.gotoip55.com/登入</a></b>',
+			href="http://www.lostman.com/sign-in">http://www.lostman.com/登入</a></b>',
   'admin+maintenance_text_label' => '维护消息',
   'admin+maintenance_text_desc' => '允许HTML标签',
   'admin+maintenance_submit_success_message' => '维护模式已改变',
@@ -1125,7 +1125,7 @@ $language[4] = array (
   'base+flag_as' => 'Flag this as...',
   'base+flag_flag' => 'flag',
   'base+flag_accepted' => 'Flag accepted',
-  'base+flag_already_flagged' => 'You\'ve already flagged this',
+  'base+flag_already_flagged' => '您已经举报过这个了',
   'admin+user_search_result' => '用户的搜索结果为: "<b>{$for}</b>"',
   'base+activity_stamp' => '活跃:',
   'base+activity_online' => '当前在线',
@@ -1133,7 +1133,7 @@ $language[4] = array (
   'admin+themes_add_new_box_cap_label' => '添加新主题',
   'base+users' => '用户',
   'base+for_approval' => '审核',
-  'base+flagged_content' => 'Flagged content',
+  'base+flagged_content' => '被举报内容',
   'admin+heading_user_roles' => '用户角色管理',
   'admin+heading_user_role' => '用户角色: {$role}',
   'admin+back_to_roles' => '返回用户角色',
@@ -1262,7 +1262,7 @@ $language[4] = array (
   'base+site_email_verify_subject' => '验证邮箱',
   'base+site_email_verify_template_text' => '您好,
 			
-			有人 (可能是您)试图把这个邮箱设为lost (http://chguoxi.gotoip55.com/)
+			有人 (可能是您)试图把这个邮箱设为沦落人- (http://www.lostman.com/)
 			网站的正式联系邮箱
 			
 			要完成这个过程,你需要打开以下网址来验证这个电子邮件地址: {$url}
@@ -1274,15 +1274,15 @@ $language[4] = array (
 			
 			感谢您的支持,
 			
-			lost
+			沦落人-
 			管理员
-			http://chguoxi.gotoip55.com/',
+			http://www.lostman.com/',
   'base+site_email_verify_template_html' => '<p>
 			您好,
 			</p>
 			<p>
 			有人
-			(可能是您)试图把这个邮箱设为 <a href="http://chguoxi.gotoip55.com/">lost</a>
+			(可能是您)试图把这个邮箱设为 <a href="http://www.lostman.com/">沦落人-</a>
 			网站的正式联系邮箱.
 			</p>
 			<p>
@@ -1300,9 +1300,9 @@ $language[4] = array (
 			<p>
 			感谢您的支持,<br />
 			<br />
-			lost<br />
+			沦落人-<br />
 			管理员
-			http://chguoxi.gotoip55.com/
+			http://www.lostman.com/
 			</p>',
   'base+date_time_tomorrow' => '明天',
   'admin+manage_plugins_uninstall_request_box_cap_label' => '插件卸载请求',
@@ -1386,7 +1386,7 @@ $language[4] = array (
 			如果您没有要求重设密码,请忽略本邮件.
 			
 			谢谢您的支持,
-			lost',
+			沦落人-',
   'base+reset_password_mail_template_content_html' => '亲爱的 {$username},
 			<br />
 			您要求重设您的密码,请点击以下连接({$resetUrl}) 修改您的密码.
@@ -1397,7 +1397,7 @@ $language[4] = array (
 			如果您没有要求重设密码,请忽略本邮件.
 			<br /><br />
 			感谢您的支持,
-			lost<br />',
+			沦落人-<br />',
   'base+authorization_action_market_delete_comment_by_content_owner' => '内容所有者可以删除评论',
   'base+authorization_group_market' => '超市',
   'admin+questions_edit_username_warning' => '<b>我们不推荐使username字段的可编辑,因为改变username会导致改变个人资料的URL.</b>',
@@ -1442,14 +1442,14 @@ $language[4] = array (
   'base+avatar_user_list_select_count_label' => '#count# 用户选择',
   'base+avatar_user_list_select_button_label' => '提交',
   'base+user_page_heading_status' => '{$username} <span class="ow_small">{$status}</span>',
-  'base+authorization_action_event_add_comment' => '评论事件',
-  'base+authorization_group_event' => '事件',
+  'base+authorization_action_event_add_comment' => '评论活动',
+  'base+authorization_group_event' => '活动',
   'base+base_document_403_heading' => '禁止',
   'base+base_document_403' => '您没有权限访问该页面.',
   'base+base_document_404_title' => '未找到',
   'base+base_document_403_title' => 'Forbidden',
-  'base+authorization_action_event_view_event' => '查看事件',
-  'base+authorization_action_event_add_event' => '添加事件',
+  'base+authorization_action_event_view_event' => '查看活动',
+  'base+authorization_action_event_add_event' => '添加活动',
   'base+form_element_submit_default_value' => '确定',
   'base+empty_user_avatar_list_select' => '无用户',
   'base+questions_question_a5115de7f38988e748370a59ba0b311d_value_8' => '12312312',
@@ -1586,11 +1586,11 @@ $language[4] = array (
   'admin+join_display_terms_of_use_desc' => '用户必须同意使用条款才能注册',
   'admin+join_display_photo_upload_desc' => '注册时让用户上传头像',
   'base+local_page_title_page-119658' => '使用条款',
-  'base+local_page_meta_tags_page-119658' => '使用条款',
+  'base+local_page_meta_tags_page-119658' => '',
   'base+page-119658' => '使用条款',
   'base+questions_section_terms_of_use_label' => '使用条款',
   'base+questions_question_user_terms_of_use_label' => '我同意 <a target=\'blank\'
-			href=\'http://chguoxi.gotoip55.com/terms-of-use\'
+			href=\'http://www.lostman.com/terms-of-use\'
 			>使用条款</a>',
   'base+local_page_content_page-119658' => '<p class="ow_stdmargin">
 			欢迎来到我们的网站。如果您继续浏览和使用本网站，您同意遵守并使用下面的条款和条件，
@@ -1690,38 +1690,38 @@ $language[4] = array (
   'base+ws_video_head_label' => '插入视频',
   'base+ws_video_empty_field' => '请输入视频代码',
   'base+ws_html_head_label' => '插入HTML',
-  'base+welcome_letter_subject' => 'lost 注册',
-  'base+welcome_letter_template_text' => '欢迎来到 lost! 感谢您加入 lost.
+  'base+welcome_letter_subject' => '沦落人- 注册',
+  'base+welcome_letter_template_text' => '欢迎来到 沦落人-! 感谢您加入 沦落人-.
 			以下是一些您可能需要的操作的便捷入口:
-			- 主页: http://chguoxi.gotoip55.com/
-			- 更改头像: http://chguoxi.gotoip55.com/profile/avatar
+			- 主页: http://www.lostman.com/
+			- 更改头像: http://www.lostman.com/profile/avatar
 			- 修改个人资料:
-			http://chguoxi.gotoip55.com/profile/edit
-			- 预览/重新整理资料: http://chguoxi.gotoip55.com/my-profile
+			http://www.lostman.com/profile/edit
+			- 预览/重新整理资料: http://www.lostman.com/my-profile
 			-
-			看看谁在这里: http://chguoxi.gotoip55.com/users
+			看看谁在这里: http://www.lostman.com/users
 			免费加入我们的社区!
-			lost 管理员
-			http://chguoxi.gotoip55.com/',
-  'base+welcome_letter_template_html' => '欢迎来到<a href="http://chguoxi.gotoip55.com/">lost</a>!
-			感谢您加入lost. 以下是一些您可能需要的操作的便捷入口:
+			沦落人- 管理员
+			http://www.lostman.com/',
+  'base+welcome_letter_template_html' => '欢迎来到<a href="http://www.lostman.com/">沦落人-</a>!
+			感谢您加入沦落人-. 以下是一些您可能需要的操作的便捷入口:
 			<br/>
 			- <a
-			href="http://chguoxi.gotoip55.com/">主页</a><br/>
+			href="http://www.lostman.com/">主页</a><br/>
 			- <a
-			href="http://chguoxi.gotoip55.com/profile/avatar">更改头像
+			href="http://www.lostman.com/profile/avatar">更改头像
 			</a><br/>
 			-
-			<a href="http://chguoxi.gotoip55.com/profile/edit">修改个人资料
+			<a href="http://www.lostman.com/profile/edit">修改个人资料
 			</a><br/>
 			- <a
-			href="http://chguoxi.gotoip55.com/my-profile">预览/重新整理资料
+			href="http://www.lostman.com/my-profile">预览/重新整理资料
 			</a><br/>
 			-
-			<a href="http://chguoxi.gotoip55.com/users">看看谁在这里</a><br/>
+			<a href="http://www.lostman.com/users">看看谁在这里</a><br/>
 			免费加入我们的社区!<br/>
 			<a
-			href="http://chguoxi.gotoip55.com/">lost</a>
+			href="http://www.lostman.com/">沦落人-</a>
 			管理员<br/>',
   'base+local_page_content_page_13904610' => 'custom page',
   'base+ws_button_label_more' => '更多',
@@ -1734,10 +1734,10 @@ $language[4] = array (
 			您要求重设密码, 这里是您的新密码:
 			{$password}
 			
-			随意登录到您的帐户t http://chguoxi.gotoip55.com/如果有必要, 可再次更改您的密码.
+			随意登录到您的帐户t http://www.lostman.com/如果有必要, 可再次更改您的密码.
 			
 			感谢您的支持,祝您生活愉快!,,
-			lost',
+			沦落人-',
   'admin+menu_item_user_input_settings' => '用户输入设置',
   'admin+user_input_settings_user_content' => '文本内容',
   'admin+user_input_settings_comments' => '内容评论',
@@ -1768,11 +1768,11 @@ $language[4] = array (
 			<b>{$password}</b><br />
 			<br />
 			随时登录到您的帐户 <a
-			href="http://chguoxi.gotoip55.com/">http://chguoxi.gotoip55.com/</a>如果有必要,可再次更改您的密码.<br
+			href="http://www.lostman.com/">http://www.lostman.com/</a>如果有必要,可再次更改您的密码.<br
 			/>
 			<br />
 			感谢您的支持,祝您生活愉快!,<br />
-			lost',
+			沦落人-',
   'admin+page_settings_favicon_submit_error_message' => '请提供有效的ICO格式图像',
   'base+authorization_action_groups_create' => '创建分组',
   'base+local_page_title_page_7680520' => 'jjj',
@@ -1786,7 +1786,7 @@ $language[4] = array (
   'admin+ads_delete_banner_confirm_message' => '',
   'admin+ads_banner_edit_success_message' => '',
   'admin+ads_banner_delete_success_message' => '',
-  'admin+ads_add_banner' => '',
+  'admin+ads_add_banner' => '添加banner广告',
   'admin+ads_add_banner_code_desc' => '',
   'admin+ads_add_banner_code_label' => '',
   'admin+ads_banner_all_region' => '',
@@ -1824,7 +1824,6 @@ $language[4] = array (
   'base+page_24622628' => '自定义页',
   'base+page_45248787' => 'test',
   'base+page_88027910' => 'mmm',
-  'base+questions_section_e46697c921740b10b1ac7223a14155b2_label' => 'test',
   'admin+manage_plugins_add_ftp_move_error' => '无法通过FTP上传文件',
   'admin+found_users' => '找到: <b>{$count}</b> 个用户',
   'admin+search_by' => '搜索',
@@ -1986,8 +1985,8 @@ $language[4] = array (
   'base+tags_cloud_cap_label' => '标签',
   'base+user_deleted_message' => '帐户被删除 <br />
 			回到 <a
-			href="http://chguoxi.gotoip55.com/">网站</a>',
-  'base+local_page_title_page_81959573' => 'Privacy Policy',
+			href="http://www.lostman.com/">网站</a>',
+  'base+local_page_title_page_81959573' => '隐私政策',
   'base+local_page_meta_tags_page_81959573' => '',
   'base+local_page_content_page_81959573' => '<p class="ow_smallmargin">
 			感谢您访问我们的网站。本隐私政策将告诉您如何使用本网站收集的个人信息。
@@ -2078,7 +2077,7 @@ $language[4] = array (
   'newsfeed+feed_likes_2_label' => '{$user1} 和 {$user2} 喜欢这个',
   'newsfeed+feed_likes_3_label' => '{$user1}, {$user2} 和 {$user3} 喜欢这个',
   'newsfeed+feed_likes_list_label' => '<a href="{$url}">{$count} 个会员</a> 喜欢这个',
-  'newsfeed+feed_view_more_btn' => '查看所有',
+  'newsfeed+feed_view_more_btn' => '查看更多',
   'newsfeed+follow_button' => '关注',
   'newsfeed+follow_complete_message' => '您现在已经关注 {$username}',
   'newsfeed+item_deleted_feedback' => '删除项目',
@@ -2094,7 +2093,7 @@ $language[4] = array (
   'newsfeed+usercredits_action_add_comment' => '评论动态',
   'newsfeed+widget_feed_title' => '动态消息',
   'newsfeed+widget_settings_count' => '显示的项目',
-  'newsfeed+widget_settings_view_more' => '查看所有',
+  'newsfeed+widget_settings_view_more' => '查看更多',
   'mailbox+add_button' => '发送',
   'mailbox+add_message' => '已添加新信息',
   'mailbox+admin_config' => '邮箱 - 插件设置',
@@ -2110,7 +2109,7 @@ $language[4] = array (
   'mailbox+compose_message' => '撰写邮件',
   'mailbox+conversation_box_info' => '显示{$total}条消息中的 {$showing} 条, {$new} 条新消息',
   'mailbox+conversation_label' => '会话',
-  'mailbox+conversation_meta_tilte' => '{$conversation_title} - lost',
+  'mailbox+conversation_meta_tilte' => '{$conversation_title} - 沦落人-',
   'mailbox+create_conversation_button' => '发送私信',
   'mailbox+create_conversation_fail_message' => '消息发送失败',
   'mailbox+create_conversation_message' => '信息发送成功',
@@ -2128,7 +2127,7 @@ $language[4] = array (
   'mailbox+file_attachment_disabled' => '禁用文件附件',
   'mailbox+general_settings' => '常规设置',
   'mailbox+inbox_label' => '收件箱',
-  'mailbox+inbox_meta_tilte' => '我的收件箱 - lost',
+  'mailbox+inbox_meta_tilte' => '我的收件箱 - 沦落人-',
   'mailbox+keep_unread_button' => '设为未读',
   'mailbox+mailbox' => '收件箱',
   'mailbox+mark_as_read_button' => '标记为已读',
@@ -2147,21 +2146,21 @@ $language[4] = array (
 			<br/>
 			您收到来自
 			{$sendername} 用户从
-			lost发来的消息.<br/>
+			沦落人-发来的消息.<br/>
 			<br/>
 			进入 <a href="{$replyUrl}">{$replyUrl}</a> 回复此消息.
 			<br/>
 			<br/>
-			诚挚的lost 管理员敬上!',
+			诚挚的沦落人- 管理员敬上!',
   'mailbox+notification_mail_template_text' => '您好 {$username},
 			
 			您收到来自 {$sendername} 用户从
-			lost发来的消息.
+			沦落人-发来的消息.
 			
 			进入 {$replyUrl} 回复此消息. 
 			
 			诚挚的,
-			lost 管理员敬上!',
+			沦落人- 管理员敬上!',
   'mailbox+no_conversations' => '没有消息',
   'mailbox+permission_denied' => '没有权限',
   'mailbox+please_enter_captcha' => '在您发送消息之前,为了确定不是机器操作,请输入下面的人工验证码:',
@@ -2173,7 +2172,7 @@ $language[4] = array (
   'mailbox+sent_button' => '已发送',
   'mailbox+sent_label' => '已发送',
   'mailbox+sent_message_form_label' => '回复',
-  'mailbox+sent_meta_tilte' => '发送消息 - lost',
+  'mailbox+sent_meta_tilte' => '发送消息 - 沦落人-',
   'mailbox+settings_updated' => '设置已更新',
   'mailbox+subject' => '主题',
   'mailbox+text' => '文本',
@@ -2213,27 +2212,27 @@ $language[4] = array (
 			href="{$receiver_url}">{$receiver}</a>
 			已确认您把他添加为好友的请求
 			<a
-			href="http://chguoxi.gotoip55.com/">lost</a>.
+			href="http://www.lostman.com/">沦落人-</a>.
 			</p>
 			<p>
 			感谢您选择本站,<br />
 			管理员敬上<br />
 			<a
-			href="http://chguoxi.gotoip55.com/">lost</a>
+			href="http://www.lostman.com/">沦落人-</a>
 			</p>',
   'friends+confirmed_mail_subject' => '{$receiver} 确认您是Ta的好友',
   'friends+confirmed_mail_txt' => '亲爱的 {$sender},
 			
 			我们很高兴的通知您 {$receiver} 已确认您把他添加为好友的请求
-			lost.
+			沦落人-.
 			
 			{$receiver}的个人资料: {$receiver_url}
-			lost: http://chguoxi.gotoip55.com/
+			沦落人-: http://www.lostman.com/
 			
 			感谢您选择本站,
 			管理员敬上
-			lost
-			http://chguoxi.gotoip55.com/',
+			沦落人-
+			http://www.lostman.com/',
   'friends+email_notifications_setting_accept' => '有人接受我的好友请求',
   'friends+email_notifications_setting_request' => '有人想添加我为好友',
   'friends+feedback_cancelled' => '取消',
@@ -2249,7 +2248,7 @@ $language[4] = array (
   'friends+ignore_request' => '忽略',
   'friends+like_activity_string' => '赞一个 {$user1} 和 {$user2} 成为好友',
   'friends+my_friends_page_heading' => '我的好友',
-  'friends+my_friends_page_title' => '我的好友 - lost',
+  'friends+my_friends_page_title' => '我的好友 - 沦落人-',
   'friends+new_friend_added' => '添加新好友',
   'friends+notification_section_label' => '好友',
   'friends+notify_accept' => '{$receiver} 确认您的好友请求',
@@ -2272,7 +2271,7 @@ $language[4] = array (
   'friends+sent_requests_tab' => '发送了 {$count} 个请求',
   'friends+usercredits_action_add_friend' => '添加好友',
   'friends+user_friends_page_heading' => '{$user}的好友',
-  'friends+user_friends_page_title' => '{$user}的好友 - lost',
+  'friends+user_friends_page_title' => '{$user}的好友 - 沦落人-',
   'friends+user_widget_empty' => '暂时没有好友',
   'friends+user_widget_settings_count' => '计数',
   'friends+user_widget_title' => '好友',
@@ -2290,17 +2289,17 @@ $language[4] = array (
   'notifications+config_title' => '附表设置',
   'notifications+dashboard_menu_item_label' => '电子邮件通知',
   'notifications+email_html_bottom' => '快速聊天,<br />
-			lost, 管理员<br />
-			http://chguoxi.gotoip55.com/',
-  'notifications+email_html_description' => '这是一些和你有关的最新动态 <a href="http://chguoxi.gotoip55.com/">
-			lost</a>',
+			沦落人-, 管理员<br />
+			http://www.lostman.com/',
+  'notifications+email_html_description' => '这是一些和你有关的最新动态 <a href="http://www.lostman.com/">
+			沦落人-</a>',
   'notifications+email_html_head' => '亲爱的 {$userName},',
-  'notifications+email_subject' => 'lost 上的最新动态',
+  'notifications+email_subject' => '沦落人- 上的最新动态',
   'notifications+email_txt_bottom' => '快速聊天,
-			lost, 管理员
-			http://chguoxi.gotoip55.com/',
+			沦落人-, 管理员
+			http://www.lostman.com/',
   'notifications+email_txt_head' => '亲爱的 {$userName},
-			这是一些在lost上和您有关的动态',
+			这是一些在沦落人-上和您有关的动态',
   'notifications+save_config_btn' => '保存',
   'notifications+save_setting_btn_label' => '保存',
   'notifications+schedule_daily' => '每日',
@@ -2335,12 +2334,12 @@ $language[4] = array (
   'blogs+blog_index' => '博客首页',
   'blogs+blog_manage_delete' => '删除',
   'blogs+blog_post_description' => '{$post_body} 标签: {$tags}.',
-  'blogs+blog_post_title' => '{$post_title} - 发布于 {$display_name} lost',
+  'blogs+blog_post_title' => '{$post_title} - 发布于 {$display_name} 沦落人-',
   'blogs+blog_widget_preview_length_lbl' => '预览长度',
   'blogs+browse_by_tag_description' => '通过标签浏览博客文章: {$tags}及其他.',
   'blogs+browse_by_tag_item_description' => '浏览博客文章标签为 `{$tag}`.',
-  'blogs+browse_by_tag_item_title' => '`{$tag}` 相关的博客文章 - lost',
-  'blogs+browse_by_tag_title' => '浏览博客文章标签 - lost',
+  'blogs+browse_by_tag_item_title' => '`{$tag}` 相关的博客文章 - 沦落人-',
+  'blogs+browse_by_tag_title' => '浏览博客文章标签 - 沦落人-',
   'blogs+by' => '由',
   'blogs+change_status_draft' => '更改状态',
   'blogs+cmp_widget_post_count' => '博客文章显示数量',
@@ -2368,9 +2367,9 @@ $language[4] = array (
   'blogs+go_to_blog' => '转到博客',
   'blogs+index_widget_empty' => '没有博客',
   'blogs+last_saved' => '最后保存',
-  'blogs+latest_description' => '最新更新的用户博客 lost。',
+  'blogs+latest_description' => '最新更新的用户博客 沦落人-。',
   'blogs+latest_post' => '最新文章',
-  'blogs+latest_title' => '用户博客 - lost',
+  'blogs+latest_title' => '用户博客 - 沦落人-',
   'blogs+list_page_heading' => '用户博客',
   'blogs+main_menu_item' => '博客',
   'blogs+management_page_heading' => '管理我的博客',
@@ -2386,8 +2385,8 @@ $language[4] = array (
   'blogs+menuItemMostDiscussed' => '最多评论',
   'blogs+menuItemTopRated' => '评分最高',
   'blogs+more' => '更多信息',
-  'blogs+most_discussed_description' => '最多用户评论的博客 lost.',
-  'blogs+most_discussed_title' => '最多评论的博客 - lost',
+  'blogs+most_discussed_description' => '最多用户评论的博客 沦落人-.',
+  'blogs+most_discussed_title' => '最多评论的博客 - 沦落人-',
   'blogs+my_blog' => '我的博客',
   'blogs+new_post' => '新博客文章',
   'blogs+next_post' => '下一篇',
@@ -2420,8 +2419,8 @@ $language[4] = array (
   'blogs+toolbar_comments' => '评论',
   'blogs+toolbar_delete' => '删除',
   'blogs+toolbar_edit' => '编辑',
-  'blogs+top_rated_description' => '最多用户好评的博客在 lost.',
-  'blogs+top_rated_title' => '最受好评的博客 - lost',
+  'blogs+top_rated_description' => '最多用户好评的博客在 沦落人-.',
+  'blogs+top_rated_title' => '最受好评的博客 - 沦落人-',
   'blogs+uninstall_inprogress' => '处理中...',
   'blogs+uninstall_inprogress_desc' => '请等待，而所有照片内容将被删除。这需要一段时间，取决于您的博客上的照片数量。',
   'blogs+update' => '更新',
@@ -2432,7 +2431,7 @@ $language[4] = array (
   'blogs+user_blog_archive_title' => '{$month_name} 存档于 {$display_name} 的博客',
   'blogs+user_blog_description' => '最新发布的博客文章 {$display_name}.',
   'blogs+user_blog_page_heading' => '{$name}的博客',
-  'blogs+user_blog_title' => '{$display_name}的博客 - lost',
+  'blogs+user_blog_title' => '{$display_name}的博客 - 沦落人-',
   'blogs+user_blog_widget_drafts' => '草稿',
   'blogs+user_blog_widget_published_incoming_comments' => '收到的评论',
   'blogs+user_blog_widget_published_posts' => '发布博客文章',
@@ -2463,7 +2462,7 @@ $language[4] = array (
   'groups+create_heading' => '创建小组',
   'groups+create_new_topic' => '创建新的论坛话题 - {$group}',
   'groups+create_no_permission' => '您不能创建一个小组',
-  'groups+create_page_title' => '创建新的小组 - lost',
+  'groups+create_page_title' => '创建新的小组 - 沦落人-',
   'groups+create_submit_btn_label' => '创建',
   'groups+create_success_msg' => '创建小组成功',
   'groups+creator' => '创建者',
@@ -2521,21 +2520,21 @@ $language[4] = array (
   'groups+invite_decline_label' => '忽略',
   'groups+invite_fb_title' => '邀请我的朋友',
   'groups+invite_list_heading' => '小组邀请',
-  'groups+invite_list_page_title' => '小组邀请 - lost',
+  'groups+invite_list_page_title' => '小组邀请 - 沦落人-',
   'groups+join_complete_message' => '您成功加入了该小组',
-  'groups+latest_list_page_description' => '创建最多小组的用户为 lost.',
-  'groups+latest_list_page_title' => '最近创建小组的用户 lost',
+  'groups+latest_list_page_description' => '创建最多小组的用户为 沦落人-.',
+  'groups+latest_list_page_title' => '最近创建小组的用户 沦落人-',
   'groups+leave_complete_message' => '您退出了该小组',
   'groups+listing_no_items_msg' => '没有可用的小组',
   'groups+listing_users_label' => '<span class="ow_txt_value">{$count}</span> 个成员',
   'groups+main_menu_list' => '小组',
   'groups+my_groups' => '我的小组',
-  'groups+my_list_page_title' => '我的小组 lost',
+  'groups+my_list_page_title' => '我的小组 沦落人-',
   'groups+notifications_new_message' => '有人邀请我加入小组',
   'groups+page_title_uninstall' => '卸载小组插件',
   'groups+plugin_set_for_uninstall' => '初始化卸载论坛插件.',
-  'groups+popular_list_page_description' => '最受欢迎的小组创建者 lost.',
-  'groups+popular_list_page_title' => '最受欢迎的小组 lost',
+  'groups+popular_list_page_description' => '最受欢迎的小组创建者 沦落人-.',
+  'groups+popular_list_page_title' => '最受欢迎的小组 沦落人-',
   'groups+privacy_action_view_my_groups' => '查看我的小组',
   'groups+private_group_text' => '很抱歉,这个小组不对外开放',
   'groups+private_page_heading' => '私密小组',
@@ -2547,8 +2546,8 @@ $language[4] = array (
   'groups+usercredits_action_add_group' => '创建小组',
   'groups+usercredits_action_add_post' => '发布到小组论坛',
   'groups+users_invite_success_message' => '邀请了{$count} 个用户',
-  'groups+user_groups_page_description' => 'lost上的用户小组.',
-  'groups+user_groups_page_title' => 'lost 上的小组',
+  'groups+user_groups_page_description' => '沦落人-上的用户小组.',
+  'groups+user_groups_page_title' => '沦落人- 上的小组',
   'groups+user_groups_widget_empty' => '没有小组',
   'groups+user_group_list_heading' => '{$userName}的小组',
   'groups+user_join_activity_string' => '加入小组',
@@ -2556,7 +2555,7 @@ $language[4] = array (
   'groups+view_all_topics' => '« 返回小组话题列表',
   'groups+view_no_permission' => '您没有权限查看该小组',
   'groups+view_page_description' => '{$description}',
-  'groups+view_page_title' => '{$group_name} - lost的小组',
+  'groups+view_page_title' => '{$group_name} - 沦落人-的小组',
   'groups+wall_widget_label' => '墙',
   'groups+widgets_panel_heading' => '小组配置',
   'groups+widget_brief_info_admin' => '管理员: <a href="{$url}">{$name}</a>',
@@ -2592,8 +2591,8 @@ $language[4] = array (
   'links+auth_group_label' => '链接',
   'links+browse_by_tag_description' => '按标签浏览链接: {$tags} 和其他.',
   'links+browse_by_tag_item_description' => '按标签浏览链接： `{$tag}`.',
-  'links+browse_by_tag_item_title' => '`{$tag}` 链接 - lost',
-  'links+browse_by_tag_title' => '按标签浏览链接 - lost',
+  'links+browse_by_tag_item_title' => '`{$tag}` 链接 - 沦落人-',
+  'links+browse_by_tag_title' => '按标签浏览链接 - 沦落人-',
   'links+by' => '由',
   'links+by_lower' => '由',
   'links+cancel_vote' => '取消',
@@ -2616,14 +2615,14 @@ $language[4] = array (
   'links+flags' => '链接',
   'links+go_to_links' => '转到链接',
   'links+index_widget_empty' => '没有链接.',
-  'links+latest_description' => '最近提交到 lost的网页地址.',
-  'links+latest_title' => '最新链接 - lost',
+  'links+latest_description' => '最近提交到 沦落人-的网页地址.',
+  'links+latest_title' => '最新链接 - 沦落人-',
   'links+link' => '链接',
   'links+links' => '链接',
   'links+links_on_notify_actions' => '有人评论我的链接',
   'links+link_cap' => '链接',
   'links+link_description' => '{$link_title}: {$link_description}.',
-  'links+link_title' => '{$link_title}: {$link_url} - lost上的链接',
+  'links+link_title' => '{$link_title}: {$link_url} - 沦落人-上的链接',
   'links+list_page_heading' => '分享链接',
   'links+main_menu_item' => '链接',
   'links+menuItemBrowseByTag' => '按标签浏览',
@@ -2631,8 +2630,8 @@ $language[4] = array (
   'links+menuItemMostDiscussed' => '评论最多',
   'links+menuItemTopRated' => '评分最高',
   'links+more' => '更多',
-  'links+most_discussed_description' => '评论最多的链接由 lost 发布.',
-  'links+most_discussed_title' => '评论最多的链接 - lost',
+  'links+most_discussed_description' => '评论最多的链接由 沦落人- 发布.',
+  'links+most_discussed_title' => '评论最多的链接 - 沦落人-',
   'links+my_links' => '我的链接',
   'links+notification_section_label' => '链接',
   'links+privacy_action_comment_links' => '评论我的链接',
@@ -2654,8 +2653,8 @@ $language[4] = array (
   'links+toolbar_comments' => '评论',
   'links+toolbar_delete' => '删除',
   'links+toolbar_edit' => '编辑',
-  'links+top_rated_description' => '评分最高的链接由 lost提交.',
-  'links+top_rated_title' => '最受好评的链接 - lost',
+  'links+top_rated_description' => '评分最高的链接由 沦落人-提交.',
+  'links+top_rated_title' => '最受好评的链接 - 沦落人-',
   'links+updated' => '更新',
   'links+usercredits_action_add_comment' => '评论链接',
   'links+usercredits_action_add_link' => '添加链接',
@@ -2752,23 +2751,23 @@ $language[4] = array (
   'photo+menu_latest' => '最新',
   'photo+menu_tagged' => '按标签浏览',
   'photo+menu_toprated' => '评分最高',
-  'photo+meta_description_photo_featured' => '精选图片有 lost上传.',
-  'photo+meta_description_photo_latest' => '最新图片有lost上传.',
+  'photo+meta_description_photo_featured' => '精选图片有 沦落人-上传.',
+  'photo+meta_description_photo_latest' => '最新图片有沦落人-上传.',
   'photo+meta_description_photo_tagged' => '按标签浏览图片: {$topTags}, 和其他.',
   'photo+meta_description_photo_tagged_as' => '浏览标签为\'{$tag}\'的图片.',
-  'photo+meta_description_photo_toprated' => '上传最多受好评的图片作者lost.',
+  'photo+meta_description_photo_toprated' => '上传最多受好评的图片作者沦落人-.',
   'photo+meta_description_photo_useralbum' => '{$number} 个图片在 {$displayName}.',
   'photo+meta_description_photo_useralbums' => '图片在 {$displayName} - {$albums}, 和其他.',
   'photo+meta_description_photo_view' => '{$title} - 标签为 {$tags}的图片.',
-  'photo+meta_title_photo_featured' => '精选图片 - lost',
-  'photo+meta_title_photo_latest' => '最新图片 - lost',
-  'photo+meta_title_photo_tagged' => '按标签浏览照片 - lost',
-  'photo+meta_title_photo_tagged_as' => '\'{$tag}\' 图片 - lost',
-  'photo+meta_title_photo_toprated' => '最受好评的图片 - lost',
-  'photo+meta_title_photo_upload' => '上传图片 - lost',
-  'photo+meta_title_photo_useralbum' => '{$albumName} (在 {$displayName}的图片) - lost',
-  'photo+meta_title_photo_useralbums' => '{$displayName}的相册 - lost',
-  'photo+meta_title_photo_view' => '{$title} - 在 lost的图片',
+  'photo+meta_title_photo_featured' => '精选图片 - 沦落人-',
+  'photo+meta_title_photo_latest' => '最新图片 - 沦落人-',
+  'photo+meta_title_photo_tagged' => '按标签浏览照片 - 沦落人-',
+  'photo+meta_title_photo_tagged_as' => '\'{$tag}\' 图片 - 沦落人-',
+  'photo+meta_title_photo_toprated' => '最受好评的图片 - 沦落人-',
+  'photo+meta_title_photo_upload' => '上传图片 - 沦落人-',
+  'photo+meta_title_photo_useralbum' => '{$albumName} (在 {$displayName}的图片) - 沦落人-',
+  'photo+meta_title_photo_useralbums' => '{$displayName}的相册 - 沦落人-',
+  'photo+meta_title_photo_view' => '{$title} - 在 沦落人-的图片',
   'photo+my_albums' => '我的相册',
   'photo+next' => '下一张照片',
   'photo+not_all_photos_uploaded' => '有些照片没有上传，因为大小超过限制或格式错误',
@@ -2879,20 +2878,20 @@ $language[4] = array (
   'video+menu_tagged' => '按标签浏览',
   'video+menu_toprated' => '评分最高',
   'video+meta_description_user_video' => '视频由 {$displayName} 提交',
-  'video+meta_description_video_featured' => 'lost的最佳视频! 推荐视频!',
-  'video+meta_description_video_latest' => '最近上传的视频在 lost.',
+  'video+meta_description_video_featured' => '沦落人-的最佳视频! 推荐视频!',
+  'video+meta_description_video_latest' => '最近上传的视频在 沦落人-.',
   'video+meta_description_video_tagged' => '按标签浏览: {$topTags}, 和其他.',
   'video+meta_description_video_tagged_as' => '按标签浏览,标签为 \'{$tag}\'的视频.',
-  'video+meta_description_video_toprated' => 'lost上最受好评的用户视频.',
+  'video+meta_description_video_toprated' => '沦落人-上最受好评的用户视频.',
   'video+meta_description_video_view' => '视频标题为 \'{$title}\', 标签 {$tags}.',
-  'video+meta_title_user_video' => '{$displayName}的视频 - lost',
+  'video+meta_title_user_video' => '{$displayName}的视频 - 沦落人-',
   'video+meta_title_video_add' => '添加新的视频',
-  'video+meta_title_video_featured' => '精选视频 - lost',
-  'video+meta_title_video_latest' => '最近视频 - lost',
-  'video+meta_title_video_tagged' => '按标签浏览视频 - lost',
-  'video+meta_title_video_tagged_as' => '\'{$tag}\' 视频 - lost',
-  'video+meta_title_video_toprated' => '最受好评的视频 - lost',
-  'video+meta_title_video_view' => '{$title} - lost的视频',
+  'video+meta_title_video_featured' => '精选视频 - 沦落人-',
+  'video+meta_title_video_latest' => '最近视频 - 沦落人-',
+  'video+meta_title_video_tagged' => '按标签浏览视频 - 沦落人-',
+  'video+meta_title_video_tagged_as' => '\'{$tag}\' 视频 - 沦落人-',
+  'video+meta_title_video_toprated' => '最受好评的视频 - 沦落人-',
+  'video+meta_title_video_view' => '{$title} - 沦落人-的视频',
   'video+my_video' => '我的视频',
   'video+no_video' => '没有视频',
   'video+no_video_found' => '没有找到相关视频',
@@ -3014,7 +3013,7 @@ $language[4] = array (
   'forum+forum_topics_widget' => '论坛话题',
   'forum+general_settings' => '一般设置',
   'forum+goto_forum' => '进入论坛',
-  'forum+group_meta_description' => '{$group} 在 lost 论坛',
+  'forum+group_meta_description' => '{$group} 在 沦落人- 论坛',
   'forum+in' => 'In',
   'forum+is_private' => '私有',
   'forum+last_reply' => '最后回复',
@@ -3028,7 +3027,7 @@ $language[4] = array (
   'forum+move_topic_btn' => '移动',
   'forum+move_topic_title' => '移动话题',
   'forum+new' => '新',
-  'forum+new_topic_body' => '帖子内容',
+  'forum+new_topic_body' => '话题描述',
   'forum+new_topic_btn' => '新话题',
   'forum+new_topic_group' => '论坛',
   'forum+new_topic_subject' => '话题主体',
@@ -3084,43 +3083,43 @@ $language[4] = array (
   'event+add_form_desc_label' => '简介',
   'event+add_form_empty_image_error_message' => '空图像域',
   'event+add_form_end_date_desc' => '&nbsp;',
-  'event+add_form_end_date_label' => '事件结束',
+  'event+add_form_end_date_label' => '活动结束',
   'event+add_form_image_desc' => '&nbsp;',
   'event+add_form_image_label' => '图像',
   'event+add_form_invalid_end_date_error_message' => '无效的结束日期',
   'event+add_form_location_desc' => '&nbsp;',
   'event+add_form_location_label' => '地点',
   'event+add_form_submit_label' => '添加',
-  'event+add_form_success_message' => '事件添加',
+  'event+add_form_success_message' => '活动添加',
   'event+add_form_title_desc' => '&nbsp',
   'event+add_form_title_label' => '标题',
   'event+add_form_who_can_invite_desc' => '&nbsp;',
   'event+add_form_who_can_invite_label' => '谁可以邀请',
-  'event+add_form_who_can_invite_option_creator' => '事件的发起者',
+  'event+add_form_who_can_invite_option_creator' => '活动的发起者',
   'event+add_form_who_can_invite_option_participants' => '参与者',
   'event+add_form_who_can_view_desc' => '&nbsp;',
   'event+add_form_who_can_view_label' => '谁可以查看',
   'event+add_form_who_can_view_option_anybody' => '任何人',
   'event+add_form_who_can_view_option_invit_only' => '仅通过邀请',
-  'event+add_new_button_label' => '添加新的事件',
-  'event+add_new_link_label' => '事件',
-  'event+add_page_heading' => '创建新的事件',
-  'event+add_page_title' => '创建新的事件 - lost',
+  'event+add_new_button_label' => '添加新的活动',
+  'event+add_new_link_label' => '活动',
+  'event+add_page_heading' => '创建新的活动',
+  'event+add_page_title' => '创建新的活动 - 沦落人-',
   'event+all_day' => '整天',
   'event+attend_maybe_btn_label' => '也许',
   'event+attend_no_btn_label' => '不是',
   'event+attend_yes_btn_label' => '我参与的',
-  'event+auth_action_label_add_comment' => '评论事件',
-  'event+auth_action_label_add_event' => '添加事件',
-  'event+auth_action_label_view_event' => '查看事件',
-  'event+auth_group_label' => '事件',
+  'event+auth_action_label_add_comment' => '评论活动',
+  'event+auth_action_label_add_event' => '添加活动',
+  'event+auth_action_label_view_event' => '查看活动',
+  'event+auth_group_label' => '活动',
   'event+avatar_user_list_bottom_link_label' => '查看所有 ({$count} users)',
   'event+avatar_user_list_link_label_1' => '是',
   'event+avatar_user_list_link_label_2' => '也许',
   'event+avatar_user_list_link_label_3' => '不是',
-  'event+cmp_widget_events_count' => '事件数',
+  'event+cmp_widget_events_count' => '活动数',
   'event+common_list_type_invited_label' => '邀请',
-  'event+common_list_type_joined_label' => '我的事件',
+  'event+common_list_type_joined_label' => '我的活动',
   'event+common_list_type_latest_label' => '预告',
   'event+common_list_type_past_label' => '过去',
   'event+console_notification_label' => '活动邀请',
@@ -3129,72 +3128,72 @@ $language[4] = array (
   'event+dashboard_widget_menu_my_events_label' => '创建',
   'event+dashboard_widget_menu_part_events_label' => '参与',
   'event+delete_button_label' => '删除',
-  'event+delete_confirm_message' => '您确定要删除的事件吗?',
-  'event+delete_success_message' => '删除事件',
+  'event+delete_confirm_message' => '您确定要删除的活动吗?',
+  'event+delete_success_message' => '删除活动',
   'event+edit_button_label' => '编辑',
-  'event+edit_form_end_date_error_message' => '请选择事件结束日期/时间',
+  'event+edit_form_end_date_error_message' => '请选择活动结束日期/时间',
   'event+edit_form_submit_label' => '编辑',
-  'event+edit_form_success_message' => '事件编辑',
-  'event+edit_page_heading' => '编辑事件',
-  'event+edit_page_title' => '编辑事件 - lost',
+  'event+edit_form_success_message' => '活动编辑',
+  'event+edit_page_heading' => '编辑活动',
+  'event+edit_page_title' => '编辑活动 - 沦落人-',
   'event+email_notification_comment' => '<a href="{$userUrl}">{$userName}</a> 在 <a
 			href="{$url}"
 			>{$title}</a>上添加一个评论',
-  'event+email_notification_comment_setting' => '有人邀请您评论事件',
-  'event+email_notification_invite' => '<a href="{$inviterUrl}">{$inviterName}</a> 邀请您的事件
+  'event+email_notification_comment_setting' => '有人邀请您评论活动',
+  'event+email_notification_invite' => '<a href="{$inviterUrl}">{$inviterName}</a> 邀请您的活动
 			"<a href="{$eventUrl}">{$eventName}</a>"',
   'event+event_created_by_me_page_heading' => '我创建的活动',
-  'event+event_created_by_me_page_title' => '我创建活动 - lost',
+  'event+event_created_by_me_page_title' => '我创建活动 - 沦落人-',
   'event+event_joined_by_me_page_heading' => '我参加的活动',
-  'event+event_joined_by_me_page_title' => '我参加的活动 - lost',
-  'event+event_view_page_heading' => '{$event_title} - lost的事件',
+  'event+event_joined_by_me_page_title' => '我参加的活动 - 沦落人-',
+  'event+event_view_page_heading' => '{$event_title} - 沦落人-的活动',
   'event+event_view_permission_error_message' => '很抱歉,您没有权限查看此页.',
-  'event+feed_actiovity_attend_string' => '参与 {$user}的事件',
-  'event+feed_activity_comment_string' => '评论此事件',
-  'event+feed_activity_event_string_like' => '喜欢这个事件',
+  'event+feed_actiovity_attend_string' => '参与 {$user}的活动',
+  'event+feed_activity_comment_string' => '评论此活动',
+  'event+feed_activity_event_string_like' => '喜欢这个活动',
   'event+feed_activity_joined' => '{$user} 刚刚参与了',
   'event+feed_activity_users' => 'Total users: <span
 			class="ow_txt_value">{$usersCount}</span>',
-  'event+feed_add_item_label' => '创建新的事件',
-  'event+feed_content_label' => '事件',
+  'event+feed_add_item_label' => '创建新的活动',
+  'event+feed_content_label' => '活动',
   'event+feed_user_join_string' => '参与活动',
   'event+friends_invite_button_label' => '邀请我的好友',
   'event+ignore_request' => '忽略',
   'event+invited_events_page_heading' => '活动邀请',
-  'event+invited_events_page_title' => '活动邀请 - lost',
+  'event+invited_events_page_title' => '活动邀请 - 沦落人-',
   'event+invite_btn_label' => '邀请',
-  'event+latest_events_page_desc' => 'lost 的成员即将发生的事件的列表.',
-  'event+latest_events_page_heading' => '事件',
-  'event+latest_events_page_title' => '事件 - lost',
-  'event+main_menu_item' => '事件',
-  'event+my_events_widget_block_cap_label' => '我的事件',
-  'event+notifications_new_message' => '有人邀请我到事件',
-  'event+notifications_section_label' => '事件',
-  'event+no_events_label' => '没有事件',
-  'event+no_index_events_label' => '没有事件, <a href="{$url}">添加事件</a>',
-  'event+past_events_page_desc' => 'lost 的成员的过去事件列表.',
-  'event+past_events_page_heading' => '过去的事件',
-  'event+past_events_page_title' => '过去的事件 - lost',
+  'event+latest_events_page_desc' => '沦落人- 的成员即将发生的活动的列表.',
+  'event+latest_events_page_heading' => '活动',
+  'event+latest_events_page_title' => '活动 - 沦落人-',
+  'event+main_menu_item' => '活动',
+  'event+my_events_widget_block_cap_label' => '我的活动',
+  'event+notifications_new_message' => '有人邀请我到活动',
+  'event+notifications_section_label' => '活动',
+  'event+no_events_label' => '没有活动',
+  'event+no_index_events_label' => '没有活动, <a href="{$url}">添加活动</a>',
+  'event+past_events_page_desc' => '沦落人- 的成员的过去活动列表.',
+  'event+past_events_page_heading' => '过去的活动',
+  'event+past_events_page_title' => '过去的活动 - 沦落人-',
   'event+privacy_action_view_attend_events' => '查看我的活动',
-  'event+private_event_text' => '很抱歉,此事件是作者私人事件,不对外开放',
-  'event+private_page_heading' => '私人事件',
-  'event+private_page_title' => '私人事件',
-  'event+profile_events_widget_block_cap_label' => '我的事件',
+  'event+private_event_text' => '很抱歉,此活动是作者私人活动,不对外开放',
+  'event+private_page_heading' => '私人活动',
+  'event+private_page_title' => '私人活动',
+  'event+profile_events_widget_block_cap_label' => '我的活动',
   'event+time_field_invitation_label' => '时间',
-  'event+up_events_widget_block_cap_label' => '即将发生的事件',
-  'event+usercredits_action_add_comment' => '评论事件',
-  'event+usercredits_action_add_event' => '添加事件',
+  'event+up_events_widget_block_cap_label' => '即将发生的活动',
+  'event+usercredits_action_add_comment' => '评论活动',
+  'event+usercredits_action_add_event' => '添加活动',
   'event+users_invite_success_message' => '{$count} 用户邀请',
-  'event+user_list_page_desc_1' => '参与"{$eventTitle}" 事件的用户的列表.',
-  'event+user_list_page_desc_2' => '可能参与 "{$eventTitle}" 事件的用户的列表.',
-  'event+user_list_page_desc_3' => '不参与 "{$eventTitle}" 事件的用户的列表.',
-  'event+user_list_page_heading_1' => '"{$eventTitle}" 事件参与者 - lost',
-  'event+user_list_page_heading_2' => '"{$eventTitle}" 事件 - 可能参与的人 - lost',
-  'event+user_list_page_heading_3' => '"{$eventTitle}" 事件 - 不参与的人 - lost',
-  'event+user_participated_events_page_desc' => '事件 {$display_name} 参与者.',
-  'event+user_participated_events_page_heading' => '{$display_name}的事件',
-  'event+user_participated_events_page_title' => '{$display_name}事件 - lost',
-  'event+user_status_author_cant_leave_error' => '很抱歉,您不能离开您的事件',
+  'event+user_list_page_desc_1' => '参与"{$eventTitle}" 活动的用户的列表.',
+  'event+user_list_page_desc_2' => '可能参与 "{$eventTitle}" 活动的用户的列表.',
+  'event+user_list_page_desc_3' => '不参与 "{$eventTitle}" 活动的用户的列表.',
+  'event+user_list_page_heading_1' => '"{$eventTitle}" 活动参与者 - 沦落人-',
+  'event+user_list_page_heading_2' => '"{$eventTitle}" 活动 - 可能参与的人 - 沦落人-',
+  'event+user_list_page_heading_3' => '"{$eventTitle}" 活动 - 不参与的人 - 沦落人-',
+  'event+user_participated_events_page_desc' => '活动 {$display_name} 参与者.',
+  'event+user_participated_events_page_heading' => '{$display_name}的活动',
+  'event+user_participated_events_page_title' => '{$display_name}活动 - 沦落人-',
+  'event+user_status_author_cant_leave_error' => '很抱歉,您不能退出自己的活动',
   'event+user_status_label_1' => '我来参加',
   'event+user_status_label_2' => '也许我来参加',
   'event+user_status_label_3' => '我不来参加',
@@ -3205,7 +3204,7 @@ $language[4] = array (
   'event+view_page_date_label' => '日期和时间',
   'event+view_page_desc_label' => '描述',
   'event+view_page_details_block_cap_label' => '详细信息',
-  'event+view_page_end_date_label' => '事件结束',
+  'event+view_page_end_date_label' => '活动结束',
   'event+view_page_image_block_cap_label' => '描述',
   'event+view_page_location_label' => '位置',
   'event+view_page_users_block_cap_label' => '谁将出席',
@@ -3261,5 +3260,84 @@ $language[4] = array (
   'contactimporter+save_btn_label' => '',
   'contactimporter+usercredits_action_import_friend' => '',
   'contactimporter+widget_title' => '邀请好友',
+  'virtualgifts+add_category' => '',
+  'virtualgifts+add_template' => '',
+  'virtualgifts+admin_page_heading' => '',
+  'virtualgifts+auth_action_label_send_gift' => '',
+  'virtualgifts+auth_group_label' => '',
+  'virtualgifts+btn_add' => '',
+  'virtualgifts+btn_save' => '',
+  'virtualgifts+btn_send' => '',
+  'virtualgifts+by' => '',
+  'virtualgifts+categories' => '',
+  'virtualgifts+category' => '',
+  'virtualgifts+category_added' => '',
+  'virtualgifts+category_deleted' => '',
+  'virtualgifts+category_list' => '',
+  'virtualgifts+category_not_deleted' => '',
+  'virtualgifts+category_title' => '',
+  'virtualgifts+choose_friends' => '',
+  'virtualgifts+cmp_widget_gifts_count' => '',
+  'virtualgifts+confirm_delete_gifts' => '',
+  'virtualgifts+confirm_template_delete' => '',
+  'virtualgifts+delete_content' => '',
+  'virtualgifts+delete_content_desc' => '',
+  'virtualgifts+delete_content_warning' => '',
+  'virtualgifts+email_notifications_section_label' => '',
+  'virtualgifts+email_notifications_send_gift' => '',
+  'virtualgifts+email_notifications_setting_send_gift' => '',
+  'virtualgifts+existing_gifts' => '',
+  'virtualgifts+feed_activity_gift_string_comment' => '',
+  'virtualgifts+feed_activity_gift_string_like' => '',
+  'virtualgifts+feed_activity_owner_gift_string_comment' => '',
+  'virtualgifts+feed_content_gift' => '',
+  'virtualgifts+feed_string' => '',
+  'virtualgifts+file_type_not_allowed' => '',
+  'virtualgifts+gifts' => '',
+  'virtualgifts+gift_by' => '',
+  'virtualgifts+gift_deleted' => '',
+  'virtualgifts+gift_image' => '',
+  'virtualgifts+gift_not_selected' => '',
+  'virtualgifts+gift_not_sent' => '',
+  'virtualgifts+gift_price' => '',
+  'virtualgifts+gift_sent' => '',
+  'virtualgifts+gift_sent_to' => '',
+  'virtualgifts+message' => '',
+  'virtualgifts+meta_description_user_gifts' => '',
+  'virtualgifts+meta_description_view_gift' => '',
+  'virtualgifts+meta_description_view_gift_msg' => '',
+  'virtualgifts+meta_title_my_gifts' => '',
+  'virtualgifts+meta_title_user_gifts' => '',
+  'virtualgifts+meta_title_view_gift' => '',
+  'virtualgifts+meta_title_view_gift_msg' => '',
+  'virtualgifts+my_gifts' => '',
+  'virtualgifts+my_gifts_quick_link' => '',
+  'virtualgifts+not_authenticated' => '',
+  'virtualgifts+not_authorized' => '',
+  'virtualgifts+no_gifts' => '',
+  'virtualgifts+no_image_selected' => '',
+  'virtualgifts+no_users_selected' => '',
+  'virtualgifts+page_title_uninstall' => '',
+  'virtualgifts+plugin_set_for_uninstall' => '',
+  'virtualgifts+private_gift' => '',
+  'virtualgifts+private_gift_note' => '',
+  'virtualgifts+profile_toolbar_item_send_gift' => '',
+  'virtualgifts+send_gift' => '',
+  'virtualgifts+send_gift_to' => '',
+  'virtualgifts+send_multiple_gifts_error' => '',
+  'virtualgifts+send_private' => '',
+  'virtualgifts+send_private_gift' => '',
+  'virtualgifts+send_return_gift' => '',
+  'virtualgifts+send_this_gift' => '',
+  'virtualgifts+template_added' => '',
+  'virtualgifts+template_list' => '',
+  'virtualgifts+template_not_added' => '',
+  'virtualgifts+template_updated' => '',
+  'virtualgifts+uncategorized' => '',
+  'virtualgifts+uninstall_inprogress' => '',
+  'virtualgifts+uninstall_inprogress_desc' => '',
+  'virtualgifts+usercredits_action_send_virtual_gift' => '',
+  'virtualgifts+user_gifts' => '',
+  'base+questions_question_relationship_value_16' => '聊天',
 );
 ?>
