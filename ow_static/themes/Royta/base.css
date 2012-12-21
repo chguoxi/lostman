@@ -98,7 +98,7 @@ body, html
 {
 	font-family: "lucida grande",tahoma,verdana,arial,sans-serif; /** OW_Control type:font, section:1. General Settings, key:commonFontFamily, label:Font  **/
 	color: #333; /** OW_Control type:color, section:2. Colors, key:textColor, label: - Text **/
-	font-size: 11px; /** OW_Control type:text, section:1. General Settings, key:commonFontSize, label:Font size **/
+	font-size: 12px; /** OW_Control type:text, section:1. General Settings, key:commonFontSize, label:Font size **/
 	line-height: 18px;
 	//background-color: #575757; /** OW_Control type:color, section:1. General Settings, key:footerColor, label:Footer background **/
 	background: #fff;
@@ -192,6 +192,7 @@ hr{
 	height: 1px;
 	margin: 5px 5px 15px 5px;
 }
+
 /*========================================================
         [3] Masterpage & Page Layout        __layout
   ========================================================*/
@@ -683,9 +684,7 @@ form br.ow_no_height{
     display:none;
 }
 
-body.htmlarea_styles{
-	background-color:white;
-}
+
 
 /* ---- End of Form Elements styles ---- */
 
@@ -2045,10 +2044,7 @@ span.ic_reply{
     width: 45px; 
     height: 45px;
 }
-.ow_avatar img{
-	width:45px;
-	height:45px;
-}
+
 .ow_avatar_label {
     font-size: 7px;
     display: inline-block;
