@@ -54,6 +54,7 @@ $router->addRoute(new OW_Route('users-search-result', 'users/search-result', 'BA
 
 $router->addRoute(new OW_Route('base_join', 'join', 'BASE_CTRL_Join', 'index'));
 $router->addRoute(new OW_Route('base_edit', 'profile/edit', 'BASE_CTRL_Edit', 'index'));
+//$router->addRoute(new OW_Route('base_edit_city', 'profile/city', 'BASE_CTRL_Edit', 'getCity'));
 
 $router->addRoute(new OW_Route('base_email_verify', 'email-verify', 'BASE_CTRL_EmailVerify', 'index'));
 $router->addRoute(new OW_Route('base_email_verify_code_form', 'email-verify-form', 'BASE_CTRL_EmailVerify', 'verifyForm'));
@@ -97,6 +98,11 @@ $router->addRoute(new OW_Route('base_user_privacy_no_permission', 'profile/:user
 
 $router->addRoute(new OW_Route('base-api-server', 'api-server', 'BASE_CTRL_ApiServer', 'request'));
 $router->addRoute(new OW_Route('base.robots_txt', 'robots.txt', 'BASE_CTRL_Base', 'robotsTxt'));
+
+//region
+$router->addRoute(new OW_Route('base_region', 'region', 'BASE_CTRL_Region', 'index'));
+//test
+//$router->addRoute(new OW_Route('base_test', 'mytest', 'BASE_CTRL_Mytest', 'index'));
 
 OW::getThemeManager()->addDecorator('box_cap', $owBasePlugin->getKey());
 OW::getThemeManager()->addDecorator('box', $owBasePlugin->getKey());
