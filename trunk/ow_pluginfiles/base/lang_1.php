@@ -3152,5 +3152,13 @@ http://www.lostman.com/',
   'virtualgifts+usercredits_action_send_virtual_gift' => 'Send virtual gifts',
   'virtualgifts+user_gifts' => 'Gifts received by {$user}',
   'base+questions_question_relationship_value_16' => '',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_description' => '',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_label' => '',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_1' => '',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_2' => '',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_4' => '',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_8' => '',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_16' => '',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_32' => '',
 );
 ?>
