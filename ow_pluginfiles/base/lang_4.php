@@ -387,7 +387,7 @@ $language[4] = array (
   'base+questions_question_55c95a36e50b0d7a795fb1caa8a8e520_label' => 'qwe',
   'base+questions_question_presentation_textarea_label' => '扩展文本',
   'base+questions_question_presentation_checkbox_label' => '是/否',
-  'base+questions_question_presentation_multicheckbox_label' => '下拉菜单',
+  'base+questions_question_presentation_multicheckbox_label' => '复选框',
   'base+questions_question_presentation_date_label' => '日期',
   'base+questions_question_presentation_url_label' => 'URL',
   'base+questions_question_presentation_password_label' => '密码',
@@ -3339,5 +3339,13 @@ $language[4] = array (
   'virtualgifts+usercredits_action_send_virtual_gift' => '',
   'virtualgifts+user_gifts' => '',
   'base+questions_question_relationship_value_16' => '聊天',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_description' => '填写您住在哪个城市',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_label' => '所在地区',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_1' => '北京',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_2' => '上海',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_4' => '天津',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_8' => '重庆',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_16' => '武汉',
+  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_32' => '广州',
 );
 ?>
