@@ -4,7 +4,7 @@ class BOL_ProvindDao extends OW_BaseDao
 	const PROVINCEID = 'provinceID';
 	const PROVINCE   = 'province';
 	
-	public function getInstance()
+	public static function getInstance()
 	{
 		if (self::$classInstance===null){
 			self::$classInstance = new self();

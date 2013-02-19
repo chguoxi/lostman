@@ -1,20 +1,17 @@
 <?php
 class region_service {
 	/**
-	 * province dao class
-	 * @var BOL_Province
+	 * @var BOL_ProvindDao
 	 */
 	private $provinceDao;
 	
 	/**
-	 * city dao class
-	 * @var object
+	 * @var BOL_CityDao
 	 */
 	private $cityDao;
 	
 	/**
-	 * area dao class
-	 * @var object
+	 * @var BOL_AreaDao
 	 */
 	private $areaDao;
 	
@@ -23,7 +20,6 @@ class region_service {
 	 * @var BOL_VoteService
 	 */
 	private static $classInstance;
-	
 	
 	/**
 	 * Returns an instance of class (singleton pattern implementation).
@@ -38,5 +34,32 @@ class region_service {
 		}
 	
 		return self::$classInstance;
+	}
+	
+	public function __construct(){
+		$this->provinceDao = BOL_ProvindDao::getInstance();
+		$this->cityDao     = BOL_CityDao::getInstance();
+		$this->areaDao     = BOL_AreaDao::getInstance();
+	}
+	
+	/**
+	 * get all provinces
+	 */
+	public function getAllProvinces(){
+		return $this->provinceDao->findAll();
+	}
+	
+	/**
+	 * get all cities
+	 */
+	public function getAllCities(){
+		return $this->cityDao->findAll();
+	}
+	
+	/**
+	 * get one province citys
+	 */
+	public function getProvinceCitys(int $provinceid){
+		
 	}
 }
