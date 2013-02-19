@@ -37,7 +37,7 @@ class BOL_RegionService {
 	}
 	
 	public function __construct(){
-		$this->provinceDao = BOL_ProvindDao::getInstance();
+		$this->provinceDao = BOL_ProvinceDao::getInstance();
 		$this->cityDao     = BOL_CityDao::getInstance();
 		$this->areaDao     = BOL_AreaDao::getInstance();
 	}

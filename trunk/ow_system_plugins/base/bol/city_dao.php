@@ -6,6 +6,11 @@ class BOL_CityDao extends OW_BaseDao
 	const CITY   = 'city';
 	const FATHERID = 'fatherID';
 	
+	/**
+	 * @var BOL_ProvinceDao
+	 */
+	private static $classInstance;
+	
     public static function getInstance()
     {
         if (self::$classInstance===null){
