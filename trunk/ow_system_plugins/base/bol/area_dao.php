@@ -12,7 +12,7 @@ class BOL_AreaDao extends OW_BaseDao
      * 实例化模型
      * 享元模式
      */
-    public function getInstance(){
+    public static function getInstance(){
         if (self::$classInstance===null){
             self::$classInstance = new self();
         }
