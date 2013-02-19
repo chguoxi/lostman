@@ -1,6 +1,6 @@
 <?php
 
-class region_widget extends OW_Component {
+class BASE_CMP_Region extends OW_Component {
 	public function __construct(){
 		
 	}

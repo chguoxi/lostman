@@ -1,5 +1,5 @@
 <?php
-class region_service {
+class BOL_RegionService {
 	/**
 	 * @var BOL_ProvindDao
 	 */
@@ -60,6 +60,6 @@ class region_service {
 	 * get one province citys
 	 */
 	public function getProvinceCitys(int $provinceid){
-		return $this->cityDao->
+		//return $this->cityDao->
 	}
 }
