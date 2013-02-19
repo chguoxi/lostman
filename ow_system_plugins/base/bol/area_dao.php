@@ -5,7 +5,9 @@ class BOL_AreaDao extends OW_BaseDao
     const AREA_ID = 'areaID';
     const AREA    = 'area';
     const FATHER_ID = 'fatherID';
-    
+    /**
+     * @var BOL_ProvinceDao
+     */
     private static $classInstance;
     
     /**

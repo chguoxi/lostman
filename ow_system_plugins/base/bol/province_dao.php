@@ -1,8 +1,13 @@
 <?php
-class BOL_ProvindDao extends OW_BaseDao
+class BOL_ProvinceDao extends OW_BaseDao
 {
 	const PROVINCEID = 'provinceID';
 	const PROVINCE   = 'province';
+	
+	/**
+	 * @var BOL_ProvinceDao
+	 */
+	private static $classInstance;
 	
 	public static function getInstance()
 	{
@@ -23,7 +28,7 @@ class BOL_ProvindDao extends OW_BaseDao
 	 */
 	public function getDtoClassName()
 	{
-		return 'BOL_ProvindDao';
+		return 'BOL_ProvinceDao';
 	}
 	
 	/**
