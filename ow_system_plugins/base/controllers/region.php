@@ -6,8 +6,10 @@
 class BASE_CTRL_Region extends OW_ActionController {
 	public function index(){
 		
-		$data = BOL_AreaDao::getInstance()->findAll();
-		print_r($data);
+		$sql = 'SELECT * FROM `ls_base_city`';
+		$data = BOL_CityDao::getInstance()->getAllCities();
+		
+		var_dump($data);
 		exit;
 	}
 }

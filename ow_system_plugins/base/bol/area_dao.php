@@ -44,8 +44,9 @@ class BOL_AreaDao extends OW_BaseDao
      * 获取一个城市的所有地区
      * @param int $cityid
      */
-    public function findAreasByCity(int $cityid){
-        return $this->findAll('cityID='.$cityid);
+    public function findAreasByCity($cityid){
+    	$sql = 'SELECT * FROM `'.$this->getTableName().'` WHERE `fatherID` ='.$cityid;
+    	return $this->dbo->queryForObjectList($sql, $this->getDtoClassName());
     }
 
 }

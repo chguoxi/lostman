@@ -39,25 +39,12 @@ class BOL_CityDao extends OW_BaseDao
      */
     public function getTableName()
     {
-    	return OW_DB_PREFIX . 'base_city';
+    	return OW_DB_PREFIX .'base_city';
     }
     
-    /**
-     * 根据id取得城市名称
-     * @param int $cityid
-     */
-    public function getCityNameById(int $cityid)
-    {
-    	return $this->findById($cityid)->CITY;
-    }
-    
-    /**
-     * 获取指定省份的城市
-     * @param int $proviceid
-     */
-    public function getProvinceCitys( int $proviceid )
-    {
-    	return BOL_ProvindDao::getInstance()->findAll(BOL_ProvindDao::PROVINCEID.'='.$proviceid);
+    public function getAllCities(){
+    	$sql = 'SELECT * FROM `'.$this->getTableName(). '`';
+    	return $this->dbo->queryForList($sql);
     }
 }
 
