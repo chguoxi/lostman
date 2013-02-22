@@ -1,20 +1,6 @@
 <?php
 class BOL_RegionService {
-	/**
-	 * @var BOL_ProvindDao
-	 */
-	private $provinceDao;
-	
-	/**
-	 * @var BOL_CityDao
-	 */
-	private $cityDao;
-	
-	/**
-	 * @var BOL_AreaDao
-	 */
-	private $areaDao;
-	
+
 	/**
 	 * 
 	 * @var BOL_VoteService
@@ -36,30 +22,27 @@ class BOL_RegionService {
 		return self::$classInstance;
 	}
 	
-	public function __construct(){
-		$this->provinceDao = BOL_ProvinceDao::getInstance();
-		$this->cityDao     = BOL_CityDao::getInstance();
-		$this->areaDao     = BOL_AreaDao::getInstance();
-	}
-	
 	/**
 	 * get all provinces
 	 */
 	public function getAllProvinces(){
-		return $this->provinceDao->findAll();
+		$sql = 'SELECT * FROM `'.BOL_ProvinceDao::getInstance()->getTableName().'`';
+		return BOL_ProvinceDao::getInstance()->queryForList($sql);
 	}
 	
 	/**
 	 * get all cities
 	 */
 	public function getAllCities(){
-		return $this->cityDao->findAll();
+		$sql = 'SELECT * FROM `'.BOL_CityDao::getInstance()->getTableName().'`';
+		return BOL_CityDao::getInstance()->queryForList($sql);
 	}
 	
 	/**
 	 * get one province citys
 	 */
-	public function getProvinceCitys(int $provinceid){
-		//return $this->cityDao->
+	public function getProvinceCitys($provinceid){
+		$sql = 'SELECT * FROM `'.BOL_CityDao::getInstance()->getTableName().'` WHERE fatherID='.$provinceid;
+		return BOL_CityDao::getInstance()->queryForList($sql);
 	}
 }
