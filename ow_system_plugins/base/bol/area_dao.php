@@ -45,8 +45,9 @@ class BOL_AreaDao extends OW_BaseDao
      * @param int $cityid
      */
     public function findAreasByCity($cityid){
-    	$sql = 'SELECT * FROM `'.$this->getTableName().'` WHERE `fatherID` ='.$cityid;
-    	return $this->dbo->queryForObjectList($sql, $this->getDtoClassName());
+    	$sql = 'SELECT * FROM `'.$this->getTableName().'` WHERE `fatherID` ='.$cityid.' LIMIT 0,100';
+    	return $this->dbo->queryForList($sql);
+
     }
 
 }
