@@ -5,7 +5,7 @@ class BOL_CityDao extends OW_BaseDao
 	const CITYID = 'cityID';
 	const CITY   = 'city';
 	const FATHERID = 'fatherID';
-	
+
 	/**
 	 * @var BOL_ProvinceDao
 	 */
@@ -42,9 +42,16 @@ class BOL_CityDao extends OW_BaseDao
     	return OW_DB_PREFIX .'base_city';
     }
     
+    /**
+     * 获取所有城市
+     */
     public function getAllCities(){
+    	//获取普通城市
     	$sql = 'SELECT * FROM `'.$this->getTableName(). '`';
-    	return $this->dbo->queryForList($sql);
+    	$general_cities = $this->dbo->queryForList($sql);
+    	//获取直辖市
+    	$muni_cities = BOL_ProvinceDao::getInstance()->getMuniCities();
+    	return array_merge($general_cities,$muni_cities);
     }
 }
 
