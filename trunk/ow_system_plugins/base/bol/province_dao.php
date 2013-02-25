@@ -48,11 +48,8 @@ class BOL_ProvinceDao extends OW_BaseDao
 	 * @return array;
 	 */
 	public function getAllProvincesWithCity(){
-		
 		$sql = "SELECT * FROM `".$this->getTableName()."` WHERE ".self::IS_MUNICITY." !=1";
-		
 		$provinces = $this->dbo->queryForList($sql);
-		
 		foreach ($provinces as $key=>$province){
 			$provinces[$key]['cities'] =  $this->getProvinceCities($province['provinceID']);
 		}
@@ -78,6 +75,8 @@ class BOL_ProvinceDao extends OW_BaseDao
 		foreach ($muni_cities as $key=>$city){
 			$muni_cities[$key]['city'] = $city['province'];
 			$muni_cities[$key]['cityID'] = $city['provinceID'];
+			$muni_cities[$key]['isMainCity'] = 1;
+			$muni_cities[$key]['isImpCity'] = 1;
 			unset($muni_cities[$key]['province']);
 			unset($muni_cities[$key]['provinceID']);
 		}
