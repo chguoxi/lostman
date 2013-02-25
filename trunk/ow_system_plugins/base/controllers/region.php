@@ -6,12 +6,21 @@
 class BASE_CTRL_Region extends OW_ActionController {
 	
 	public function index(){
+		header('Content-type:text/html;Charset=utf-8');
 		$regionServiceInstance = BOL_RegionService::getInstance();
 		
-		$cities = $regionServiceInstance->getMainCities();
+		$mainCities = $regionServiceInstance->getMainCities();
+		$provinces = $regionServiceInstance->getAllProvinces();
+		
+		$this->assign('mainCities', $mainCities);
+		$this->assign('provinces', $provinces);
+		
+		echo $this->render();
+		
+		exit;
+	}
+	
+	public function init(){
 		$this->setTemplate(OW::getPluginManager()->getPlugin('base')->getCtrlViewDir() . 'region_index.html');
-		$this->addComponent('region', new BASE_CMP_RegionList());
-		$this->render();
-		//exit;
 	}
 }

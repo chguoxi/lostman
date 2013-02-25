@@ -1,3 +1,35 @@
+<style>
+dl {
+	margin-bottom:50px;
+}
+
+dl dt {
+	background:#4876FF;
+	color:#FFA500;
+	float:left;
+	font-weight:bold;
+	margin-right:10px;
+	padding:5px;
+	width:20px;
+}
+
+dl dd {
+	margin:2px 0;
+	padding:5px 0;
+	display:inline;
+}
+</style>
 <div id="region_list">
-{component class='BASE_CMP_RegionList'}
+{foreach from=$mainCities item='cities' key='letter'}
+
+	<div id="city_1">
+		<dl>
+			<dt>{$letter}</dt>
+			{foreach from=$cities item='city' key='ck'}
+			<dd><a>{$city.city}</a></dd>
+			{/foreach}
+			
+		</dl>
+	</div>
+{/foreach}
 </div>
