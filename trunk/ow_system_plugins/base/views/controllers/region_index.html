@@ -1,4 +1,5 @@
-<style>
+{style}
+{literal}
 dl {
 	margin-bottom:50px;
 }
@@ -18,10 +19,26 @@ dl dd {
 	padding:5px 0;
 	display:inline;
 }
-</style>
+
+#city_1 {
+	display:inline;
+	float:right;
+}
+#city_2{
+	display:inline;
+}
+{/literal}
+{/style}
+
+{script}
+{literal}
+$(".ow_header,.ow_footer,.ow_sidebar").remove();
+{/literal}
+{/script}
 <div id="region_list">
-{foreach from=$mainCities item='cities' key='letter'}
 	<div id="city_1">
+	{foreach from=$mainCities item='cities' key='letter'}
+		{if ord($letter) le 75}
 		<dl>
 			<dt>{$letter}</dt>
 			{foreach from=$cities item='city' key='ck'}
@@ -29,6 +46,20 @@ dl dd {
 			{/foreach}
 			
 		</dl>
+		{/if}
+	{/foreach}
 	</div>
-{/foreach}
+	<div id="city_2">
+	{foreach from=$mainCities item='cities' key='letter'}
+		{if ord($letter) gt 75}
+		<dl>
+			<dt>{$letter}</dt>
+			{foreach from=$cities item='city' key='ck'}
+			<dd><a>{$city.city}</a></dd>
+			{/foreach}
+			
+		</dl>
+		{/if}
+	{/foreach}
+	</div>
 </div>
