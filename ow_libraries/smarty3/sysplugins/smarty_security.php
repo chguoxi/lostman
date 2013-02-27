@@ -75,6 +75,7 @@ class Smarty_Security {
         'in_array', 'is_array',
         'time',
         'nl2br',
+    	'ord',
     );
     /**
      * This is an array of trusted PHP modifers.
@@ -184,10 +185,11 @@ class Smarty_Security {
      */
     public function isTrustedPhpFunction($function_name, $compiler)
     {
+    	
         if (isset($this->php_functions) && (empty($this->php_functions) || in_array($function_name, $this->php_functions))) {
             return true;
         }
-
+		
         $compiler->trigger_template_error("PHP function '{$function_name}' not allowed by security setting");
         return false; // should not, but who knows what happens to the compiler in the future?
     }
