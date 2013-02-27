@@ -14,8 +14,8 @@ class BASE_CTRL_Region extends OW_ActionController {
 		
 		$this->assign('mainCities', $mainCities);
 		$this->assign('provinces', $provinces);
-// 		OW_RequestHandler::getInstance()->dispatch();
-// 		debug_print_backtrace();
+		//echo $this->render();
+		//exit;
 	}
 	
 	public function init(){
