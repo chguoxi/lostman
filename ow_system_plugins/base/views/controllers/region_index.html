@@ -29,18 +29,26 @@ dl dd {
 #city_2{
 	display:inline;
 }
+#province_list dl{
+	display:inline;
+	width:28px;
+	margin:2px 10px 5px auto;
+}
+
 {/literal}
 {/style}
 
 {script}
 {literal}
-$(".ow_header,.ow_footer,.ow_sidebar").remove();
+	$(document).ready(function(){
+	$(".ow_header,.ow_footer,.ow_sidebar").remove();
+	})
 {/literal}
 {/script}
 <div id="region_list">
 	<div id="city_1">
 	{foreach from=$mainCities item='cities' key='letter'}
-		{if ord($letter) le 75}
+		{if ord($letter) gt 75}
 		<dl>
 			<dt>{$letter}</dt>
 			{foreach from=$cities item='city' key='ck'}
@@ -53,15 +61,22 @@ $(".ow_header,.ow_footer,.ow_sidebar").remove();
 	</div>
 	<div id="city_2">
 	{foreach from=$mainCities item='cities' key='letter'}
-		{if ord($letter) gt 75}
+		{if ord($letter) le 75}
 		<dl>
 			<dt>{$letter}</dt>
-			{foreach from=$cities item='city' key='ck'}
+			{foreach from=$cities item="city" key="ck"}
 			<dd><a>{$city.city}</a></dd>
 			{/foreach}
 			
 		</dl>
 		{/if}
+	{/foreach}
+	</div>
+	<div id="province_list">
+	{foreach from=$provinces item="province" key="pk"}
+		<dl>
+			<dd>{$province.province}</dd>
+		</dl>
 	{/foreach}
 	</div>
 </div>
