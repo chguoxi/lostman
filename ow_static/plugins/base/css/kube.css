@@ -1075,7 +1075,8 @@ input.input-search {
 .block-six > li {
   height: auto;
   float: left;
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
+ margin-bottom: 5px;
   margin-left: 3.1914893617021276%;
 }
 .block-two > li {
