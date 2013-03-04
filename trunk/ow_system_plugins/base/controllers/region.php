@@ -19,6 +19,8 @@ class BASE_CTRL_Region extends OW_ActionController {
 	}
 	
 	public function init(){
+		$document = $document = OW::getDocument();
+		$document->addStyleSheet(OW::getPluginManager()->getPlugin('base')->getStaticCssUrl().'kube.css'.'?' . OW::getConfig()->getValue('base', 'cachedEntitiesPostfix'), 'all', -100);
 		$this->setTemplate(OW::getPluginManager()->getPlugin('base')->getCtrlViewDir() . 'region_index.html');
 	}
 }
