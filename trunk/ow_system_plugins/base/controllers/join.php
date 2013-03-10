@@ -32,21 +32,36 @@
 class BASE_CTRL_Join extends OW_ActionController
 {
     const JOIN_CONNECT_HOOK = 'join_connect_hook';
+    const GREYBOX_BASE_DIR = OW_DIR_EXTENDS_GREYBOX;
+    
     private $responderUrl;
-
+	private $document;
+	
     public function __construct()
     {
         parent::__construct();
 
         $this->responderUrl = OW::getRouter()->urlFor("BASE_CTRL_Join", "ajaxResponder");
-
         $this->userService = BOL_UserService::getInstance();
+        $this->document = OW::getDocument();
     }
 
     public function index( $params )
     {
         $session = OW::getSession();
-
+        $greyDirDeclareJS = 'var GB_ROOT_DIR = "'.self::GREYBOX_BASE_DIR.'";';
+        $this->document->addScriptDeclarationBeforeIncludes($greyDirDeclareJS);
+        
+        $greyboxAJSUrl    = self::GREYBOX_BASE_DIR.'greybox/AJS.js';
+        $greyboxAJSfxSUrl = self::GREYBOX_BASE_DIR.'greybox/AJS_fx.js';
+        $greyboxGBSUrl    = self::GREYBOX_BASE_DIR.'greybox/gb_scripts.js';
+        $greyboxCssUrl    = self::GREYBOX_BASE_DIR.'greybox/gb_styles.css';
+        
+        $this->document->addScript($greyboxAJSUrl);
+        $this->document->addScript($greyboxAJSfxSUrl);
+        $this->document->addScript($greyboxGBSUrl);
+        
+        
         if ( OW::getUser()->isAuthenticated() )
         {
             $this->redirect(OW_URL_HOME);
@@ -61,7 +76,8 @@ class BASE_CTRL_Join extends OW_ActionController
 
         $language = OW::getLanguage();
         $this->setPageHeading($language->text('base', 'join_index'));
-
+        //add region script and css
+		
         //TODO DELETE config who_can_join from join
         if ( OW::getConfig()->getValue('base', 'who_can_join') === (String) BOL_UserService::PERMISSIONS_JOIN_BY_INVITATIONS )
         {
