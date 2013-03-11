@@ -3339,13 +3339,15 @@ $language[4] = array (
   'virtualgifts+usercredits_action_send_virtual_gift' => '',
   'virtualgifts+user_gifts' => '',
   'base+questions_question_relationship_value_16' => '聊天',
-  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_description' => '填写您住在哪个城市',
-  'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_label' => '所在地区',
+  'base+questions_question_region_label' => '所在地区',
+  'base+questions_question_region_description' => '选择您所在的地区',
   'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_1' => '北京',
   'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_2' => '上海',
   'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_4' => '天津',
   'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_8' => '重庆',
   'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_16' => '武汉',
   'base+questions_question_09106f6e5e42f4c4429d7e9a0be524b5_value_32' => '广州',
+  'base+questions_question_174742297a64356f84a854bd46265166_description' => '地区',
+  'base+questions_question_174742297a64356f84a854bd46265166_label' => '所在地区',
 );
 ?>
