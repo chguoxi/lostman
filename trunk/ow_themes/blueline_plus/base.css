@@ -253,7 +253,8 @@ hr {
 }
 
 .ow_header .ow_canvas {
-	background-image: url(1images/top-bg.png);
+	/* background-image: url(1images/top-bg.png); */
+	
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -4310,6 +4311,7 @@ span.ic_refresh {
 
 .ow_sidebar {
 	margin-left: -182px;
+	/* margin-top: -50px; */
 }
 
 html body .ow_canvas .ow_page {
