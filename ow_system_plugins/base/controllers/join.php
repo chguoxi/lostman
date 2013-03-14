@@ -49,7 +49,7 @@ class BASE_CTRL_Join extends OW_ActionController
     public function index( $params )
     {
         $session = OW::getSession();
-        $greyDirDeclareJS = 'var GB_ROOT_DIR = "'.self::GREYBOX_BASE_DIR.'";';
+        $greyDirDeclareJS = 'var GB_ROOT_DIR = "'.self::GREYBOX_BASE_DIR.'greybox/";';
         $this->document->addScriptDeclarationBeforeIncludes($greyDirDeclareJS);
         
         $greyboxAJSUrl    = self::GREYBOX_BASE_DIR.'greybox/AJS.js';
@@ -60,7 +60,9 @@ class BASE_CTRL_Join extends OW_ActionController
         $this->document->addScript($greyboxAJSUrl);
         $this->document->addScript($greyboxAJSfxSUrl);
         $this->document->addScript($greyboxGBSUrl);
-        
+        $this->document->addStyleSheet($greyboxCssUrl);
+        //$loadRegionJs = 'alert(1)';
+        //$this->document->addOnloadScript($loadRegionJs);
         
         if ( OW::getUser()->isAuthenticated() )
         {
