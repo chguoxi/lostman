@@ -59,11 +59,13 @@ class BOL_CityDao extends OW_BaseDao
      */
     public function getMainCities(){
     	//主要城市
-    	$sql = 'SELECT * FROM `'.$this->getTableName(). '` WHERE isMainCity=1';
+    	$sql = 'SELECT `id`,`provinceID` as `cityID`,`province` as `city`,`isMuniCity` as `isImpCity` ,`priority`
+    	FROM `ls_base_province` WHERE `isMuniCity`=1  UNION 
+    	SELECT  `id`, `cityID`,`city` ,`isImpCity`, `priority` FROM `ls_base_city` WHERE `isMainCity`=1 ORDER BY `priority` DESC';
     	$main_cities = $this->dbo->queryForList($sql);
     	//直辖市
-    	$muni_cities = BOL_ProvinceDao::getInstance()->getMuniCities();
-    	return array_merge($main_cities,$muni_cities);
+    	//$muni_cities = BOL_ProvinceDao::getInstance()->getMuniCities();
+    	return $main_cities;
     }
 }
 
