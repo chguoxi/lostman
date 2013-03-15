@@ -14,8 +14,11 @@ class BASE_CTRL_Region extends OW_ActionController {
 		
 		$this->assign('mainCities', $mainCities);
 		$this->assign('provinces', $provinces);
-		//echo $this->render();
-		//exit;
+		$this->assign('regionCss', OW::getPluginManager()->getPlugin('base')->getStaticCssUrl().'kube.css'.'?' . OW::getConfig()->getValue('base', 'cachedEntitiesPostfix'));
+		$this->assign('jqueryLib', OW::getPluginManager()->getPlugin('base')->getStaticJsUrl().'jquery-1.7.1.min.js'.'?' . OW::getConfig()->getValue('base', 'cachedEntitiesPostfix'));
+		echo $this->render();
+		$this->init();
+		exit;
 	}
 	
 	public function init(){

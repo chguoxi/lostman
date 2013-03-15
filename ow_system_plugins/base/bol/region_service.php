@@ -53,9 +53,14 @@ class BOL_RegionService {
 	public function cityClassify($cities){
 		$classifyCities = array();
 		foreach ($cities as $key=>$city){
-			$cityFirstChar = BASE_CLASS_Pinyin::getFirstChar($city['city']);
-			$cityFirstChar = ucfirst($cityFirstChar);
-			$classifyCities["$cityFirstChar"][] = $city;
+			if ($city[BOL_CityDao::CITYID]==500000){
+				$classifyCities["C"][] = $city;
+			}
+			else{
+				$cityFirstChar = BASE_CLASS_Pinyin::getFirstChar($city['city']);
+				$cityFirstChar = ucfirst($cityFirstChar);
+				$classifyCities["$cityFirstChar"][] = $city;
+			}
 		}
 		return $classifyCities;
 	}
