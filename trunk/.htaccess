@@ -18,5 +18,6 @@ RewriteCond %{REQUEST_URI} !/ow_updates/index\.php
 RewriteCond %{REQUEST_URI} !/ow_updates/
 RewriteCond %{REQUEST_URI} !/ow_extends/
 RewriteCond %{REQUEST_URI} !/ow_cron/run\.php
+RewriteCond %{REQUEST_URI} !/ow_static/
 RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.feed|robots\.txt|\.raw|/[^.]*)$  [NC]
 RewriteRule (.*) index.php
