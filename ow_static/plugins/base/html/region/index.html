@@ -1,0 +1,862 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" src="../../js/jquery-1.7.1.min.js"></script>
+
+<style>
+a{
+	color:#0b649f;
+	text-decoration:none;
+}
+/* Link Colors Hover */
+a:hover {
+  /* color: #d5912b; */
+  background-color:#d5912b;
+}
+
+#region_list dl dt {
+	background:#4876FF;
+	color:#FFA500;
+	float:left;
+	font-weight:bold;
+	margin-right:10px;
+	width:25px;
+}
+
+#city_1 {
+	margin-left:0;
+	width:50%;
+	float:right;
+}
+#region_list dd {
+	margin:0 1px 0 0;
+	display:inline;
+}
+#province_list{
+	margin-botton:0;
+}
+#province_list li{
+	list-style: none;
+	display:block;
+	width:70px;
+	float: left;
+	margin-right:5px;
+	margin-bottom: 3px;
+}
+
+#province_list a{
+	font-size:12px;
+}
+.red{
+	color:#ff0000;
+}
+font{
+	font-size:12px;
+}
+.pcity{
+	display:none;
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    left: 0;
+    overflow: visible;
+    position: fixed;
+    top: 33px;
+    width: 200px;
+    z-index: 2;
+}
+
+#show_city{
+	display:none; 
+	width: 200px;
+	position: fixed;
+	overflow: visible;
+}
+
+</style>
+</head><body><div id="region_list">
+	<h3>主要城市</h3>
+	<div id="city_1">
+																																			<dl>
+			<dt>L</dt>
+						<dd><a class="red" href="javascript:"><font class="city">兰州</font></a></dd>
+						<dd><a href="javascript:"><font class="city">廊坊</font></a></dd>
+						<dd><a href="javascript:"><font class="city">洛阳</font></a></dd>
+						<dd><a href="javascript:"><font class="city">临沂</font></a></dd>
+						<dd><a href="javascript:"><font class="city">连云港</font></a></dd>
+						<dd><a href="javascript:"><font class="city">柳州</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>M</dt>
+						<dd><a href="javascript:"><font class="city">绵阳</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>N</dt>
+						<dd><a class="red" href="javascript:"><font class="city">南宁</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">宁波</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">南京</font></a></dd>
+						<dd><a href="javascript:"><font class="city">南通</font></a></dd>
+						<dd><a href="javascript:"><font class="city">南昌</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>Q</dt>
+						<dd><a href="javascript:"><font class="city">秦皇岛</font></a></dd>
+						<dd><a href="javascript:"><font class="city">泉州</font></a></dd>
+						<dd><a href="javascript:"><font class="city">清远</font></a></dd>
+						<dd><a href="javascript:"><font class="city">青岛</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>S</dt>
+						<dd><a class="red" href="javascript:"><font class="city">深圳</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">上海</font></a></dd>
+						<dd><a href="javascript:"><font class="city">沈阳</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">绍兴</font></a></dd>
+						<dd><a href="javascript:"><font class="city">苏州</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">三亚</font></a></dd>
+						<dd><a href="javascript:"><font class="city">石家庄</font></a></dd>
+						<dd><a href="javascript:"><font class="city">汕头</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>T</dt>
+						<dd><a class="red" href="javascript:"><font class="city">太原</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">天津</font></a></dd>
+						<dd><a href="javascript:"><font class="city">泰州</font></a></dd>
+						<dd><a href="javascript:"><font class="city">铁岭</font></a></dd>
+						<dd><a href="javascript:"><font class="city">台州</font></a></dd>
+						<dd><a href="javascript:"><font class="city">唐山</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>W</dt>
+						<dd><a href="javascript:"><font class="city">乌鲁木齐</font></a></dd>
+						<dd><a href="javascript:"><font class="city">温州</font></a></dd>
+						<dd><a href="javascript:"><font class="city">芜湖</font></a></dd>
+						<dd><a href="javascript:"><font class="city">无锡</font></a></dd>
+						<dd><a href="javascript:"><font class="city">威海</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">武汉</font></a></dd>
+						<dd><a href="javascript:"><font class="city">潍坊</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>X</dt>
+						<dd><a class="red" href="javascript:"><font class="city">厦门</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">西安</font></a></dd>
+						<dd><a href="javascript:"><font class="city">湘潭</font></a></dd>
+						<dd><a href="javascript:"><font class="city">咸阳</font></a></dd>
+						<dd><a href="javascript:"><font class="city">徐州</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>Y</dt>
+						<dd><a href="javascript:"><font class="city">营口</font></a></dd>
+						<dd><a href="javascript:"><font class="city">盐城</font></a></dd>
+						<dd><a href="javascript:"><font class="city">烟台</font></a></dd>
+						<dd><a href="javascript:"><font class="city">扬州</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">银川</font></a></dd>
+						<dd><a href="javascript:"><font class="city">宜昌</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>Z</dt>
+						<dd><a class="red" href="javascript:"><font class="city">珠海</font></a></dd>
+						<dd><a href="javascript:"><font class="city">镇江</font></a></dd>
+						<dd><a href="javascript:"><font class="city">郑州</font></a></dd>
+						<dd><a href="javascript:"><font class="city">肇庆</font></a></dd>
+						<dd><a href="javascript:"><font class="city">淄博</font></a></dd>
+						<dd><a href="javascript:"><font class="city">中山</font></a></dd>
+						<dd><a href="javascript:"><font class="city">漳州</font></a></dd>
+						<dd><a href="javascript:"><font class="city">湛江</font></a></dd>
+						<dd><a class="red" href="javascript:"><font class="city">株洲</font></a></dd>
+						<dd><a href="javascript:"><font class="city">张家口</font></a></dd>
+						
+		</dl>
+				</div>
+	<div id="city_2">
+					<dl>
+			<dt>A</dt>
+						<dd><a href="javascript:"> <font class="city">鞍山</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>B</dt>
+						<dd><a class="red" href="javascript:"> <font class="city">北京</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">包头</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">保定</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>C</dt>
+						<dd><a class="red" href="javascript:"> <font class="city">重庆</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">长沙</font></a></dd>
+						<dd><a class="red" href="javascript:"> <font class="city">成都</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">常德</font></a></dd>
+						<dd><a class="red" href="javascript:"> <font class="city">长春</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">常州</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>D</dt>
+						<dd><a class="red" href="javascript:"> <font class="city">大连</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">大庆</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">丹东</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">东莞</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>E</dt>
+						<dd><a href="javascript:"> <font class="city">鄂尔多斯</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>F</dt>
+						<dd><a class="red" href="javascript:"> <font class="city">福州</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">佛山</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">抚顺</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>G</dt>
+						<dd><a class="red" href="javascript:"> <font class="city">贵阳</font></a></dd>
+						<dd><a class="red" href="javascript:"> <font class="city">广州</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">赣州</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>H</dt>
+						<dd><a class="red" href="javascript:"> <font class="city">海口</font></a></dd>
+						<dd><a class="red" href="javascript:"> <font class="city">合肥</font></a></dd>
+						<dd><a class="red" href="javascript:"> <font class="city">哈尔滨</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">淮安</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">惠州</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">邯郸</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">衡阳</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">杭州</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">湖州</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">呼和浩特</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>J</dt>
+						<dd><a href="javascript:"> <font class="city">九江</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">济宁</font></a></dd>
+						<dd><a class="red" href="javascript:"> <font class="city">吉林</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">荆州</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">金华</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">江门</font></a></dd>
+						<dd><a href="javascript:"> <font class="city">嘉兴</font></a></dd>
+						<dd><a class="red" href="javascript:"> <font class="city">济南</font></a></dd>
+						
+		</dl>
+							<dl>
+			<dt>K</dt>
+						<dd><a class="red" href="javascript:"> <font class="city">昆明</font></a></dd>
+						
+		</dl>
+																																		</div>
+	<div id="province_list">
+	<h3>所有省份</h3>
+	<div id="show_city"></div>
+	<ul>
+						<li>
+					<a href="javascript:" class="province">河北省</a>
+					<div class="pcity" id="province_130000">
+						<ul>
+														<li><a><font class="city">石家庄</font></a></li>
+														<li><a><font class="city">唐山</font></a></li>
+														<li><a><font class="city">秦皇岛</font></a></li>
+														<li><a><font class="city">邯郸</font></a></li>
+														<li><a><font class="city">邢台</font></a></li>
+														<li><a><font class="city">保定</font></a></li>
+														<li><a><font class="city">张家口</font></a></li>
+														<li><a><font class="city">承德</font></a></li>
+														<li><a><font class="city">沧州</font></a></li>
+														<li><a><font class="city">廊坊</font></a></li>
+														<li><a><font class="city">衡水</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">山西省</a>
+					<div class="pcity" id="province_140000">
+						<ul>
+														<li><a><font class="city">太原</font></a></li>
+														<li><a><font class="city">大同</font></a></li>
+														<li><a><font class="city">阳泉</font></a></li>
+														<li><a><font class="city">长治</font></a></li>
+														<li><a><font class="city">晋城</font></a></li>
+														<li><a><font class="city">朔州</font></a></li>
+														<li><a><font class="city">晋中</font></a></li>
+														<li><a><font class="city">运城</font></a></li>
+														<li><a><font class="city">忻州</font></a></li>
+														<li><a><font class="city">临汾</font></a></li>
+														<li><a><font class="city">吕梁</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">内蒙古</a>
+					<div class="pcity" id="province_150000">
+						<ul>
+														<li><a><font class="city">呼和浩特</font></a></li>
+														<li><a><font class="city">包头</font></a></li>
+														<li><a><font class="city">乌海</font></a></li>
+														<li><a><font class="city">赤峰</font></a></li>
+														<li><a><font class="city">通辽</font></a></li>
+														<li><a><font class="city">鄂尔多斯</font></a></li>
+														<li><a><font class="city">呼伦贝尔</font></a></li>
+														<li><a><font class="city">巴彦淖尔</font></a></li>
+														<li><a><font class="city">乌兰察布</font></a></li>
+														<li><a><font class="city">兴安盟</font></a></li>
+														<li><a><font class="city">锡林郭勒盟</font></a></li>
+														<li><a><font class="city">阿拉善盟</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">辽宁省</a>
+					<div class="pcity" id="province_210000">
+						<ul>
+														<li><a><font class="city">沈阳</font></a></li>
+														<li><a><font class="city">大连</font></a></li>
+														<li><a><font class="city">鞍山</font></a></li>
+														<li><a><font class="city">抚顺</font></a></li>
+														<li><a><font class="city">本溪</font></a></li>
+														<li><a><font class="city">丹东</font></a></li>
+														<li><a><font class="city">锦州</font></a></li>
+														<li><a><font class="city">营口</font></a></li>
+														<li><a><font class="city">阜新</font></a></li>
+														<li><a><font class="city">辽阳</font></a></li>
+														<li><a><font class="city">盘锦</font></a></li>
+														<li><a><font class="city">铁岭</font></a></li>
+														<li><a><font class="city">朝阳</font></a></li>
+														<li><a><font class="city">葫芦岛</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">吉林省</a>
+					<div class="pcity" id="province_220000">
+						<ul>
+														<li><a><font class="city">长春</font></a></li>
+														<li><a><font class="city">吉林</font></a></li>
+														<li><a><font class="city">四平</font></a></li>
+														<li><a><font class="city">辽源</font></a></li>
+														<li><a><font class="city">通化</font></a></li>
+														<li><a><font class="city">白山</font></a></li>
+														<li><a><font class="city">松原</font></a></li>
+														<li><a><font class="city">白城</font></a></li>
+														<li><a><font class="city">延边朝鲜族自治州</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">黑龙江</a>
+					<div class="pcity" id="province_230000">
+						<ul>
+														<li><a><font class="city">哈尔滨</font></a></li>
+														<li><a><font class="city">齐齐哈尔</font></a></li>
+														<li><a><font class="city">鸡西</font></a></li>
+														<li><a><font class="city">鹤岗</font></a></li>
+														<li><a><font class="city">双鸭山</font></a></li>
+														<li><a><font class="city">大庆</font></a></li>
+														<li><a><font class="city">伊春</font></a></li>
+														<li><a><font class="city">佳木斯</font></a></li>
+														<li><a><font class="city">七台河</font></a></li>
+														<li><a><font class="city">牡丹江</font></a></li>
+														<li><a><font class="city">黑河</font></a></li>
+														<li><a><font class="city">绥化</font></a></li>
+														<li><a><font class="city">大兴安岭地区</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">江苏省</a>
+					<div class="pcity" id="province_320000">
+						<ul>
+														<li><a><font class="city">南京</font></a></li>
+														<li><a><font class="city">无锡</font></a></li>
+														<li><a><font class="city">徐州</font></a></li>
+														<li><a><font class="city">常州</font></a></li>
+														<li><a><font class="city">苏州</font></a></li>
+														<li><a><font class="city">南通</font></a></li>
+														<li><a><font class="city">连云港</font></a></li>
+														<li><a><font class="city">淮安</font></a></li>
+														<li><a><font class="city">盐城</font></a></li>
+														<li><a><font class="city">扬州</font></a></li>
+														<li><a><font class="city">镇江</font></a></li>
+														<li><a><font class="city">泰州</font></a></li>
+														<li><a><font class="city">宿迁</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">浙江省</a>
+					<div class="pcity" id="province_330000">
+						<ul>
+														<li><a><font class="city">杭州</font></a></li>
+														<li><a><font class="city">宁波</font></a></li>
+														<li><a><font class="city">温州</font></a></li>
+														<li><a><font class="city">嘉兴</font></a></li>
+														<li><a><font class="city">湖州</font></a></li>
+														<li><a><font class="city">绍兴</font></a></li>
+														<li><a><font class="city">金华</font></a></li>
+														<li><a><font class="city">衢州</font></a></li>
+														<li><a><font class="city">舟山</font></a></li>
+														<li><a><font class="city">台州</font></a></li>
+														<li><a><font class="city">丽水</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">安徽省</a>
+					<div class="pcity" id="province_340000">
+						<ul>
+														<li><a><font class="city">合肥</font></a></li>
+														<li><a><font class="city">芜湖</font></a></li>
+														<li><a><font class="city">蚌埠</font></a></li>
+														<li><a><font class="city">淮南</font></a></li>
+														<li><a><font class="city">马鞍山</font></a></li>
+														<li><a><font class="city">淮北</font></a></li>
+														<li><a><font class="city">铜陵</font></a></li>
+														<li><a><font class="city">安庆</font></a></li>
+														<li><a><font class="city">黄山</font></a></li>
+														<li><a><font class="city">滁州</font></a></li>
+														<li><a><font class="city">阜阳</font></a></li>
+														<li><a><font class="city">宿州</font></a></li>
+														<li><a><font class="city">巢湖</font></a></li>
+														<li><a><font class="city">六安</font></a></li>
+														<li><a><font class="city">亳州</font></a></li>
+														<li><a><font class="city">池州</font></a></li>
+														<li><a><font class="city">宣城</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">福建省</a>
+					<div class="pcity" id="province_350000">
+						<ul>
+														<li><a><font class="city">福州</font></a></li>
+														<li><a><font class="city">厦门</font></a></li>
+														<li><a><font class="city">莆田</font></a></li>
+														<li><a><font class="city">三明</font></a></li>
+														<li><a><font class="city">泉州</font></a></li>
+														<li><a><font class="city">漳州</font></a></li>
+														<li><a><font class="city">南平</font></a></li>
+														<li><a><font class="city">龙岩</font></a></li>
+														<li><a><font class="city">宁德</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">江西省</a>
+					<div class="pcity" id="province_360000">
+						<ul>
+														<li><a><font class="city">南昌</font></a></li>
+														<li><a><font class="city">景德镇</font></a></li>
+														<li><a><font class="city">萍乡</font></a></li>
+														<li><a><font class="city">九江</font></a></li>
+														<li><a><font class="city">新余</font></a></li>
+														<li><a><font class="city">鹰潭</font></a></li>
+														<li><a><font class="city">赣州</font></a></li>
+														<li><a><font class="city">吉安</font></a></li>
+														<li><a><font class="city">宜春</font></a></li>
+														<li><a><font class="city">抚州</font></a></li>
+														<li><a><font class="city">上饶</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">山东省</a>
+					<div class="pcity" id="province_370000">
+						<ul>
+														<li><a><font class="city">济南</font></a></li>
+														<li><a><font class="city">青岛</font></a></li>
+														<li><a><font class="city">淄博</font></a></li>
+														<li><a><font class="city">枣庄</font></a></li>
+														<li><a><font class="city">东营</font></a></li>
+														<li><a><font class="city">烟台</font></a></li>
+														<li><a><font class="city">潍坊</font></a></li>
+														<li><a><font class="city">济宁</font></a></li>
+														<li><a><font class="city">泰安</font></a></li>
+														<li><a><font class="city">威海</font></a></li>
+														<li><a><font class="city">日照</font></a></li>
+														<li><a><font class="city">莱芜</font></a></li>
+														<li><a><font class="city">临沂</font></a></li>
+														<li><a><font class="city">德州</font></a></li>
+														<li><a><font class="city">聊城</font></a></li>
+														<li><a><font class="city">滨州</font></a></li>
+														<li><a><font class="city">荷泽</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">河南省</a>
+					<div class="pcity" id="province_410000">
+						<ul>
+														<li><a><font class="city">郑州</font></a></li>
+														<li><a><font class="city">开封</font></a></li>
+														<li><a><font class="city">洛阳</font></a></li>
+														<li><a><font class="city">平顶山</font></a></li>
+														<li><a><font class="city">安阳</font></a></li>
+														<li><a><font class="city">鹤壁</font></a></li>
+														<li><a><font class="city">新乡</font></a></li>
+														<li><a><font class="city">焦作</font></a></li>
+														<li><a><font class="city">濮阳</font></a></li>
+														<li><a><font class="city">许昌</font></a></li>
+														<li><a><font class="city">漯河</font></a></li>
+														<li><a><font class="city">三门峡</font></a></li>
+														<li><a><font class="city">南阳</font></a></li>
+														<li><a><font class="city">商丘</font></a></li>
+														<li><a><font class="city">信阳</font></a></li>
+														<li><a><font class="city">周口</font></a></li>
+														<li><a><font class="city">驻马店</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">湖北省</a>
+					<div class="pcity" id="province_420000">
+						<ul>
+														<li><a><font class="city">武汉</font></a></li>
+														<li><a><font class="city">黄石</font></a></li>
+														<li><a><font class="city">十堰</font></a></li>
+														<li><a><font class="city">宜昌</font></a></li>
+														<li><a><font class="city">襄樊</font></a></li>
+														<li><a><font class="city">鄂州</font></a></li>
+														<li><a><font class="city">荆门</font></a></li>
+														<li><a><font class="city">孝感</font></a></li>
+														<li><a><font class="city">荆州</font></a></li>
+														<li><a><font class="city">黄冈</font></a></li>
+														<li><a><font class="city">咸宁</font></a></li>
+														<li><a><font class="city">随州</font></a></li>
+														<li><a><font class="city">恩施土家族苗族自治州</font></a></li>
+														<li><a><font class="city">省直辖行政单位</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">湖南省</a>
+					<div class="pcity" id="province_430000">
+						<ul>
+														<li><a><font class="city">长沙</font></a></li>
+														<li><a><font class="city">株洲</font></a></li>
+														<li><a><font class="city">湘潭</font></a></li>
+														<li><a><font class="city">衡阳</font></a></li>
+														<li><a><font class="city">邵阳</font></a></li>
+														<li><a><font class="city">岳阳</font></a></li>
+														<li><a><font class="city">常德</font></a></li>
+														<li><a><font class="city">张家界</font></a></li>
+														<li><a><font class="city">益阳</font></a></li>
+														<li><a><font class="city">郴州</font></a></li>
+														<li><a><font class="city">永州</font></a></li>
+														<li><a><font class="city">怀化</font></a></li>
+														<li><a><font class="city">娄底</font></a></li>
+														<li><a><font class="city">湘西土家族苗族自治州</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">广东省</a>
+					<div class="pcity" id="province_440000">
+						<ul>
+														<li><a><font class="city">广州</font></a></li>
+														<li><a><font class="city">韶关</font></a></li>
+														<li><a><font class="city">深圳</font></a></li>
+														<li><a><font class="city">珠海</font></a></li>
+														<li><a><font class="city">汕头</font></a></li>
+														<li><a><font class="city">佛山</font></a></li>
+														<li><a><font class="city">江门</font></a></li>
+														<li><a><font class="city">湛江</font></a></li>
+														<li><a><font class="city">茂名</font></a></li>
+														<li><a><font class="city">肇庆</font></a></li>
+														<li><a><font class="city">惠州</font></a></li>
+														<li><a><font class="city">梅州</font></a></li>
+														<li><a><font class="city">汕尾</font></a></li>
+														<li><a><font class="city">河源</font></a></li>
+														<li><a><font class="city">阳江</font></a></li>
+														<li><a><font class="city">清远</font></a></li>
+														<li><a><font class="city">东莞</font></a></li>
+														<li><a><font class="city">中山</font></a></li>
+														<li><a><font class="city">潮州</font></a></li>
+														<li><a><font class="city">揭阳</font></a></li>
+														<li><a><font class="city">云浮</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">广西省</a>
+					<div class="pcity" id="province_450000">
+						<ul>
+														<li><a><font class="city">南宁</font></a></li>
+														<li><a><font class="city">柳州</font></a></li>
+														<li><a><font class="city">桂林</font></a></li>
+														<li><a><font class="city">梧州</font></a></li>
+														<li><a><font class="city">北海</font></a></li>
+														<li><a><font class="city">防城港</font></a></li>
+														<li><a><font class="city">钦州</font></a></li>
+														<li><a><font class="city">贵港</font></a></li>
+														<li><a><font class="city">玉林</font></a></li>
+														<li><a><font class="city">百色</font></a></li>
+														<li><a><font class="city">贺州</font></a></li>
+														<li><a><font class="city">河池</font></a></li>
+														<li><a><font class="city">来宾</font></a></li>
+														<li><a><font class="city">崇左</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">海南省</a>
+					<div class="pcity" id="province_460000">
+						<ul>
+														<li><a><font class="city">海口</font></a></li>
+														<li><a><font class="city">三亚</font></a></li>
+														<li><a><font class="city">省直辖县级行政单位</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">四川省</a>
+					<div class="pcity" id="province_510000">
+						<ul>
+														<li><a><font class="city">成都</font></a></li>
+														<li><a><font class="city">自贡</font></a></li>
+														<li><a><font class="city">攀枝花</font></a></li>
+														<li><a><font class="city">泸州</font></a></li>
+														<li><a><font class="city">德阳</font></a></li>
+														<li><a><font class="city">绵阳</font></a></li>
+														<li><a><font class="city">广元</font></a></li>
+														<li><a><font class="city">遂宁</font></a></li>
+														<li><a><font class="city">内江</font></a></li>
+														<li><a><font class="city">乐山</font></a></li>
+														<li><a><font class="city">南充</font></a></li>
+														<li><a><font class="city">眉山</font></a></li>
+														<li><a><font class="city">宜宾</font></a></li>
+														<li><a><font class="city">广安</font></a></li>
+														<li><a><font class="city">达州</font></a></li>
+														<li><a><font class="city">雅安</font></a></li>
+														<li><a><font class="city">巴中</font></a></li>
+														<li><a><font class="city">资阳</font></a></li>
+														<li><a><font class="city">阿坝藏族羌族自治州</font></a></li>
+														<li><a><font class="city">甘孜藏族自治州</font></a></li>
+														<li><a><font class="city">凉山彝族自治州</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">贵州省</a>
+					<div class="pcity" id="province_520000">
+						<ul>
+														<li><a><font class="city">贵阳</font></a></li>
+														<li><a><font class="city">六盘水</font></a></li>
+														<li><a><font class="city">遵义</font></a></li>
+														<li><a><font class="city">安顺</font></a></li>
+														<li><a><font class="city">铜仁地区</font></a></li>
+														<li><a><font class="city">黔西南布依族苗族自治州</font></a></li>
+														<li><a><font class="city">毕节地区</font></a></li>
+														<li><a><font class="city">黔东南苗族侗族自治州</font></a></li>
+														<li><a><font class="city">黔南布依族苗族自治州</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">云南省</a>
+					<div class="pcity" id="province_530000">
+						<ul>
+														<li><a><font class="city">昆明</font></a></li>
+														<li><a><font class="city">曲靖</font></a></li>
+														<li><a><font class="city">玉溪</font></a></li>
+														<li><a><font class="city">保山</font></a></li>
+														<li><a><font class="city">昭通</font></a></li>
+														<li><a><font class="city">丽江</font></a></li>
+														<li><a><font class="city">思茅</font></a></li>
+														<li><a><font class="city">临沧</font></a></li>
+														<li><a><font class="city">楚雄彝族自治州</font></a></li>
+														<li><a><font class="city">红河哈尼族彝族自治州</font></a></li>
+														<li><a><font class="city">文山壮族苗族自治州</font></a></li>
+														<li><a><font class="city">西双版纳傣族自治州</font></a></li>
+														<li><a><font class="city">大理白族自治州</font></a></li>
+														<li><a><font class="city">德宏傣族景颇族自治州</font></a></li>
+														<li><a><font class="city">怒江傈僳族自治州</font></a></li>
+														<li><a><font class="city">迪庆藏族自治州</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">西藏</a>
+					<div class="pcity" id="province_540000">
+						<ul>
+														<li><a><font class="city">拉萨</font></a></li>
+														<li><a><font class="city">昌都地区</font></a></li>
+														<li><a><font class="city">山南地区</font></a></li>
+														<li><a><font class="city">日喀则地区</font></a></li>
+														<li><a><font class="city">那曲地区</font></a></li>
+														<li><a><font class="city">阿里地区</font></a></li>
+														<li><a><font class="city">林芝地区</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">陕西省</a>
+					<div class="pcity" id="province_610000">
+						<ul>
+														<li><a><font class="city">西安</font></a></li>
+														<li><a><font class="city">铜川</font></a></li>
+														<li><a><font class="city">宝鸡</font></a></li>
+														<li><a><font class="city">咸阳</font></a></li>
+														<li><a><font class="city">渭南</font></a></li>
+														<li><a><font class="city">延安</font></a></li>
+														<li><a><font class="city">汉中</font></a></li>
+														<li><a><font class="city">榆林</font></a></li>
+														<li><a><font class="city">安康</font></a></li>
+														<li><a><font class="city">商洛</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">甘肃省</a>
+					<div class="pcity" id="province_620000">
+						<ul>
+														<li><a><font class="city">兰州</font></a></li>
+														<li><a><font class="city">嘉峪关</font></a></li>
+														<li><a><font class="city">金昌</font></a></li>
+														<li><a><font class="city">白银</font></a></li>
+														<li><a><font class="city">天水</font></a></li>
+														<li><a><font class="city">武威</font></a></li>
+														<li><a><font class="city">张掖</font></a></li>
+														<li><a><font class="city">平凉</font></a></li>
+														<li><a><font class="city">酒泉</font></a></li>
+														<li><a><font class="city">庆阳</font></a></li>
+														<li><a><font class="city">定西</font></a></li>
+														<li><a><font class="city">陇南</font></a></li>
+														<li><a><font class="city">临夏回族自治州</font></a></li>
+														<li><a><font class="city">甘南藏族自治州</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">青海省</a>
+					<div class="pcity" id="province_630000">
+						<ul>
+														<li><a><font class="city">西宁</font></a></li>
+														<li><a><font class="city">海东地区</font></a></li>
+														<li><a><font class="city">海北藏族自治州</font></a></li>
+														<li><a><font class="city">黄南藏族自治州</font></a></li>
+														<li><a><font class="city">海南藏族自治州</font></a></li>
+														<li><a><font class="city">果洛藏族自治州</font></a></li>
+														<li><a><font class="city">玉树藏族自治州</font></a></li>
+														<li><a><font class="city">海西蒙古族藏族自治州</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">宁夏</a>
+					<div class="pcity" id="province_640000">
+						<ul>
+														<li><a><font class="city">银川</font></a></li>
+														<li><a><font class="city">石嘴山</font></a></li>
+														<li><a><font class="city">吴忠</font></a></li>
+														<li><a><font class="city">固原</font></a></li>
+														<li><a><font class="city">中卫</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">新疆</a>
+					<div class="pcity" id="province_650000">
+						<ul>
+														<li><a><font class="city">乌鲁木齐</font></a></li>
+														<li><a><font class="city">克拉玛依</font></a></li>
+														<li><a><font class="city">吐鲁番地区</font></a></li>
+														<li><a><font class="city">哈密地区</font></a></li>
+														<li><a><font class="city">昌吉回族自治州</font></a></li>
+														<li><a><font class="city">博尔塔拉蒙古自治州</font></a></li>
+														<li><a><font class="city">巴音郭楞蒙古自治州</font></a></li>
+														<li><a><font class="city">阿克苏地区</font></a></li>
+														<li><a><font class="city">克孜勒苏柯尔克孜自治州</font></a></li>
+														<li><a><font class="city">喀什地区</font></a></li>
+														<li><a><font class="city">和田地区</font></a></li>
+														<li><a><font class="city">伊犁哈萨克自治州</font></a></li>
+														<li><a><font class="city">塔城地区</font></a></li>
+														<li><a><font class="city">阿勒泰地区</font></a></li>
+														<li><a><font class="city">省直辖行政单位</font></a></li>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">台湾</a>
+					<div class="pcity" id="province_710000">
+						<ul>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">香港</a>
+					<div class="pcity" id="province_810000">
+						<ul>
+													</ul>
+					</div>
+				</li>
+
+						<li>
+					<a href="javascript:" class="province">澳门</a>
+					<div class="pcity" id="province_820000">
+						<ul>
+													</ul>
+					</div>
+				</li>
+
+			</ul>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$(".city").click(function(){
+		var city   = $(this).text();
+		var pframe = parent.parent.document.getElementsByTagName("html");
+		var jpframe = $(pframe);
+		jpframe.find("input[name='region']").val(city);
+		jpframe.find(".close").find("span").click();
+	})
+	
+	$(".province").click(function(){
+		var X = $(this).position().top;
+		var Y = $(this).position().left; 
+		$(".pcity").hide();
+		//$("#show_city").find('ul').remove();
+		
+		$(this).siblings(".pcity").css('top',X+10+'px').css('left',Y+10+'px').toggle();
+		//$(this).siblings(".pcity").css('left',Y+'px').toggle();
+	})
+})
+</script>
+</body></html>
