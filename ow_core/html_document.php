@@ -705,6 +705,7 @@ class OW_HtmlDocument extends OW_Document
         $renderer = OW_ViewRenderer::getInstance();
         $renderer->clearAssignedVars();
         $renderer->assignVars($assignArray);
+        
         return $renderer->renderTemplate($this->getTemplate());
     }
 }

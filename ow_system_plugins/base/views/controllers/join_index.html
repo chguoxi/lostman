@@ -1,4 +1,3 @@
-
 {block_decorator name="box" type="empty" addClass="ow_superwide ow_automargin"}
 {if isset($notValidInviteCode)}
     {block_decorator name="box" type="empty" addClass="ow_center" style="padding:15px;"}
@@ -120,19 +119,21 @@
                     </td>
                 </tr>
             {/if}
-            <tr>
-            	<td colspan="3">
-            		<a href="/ow_static/plugins/base/html/region.htm" title="region" rel="gb_page_center[900, 555]">region</a>
-            	</td>
-            </tr>
+
         </table>
 		<div class="clearfix">
-		
+		   
            <div class="ow_right">
                 {submit name='joinSubmit'}
            </div>
         </div>
     {/form}
 {/if}
-{/block_decorator}
+{literal}
+<script type="text/javascript">
+jQuery("input[name='region']").parent().siblings('.ow_desc')
+.html('<a href="/ow_static/plugins/base/html/region/index.html" title="region" rel="gb_page_center[810, 450]">选择地区</a>');
+</script>
 
+{/literal}
+{/block_decorator}
