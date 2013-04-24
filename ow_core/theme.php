@@ -267,4 +267,30 @@ class OW_Theme
         $this->documentMasterPages = $documentMasterPages;
         return $this;
     }
+    
+    /**
+     * @return string 
+     */
+    public function getThemeUrl()
+    {
+    	return OW_URL_THEME.$this->dto->getName().'/';
+    }
+    
+    /**
+     * 获取主题文件指定名称的js文件
+     * @param string
+     */
+    public function getThemeJs($fileName){
+    	$path = OW_DIR_THEME.$this->dto->getName().DS.'js'.DS.$fileName;
+    	return is_file($path)?$this->getThemeUrl().'js/'.$fileName:'';
+    }
+    
+    /**
+     * 获取主题文件下指定的CSS文件
+     * @return string
+     */
+    public function getThemeCss($fileName){
+    	$path = OW_DIR_THEME.$this->dto->getName().DS.$fileName;
+    	return is_file($path)?$this->getThemeUrl().$fileName:'';
+    }
 }
