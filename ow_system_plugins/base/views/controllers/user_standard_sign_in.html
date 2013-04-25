@@ -5,7 +5,6 @@
 .main{
 	margin:40px auto 0 auto;
 	width:980px;
-	
 }
 .header {
 	height:120px;
@@ -21,15 +20,38 @@
 .content{
 	margin-top:20px;
 }
+.logo{
+	width:236px;
+	height:40px;
+	margin-top:30px;
+	background-image: url("/ow_static/themes/blueline_plus/images/logo.png");
+}
+.logo-title{
+	
+}
+.bottom-nav{
+	margin-top:80px;
+	float:right;
+}
+.black{
+	color:#808080;
+}
+#remember{
+	margin-bottom:5px;
+	margin-right:3px;
+}
 {/literal}
 {/style}
 <div class="container-fluid main">
 	<div class="row-fluid header">
-		
+		<div class="logo"></div>
+		<div>
+			<p class="muted logo-title"> —— 同是天涯沦落人,相逢何必曾相识</p>
+		</div>
 	</div>
 	<div class="row-fluid content">
 		<div class="span5">
-			<div><font>还没有帐号?</font><a class="btn btn-large ">马上加入</a></div>
+			<div><font>还没有帐号?</font><a href="{$joinUrl}" class="btn btn-large">马上加入</a></div>
 			<hr />
 			<div><img src="/ow_static/plugins/base/img/girl.png" height="" /></div>
 		</div>
@@ -41,7 +63,7 @@
 					<table class="table" >
 						<thead>
 							<tr>
-								<td colspan="2">{$siteName}-把你的故事，说给懂的人听</td>
+								<td colspan="2">{$siteName}-用户登录</td>
 							</tr>
 						</thead>
 						<tbody>
@@ -58,7 +80,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td><label>{input name='remember'}<font>记住我</font></label></td>
+								<td><label for="remember">{input name='remember' id='remember'}<font>记住我</font></label></td>
 								<td><a href="{url_for_route for='base_forgot_password'}">{text
 										key='base+forgot_password_label'}</a></td>
 							</tr>
@@ -81,6 +103,14 @@
 		</div>
 	</div>
 	<div class="row-fluid footer">
-		
+		<div class="nav bottom-nav">
+			<ul class="inline">
+				<li><a href="javascript:"><font class="black">使用条款</font></a></li>
+				<li><a href="javascript:"><font class="black">隐私政策</font></a></li>
+				<li><a href="javascript:"><font class="black">联系方式</font></a></li>
+				<li><a href="javascript:"><font class="black">关于沦落人</font></a></li>
+			</ul>
+		</div>
+
 	</div>
 </div>
